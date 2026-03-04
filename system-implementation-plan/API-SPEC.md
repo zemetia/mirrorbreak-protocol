@@ -4,27 +4,20 @@
 
 ---
 
-## Base URL
+## 1. Base Information
 
 ```
-Production: https://api.mirrorbreak.io/v1
-Development: http://localhost:8000/v1
-```
-
-## Authentication
-
-```http
-Authorization: Bearer {api_key}
-X-Client-Version: 1.0.0
+Base URL: https://api.mirrorbreak.io/v1
+Content-Type: application/json
+Authentication: Bearer {JWT_TOKEN}
 ```
 
 ---
 
-## Endpoints
+## 2. Session Management
 
-### Sessions
+### 2.1 Create Session
 
-#### Create Session
 ```http
 POST /sessions
 ```
@@ -32,422 +25,466 @@ POST /sessions
 **Request:**
 ```json
 {
-  "subject_id": "uuid",
-  "analyst_id": "uuid",
-  "metadata": {
-    "cultural_context": "ID",
-    "language": "id",
-    "session_format": "text"
+  "subject_pseudonym": "Subject-A47",
+  "analyst_id": "analyst_001",
+  "cultural_context": "ID",
+  "session_language": "id",
+  "consent_record": {
+    "informed_consent_given": true,
+    "stress_testing_acknowledged": true,
+    "data_usage_agreed": true,
+    "consent_timestamp": "2026-03-04T10:00:00Z"
   }
 }
 ```
 
-**Response:**
+**Response (201):**
 ```json
 {
-  "session_id": "uuid",
-  "status": "pending",
-  "created_at": "2026-03-04T08:30:00Z",
-  "next_phase": 0
+  "session_id": "550e8400-e29b-41d4-a716-446655440000",
+  "status": "initialized",
+  "created_at": "2026-03-04T10:00:00Z",
+  "next_phase": "phase_0_safety",
+  "phase_url": "/sessions/550e8400-e29b-41d4-a716-446655440000/phase/0"
 }
 ```
 
-#### Get Session
+### 2.2 Get Session Status
+
 ```http
 GET /sessions/{session_id}
 ```
 
-**Response:**
+**Response (200):**
 ```json
 {
-  "session_id": "uuid",
-  "status": "active",
-  "current_phase": 2,
-  "safety_status": "cleared",
-  "fields": [...],
-  "checkpoint": {...},
-  "created_at": "...",
-  "updated_at": "..."
-}
-```
-
-#### Update Session Status
-```http
-PATCH /sessions/{session_id}
-```
-
-**Request:**
-```json
-{
-  "status": "paused",
-  "checkpoint": {
-    "last_phase": 2,
-    "can_resume": true
-  }
-}
-```
-
----
-
-### Safety Checks
-
-#### Submit Safety Check
-```http
-POST /sessions/{session_id}/safety
-```
-
-**Request:**
-```json
-{
-  "readiness_score": 8,
-  "stress_level": 3,
-  "support_system": "strong",
-  "screening_questions": [
-    {"question_id": "SQ-001", "response": false, "flag": false}
-  ],
-  "decision": "proceed"
-}
-```
-
-**Response:**
-```json
-{
-  "safety_check_id": "uuid",
-  "decision": "proceed",
-  "next_phase": 1
-}
-```
-
----
-
-### Evidence
-
-#### Submit Evidence
-```http
-POST /sessions/{session_id}/evidence
-```
-
-**Request:**
-```json
-{
-  "source": {
-    "type": "transcript",
-    "phase": 2,
-    "timestamp": "2026-03-04T08:45:00Z"
+  "session_id": "550e8400-e29b-41d4-a716-446655440000",
+  "status": "phase_2_probing",
+  "subject_pseudonym": "Subject-A47",
+  "analyst_id": "analyst_001",
+  "current_phase": {
+    "phase_number": 2,
+    "phase_name": "adaptive_probing",
+    "started_at": "2026-03-04T10:25:00Z"
   },
+  "phases_completed": ["phase_0", "phase_1"],
+  "field_confidences": {
+    "attachment_pattern": 0.45,
+    "cognitive_structure": 0.72,
+    "power_dynamics": 0.38
+  },
+  "overall_progress": 0.35,
+  "estimated_completion": "2026-03-04T11:30:00Z"
+}
+```
+
+### 2.3 List Sessions
+
+```http
+GET /sessions?analyst_id={id}&status={status}&limit=20&offset=0
+```
+
+---
+
+## 3. Phase Operations
+
+### 3.1 Execute Phase
+
+```http
+POST /sessions/{session_id}/phase/{phase_number}/execute
+```
+
+**Phase 0: Safety Check**
+
+**Request:**
+```json
+{
+  "readiness_check": {
+    "current_stress_level": 3,
+    "support_system_available": true,
+    "sleep_quality_last_week": "adequate",
+    "recent_crisis": false
+  },
+  "informed_consent_verified": true
+}
+```
+
+**Response (200):**
+```json
+{
+  "phase": 0,
+  "status": "completed",
+  "safety_clearance": true,
+  "readiness_score": 8,
+  "next_phase": "phase_1_core",
+  "safety_notes": "Subject stable, adequate support, proceeding"
+}
+```
+
+### 3.2 Submit Phase Data
+
+```http
+POST /sessions/{session_id}/phase/{phase_number}/data
+```
+
+**Phase 1: Core Questions**
+
+**Request:**
+```json
+{
   "transcript": [
-    {"speaker": "analyst", "text": "Tell me about..."},
-    {"speaker": "subject", "text": "I..."}
+    {
+      "turn_id": 1,
+      "speaker": "analyst",
+      "text": "Tell me about your childhood...",
+      "timestamp": "2026-03-04T10:15:00Z"
+    },
+    {
+      "turn_id": 2,
+      "speaker": "subject",
+      "text": "It was fine. Normal, I guess...",
+      "timestamp": "2026-03-04T10:15:05Z",
+      "metadata": {
+        "response_delay_ms": 3200,
+        "hesitation_markers": true
+      }
+    }
   ],
   "metadata": {
-    "response_time_ms": 4500,
-    "word_count": 127
+    "engagement_score": 0.75,
+    "emotional_range_observed": ["neutral", "guarded"]
   }
 }
 ```
 
-**Response:**
+**Response (202):**
 ```json
 {
-  "evidence_id": "uuid",
-  "signals_extracted": 5,
-  "fields_detected": ["family_dynamics", "attachment_pattern"],
-  "processing_status": "completed"
+  "data_id": "data_001",
+  "processing_status": "queued",
+  "estimated_processing_time": "30s",
+  "callback_url": "/sessions/{id}/phase/1/data/{data_id}/status"
 }
 ```
 
-#### Get Evidence
+### 3.3 Get Phase Results
+
 ```http
-GET /sessions/{session_id}/evidence?field_id={uuid}&limit=50
+GET /sessions/{session_id}/phase/{phase_number}/results
 ```
 
-**Response:**
+**Response (200):**
 ```json
 {
-  "evidence": [...],
-  "total": 47,
-  "page": 1
+  "phase": 1,
+  "status": "completed",
+  "signals_extracted": 12,
+  "fields_populated": ["attachment_pattern", "cognitive_structure", "defense_system"],
+  "field_confidences": {
+    "attachment_pattern": 0.35,
+    "cognitive_structure": 0.55,
+    "defense_system": 0.48
+  },
+  "hypotheses_generated": {
+    "attachment_pattern": 3,
+    "cognitive_structure": 3,
+    "defense_system": 3
+  },
+  "completion_timestamp": "2026-03-04T10:25:00Z"
 }
 ```
 
 ---
 
-### Fields & Hypotheses
+## 4. Field & Hypothesis Operations
 
-#### List Fields
+### 4.1 Get Field Status
+
 ```http
-GET /sessions/{session_id}/fields
+GET /sessions/{session_id}/fields/{field_name}
 ```
 
-**Response:**
+**Response (200):**
 ```json
 {
-  "fields": [
+  "field": "attachment_pattern",
+  "status": "active",
+  "current_confidence": 0.68,
+  "confidence_history": [
+    {"timestamp": "2026-03-04T10:20:00Z", "value": 0.35},
+    {"timestamp": "2026-03-04T10:35:00Z", "value": 0.52},
+    {"timestamp": "2026-03-04T10:50:00Z", "value": 0.68}
+  ],
+  "hypotheses": [
     {
-      "field_id": "uuid",
-      "field_name": "family_dynamics",
-      "status": "converged",
-      "current_confidence": 0.82,
-      "hypothesis_count": 3
+      "id": "hyp_001",
+      "code": "H1",
+      "description": "Dismissive-avoidant with anxious core",
+      "current_weight": 0.68,
+      "status": "leading",
+      "specificity": 3
+    },
+    {
+      "id": "hyp_002",
+      "code": "H2",
+      "description": "True avoidant, authentic low need",
+      "current_weight": 0.18,
+      "status": "competing"
+    }
+  ],
+  "evidence_count": 14,
+  "refinement_count": 2
+}
+```
+
+### 4.2 Trigger Hypothesis Refinement
+
+```http
+POST /sessions/{session_id}/fields/{field_name}/refine
+```
+
+**Request:**
+```json
+{
+  "new_evidence": [
+    {
+      "evidence_id": "ev_025",
+      "type": "probe_response",
+      "content": "Subject described specific instance of needing mother...",
+      "likelihood_by_hypothesis": {
+        "hyp_001": 0.85,
+        "hyp_002": 0.20,
+        "hyp_003": 0.60
+      }
     }
   ]
 }
 ```
 
-#### Get Field Hypotheses
-```http
-GET /sessions/{session_id}/fields/{field_id}/hypotheses
-```
-
-**Response:**
+**Response (200):**
 ```json
 {
-  "field_id": "uuid",
-  "field_name": "family_dynamics",
-  "hypotheses": [
+  "field": "attachment_pattern",
+  "refinement_completed": true,
+  "hypothesis_updates": [
     {
-      "hypothesis_id": "uuid",
-      "hypothesis_text": "...",
-      "posterior_weight": 0.75,
-      "confidence_interval": [0.68, 0.82],
-      "status": "active"
+      "hypothesis_id": "hyp_001",
+      "previous_weight": 0.52,
+      "current_weight": 0.68,
+      "change": 0.16
     }
   ],
-  "convergence_status": "converged"
-}
-```
-
-#### Trigger Hypothesis Refinement
-```http
-POST /sessions/{session_id}/fields/{field_id}/refine
-```
-
-**Request:**
-```json
-{
-  "evidence_ids": ["ev_001", "ev_002"]
-}
-```
-
-**Response:**
-```json
-{
-  "refinement_completed": true,
-  "updated_hypotheses": [...],
-  "convergence_status": {...}
+  "new_confidence": 0.68,
+  "refinement_triggered": false
 }
 ```
 
 ---
 
-### Questions
+## 5. Probe Generation
 
-#### Generate Question
+### 5.1 Generate Probes
+
 ```http
-POST /sessions/{session_id}/questions/generate
+POST /sessions/{session_id}/probes/generate
 ```
 
 **Request:**
 ```json
 {
-  "target_field_ids": ["uuid"],
-  "probe_type": "auto"
+  "target_fields": ["attachment_pattern", "power_dynamics"],
+  "probe_types": ["devils_advocate", "forced_choice"],
+  "count": 3
 }
 ```
 
-**Response:**
+**Response (200):**
 ```json
 {
-  "question_id": "uuid",
-  "question_text": "Tell me about a time...",
-  "probe_type": "devils_advocate",
-  "target_fields": ["family_dynamics"],
-  "difficulty": "medium",
-  "fallback_question": "Have you ever..."
+  "probes": [
+    {
+      "probe_id": "prb_003",
+      "target_field": "attachment_pattern",
+      "probe_type": "devils_advocate",
+      "question": "You describe yourself as not needing much from others...",
+      "rationale": "Tests defended vs authentic independence",
+      "expected_signals": {
+        "h1_support": ["hesitation", "affective_charge"],
+        "h2_support": ["genuine_confusion"]
+      },
+      "safety_check": "passed"
+    }
+  ],
+  "priority_field": "attachment_pattern",
+  "generation_timestamp": "2026-03-04T10:45:00Z"
 }
-```
-
-#### Get Question
-```http
-GET /sessions/{session_id}/questions/{question_id}
 ```
 
 ---
 
-### Assessment
+## 6. Matrix & Profile Operations
 
-#### Trigger 12D Assessment
+### 6.1 Calculate Matrix
+
 ```http
-POST /sessions/{session_id}/assess
+POST /sessions/{session_id}/matrix/calculate
 ```
 
-**Response:**
+**Response (200):**
 ```json
 {
-  "assessment_id": "uuid",
-  "status": "processing",
-  "estimated_completion": "30s"
-}
-```
-
-#### Get 12D Matrix
-```http
-GET /sessions/{session_id}/matrix
-```
-
-**Response:**
-```json
-{
-  "matrix_id": "uuid",
-  "dimensions": {
-    "AB": {"score": 7.5, "confidence_interval": [6.8, 8.2]},
-    "CDI": {"score": 6.8, "confidence_interval": [6.0, 7.6]},
-    ...
+  "matrix_id": "mat_001",
+  "status": "calculated",
+  "matrix_12d": {
+    "cognitive": {
+      "ab": {"score": 7.5, "ci_low": 0.65, "ci_high": 0.85},
+      "cdi": {"score": 6.0, "ci_low": 0.50, "ci_high": 0.70},
+      "crf": {"score": 5.5, "ci_low": 0.45, "ci_high": 0.65}
+    },
+    "emotional": {...},
+    "relational": {...},
+    "adaptive": {...}
   },
-  "cross_interactions": [...],
-  "overall_confidence": 0.79
+  "overall_confidence": 0.72,
+  "assessment_quality": "use_with_caution",
+  "calculation_timestamp": "2026-03-04T11:15:00Z"
 }
 ```
 
----
+### 6.2 Generate Final Profile
 
-### Synthesis
-
-#### Generate Final Profile
 ```http
-POST /sessions/{session_id}/synthesize
+POST /sessions/{session_id}/profile/generate
 ```
 
-**Response:**
+**Response (200):**
 ```json
 {
-  "profile_id": "uuid",
-  "status": "processing",
-  "estimated_completion": "60s"
+  "profile_id": "prof_001",
+  "status": "generated",
+  "profile_url": "/sessions/{id}/profile/prof_001",
+  "core_structure": {...},
+  "persona_core_gap": {...},
+  "adaptation_potensi_chain": [...],
+  "overall_confidence": 0.78,
+  "generation_timestamp": "2026-03-04T11:30:00Z"
 }
 ```
 
-#### Get Final Profile
+### 6.3 Get Final Profile
+
 ```http
 GET /sessions/{session_id}/profile
 ```
 
-**Response:**
+**Response (200):** Full profile JSON (see AGENT-LAYER.md for structure)
+
+---
+
+## 7. Real-time Operations (WebSocket)
+
+### 7.1 Connect to Session Stream
+
+```
+WebSocket: wss://api.mirrorbreak.io/v1/sessions/{session_id}/stream
+```
+
+**Events:**
+
 ```json
+// Phase transition
 {
-  "profile_id": "uuid",
-  "executive_summary": "...",
-  "core_structure": {...},
-  "cognitive_map": {...},
-  "emotional_architecture": {...},
-  "relational_dynamics": {...},
-  "persona_core_gap": {...},
-  "adaptation_potensi_chain": [...],
-  "growth_vectors": [...],
-  "assessment_quality": {...}
+  "event": "phase_transition",
+  "timestamp": "2026-03-04T10:25:00Z",
+  "data": {
+    "from_phase": 1,
+    "to_phase": 2,
+    "trigger": "core_questions_completed"
+  }
+}
+
+// Signal detected
+{
+  "event": "signal_detected",
+  "timestamp": "2026-03-04T10:30:00Z",
+  "data": {
+    "signal_id": "sig_015",
+    "type": "emotional_marker",
+    "target_fields": ["attachment_pattern"]
+  }
+}
+
+// Hypothesis update
+{
+  "event": "hypothesis_update",
+  "timestamp": "2026-03-04T10:35:00Z",
+  "data": {
+    "field": "attachment_pattern",
+    "hypothesis_id": "hyp_001",
+    "previous_weight": 0.52,
+    "current_weight": 0.68
+  }
+}
+
+// Probe recommendation
+{
+  "event": "probe_recommendation",
+  "timestamp": "2026-03-04T10:45:00Z",
+  "data": {
+    "probe_id": "prb_003",
+    "target_field": "attachment_pattern",
+    "question": "...",
+    "rationale": "..."
+  }
 }
 ```
 
 ---
 
-### WebSocket (Real-time)
+## 8. Error Handling
 
-#### Connect to Session Stream
-```javascript
-ws://api.mirrorbreak.io/v1/sessions/{session_id}/stream
-```
-
-**Messages:**
-```json
-// Server → Client
-{
-  "type": "phase_change",
-  "data": {"from": 1, "to": 2}
-}
-
-{
-  "type": "hypothesis_update",
-  "data": {"field_id": "uuid", "confidence": 0.75}
-}
-
-{
-  "type": "question_ready",
-  "data": {"question_id": "uuid", "text": "..."}
-}
-
-{
-  "type": "safety_flag",
-  "data": {"level": "monitoring", "reason": "..."}
-}
-```
-
----
-
-## Error Handling
-
-### Status Codes
-
-| Code | Meaning | Usage |
-|------|---------|-------|
-| 200 | OK | Success |
-| 201 | Created | Resource created |
-| 400 | Bad Request | Invalid input |
-| 401 | Unauthorized | Missing/invalid API key |
-| 403 | Forbidden | Insufficient permissions |
-| 404 | Not Found | Resource doesn't exist |
-| 409 | Conflict | State conflict (e.g., wrong phase) |
-| 422 | Unprocessable | Validation failed |
-| 429 | Rate Limited | Too many requests |
-| 500 | Server Error | Internal error |
-
-### Error Response
+### Standard Error Format
 
 ```json
 {
   "error": {
-    "code": "INVALID_PHASE_TRANSITION",
-    "message": "Cannot transition from phase 0 to phase 2",
+    "code": "SAFETY_CHECK_FAILED",
+    "message": "Session aborted: Subject readiness score below threshold",
     "details": {
-      "current_phase": 0,
-      "requested_phase": 2,
-      "allowed_transitions": [1]
-    }
+      "readiness_score": 4,
+      "threshold": 5,
+      "abort_reason": "insufficient_stability"
+    },
+    "timestamp": "2026-03-04T10:05:00Z"
   }
 }
 ```
 
+### Error Codes
+
+| Code | HTTP Status | Description |
+|------|-------------|-------------|
+| `SESSION_NOT_FOUND` | 404 | Session ID does not exist |
+| `INVALID_PHASE` | 400 | Phase number invalid for current state |
+| `SAFETY_CHECK_FAILED` | 403 | Phase 0 did not pass |
+| `PROCESSING_IN_PROGRESS` | 409 | Previous operation still processing |
+| `INSUFFICIENT_DATA` | 422 | Not enough evidence for requested operation |
+| `RATE_LIMIT_EXCEEDED` | 429 | Too many requests |
+| `INTERNAL_ERROR` | 500 | Server error |
+
 ---
 
-## Rate Limits
+## 9. Rate Limits
 
 | Endpoint | Limit |
 |----------|-------|
-| POST /sessions | 10/minute |
-| POST /evidence | 60/minute |
-| GET /matrix | 30/minute |
+| `POST /sessions` | 10/minute |
+| `POST /sessions/{id}/phase/*/execute` | 30/minute |
+| `POST /sessions/{id}/probes/generate` | 60/minute |
+| `GET /sessions/{id}` | 120/minute |
 | WebSocket | 1 connection/session |
 
 ---
 
-## Pagination
-
-```http
-GET /sessions/{id}/evidence?page=2&limit=25
-```
-
-**Response:**
-```json
-{
-  "data": [...],
-  "pagination": {
-    "page": 2,
-    "limit": 25,
-    "total": 47,
-    "has_more": true
-  }
-}
-```
-
----
-
-*API Specification v1.0 — System Implementation Plan*
+*API Specification v1.0 — Dr. Zemetia Research × Architect-Zero*
+*MirrorBreak Protocol: System Implementation Plan*
