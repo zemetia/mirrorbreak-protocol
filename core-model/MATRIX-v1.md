@@ -1,39 +1,89 @@
 # MBP Matrix
 
-**12 Sub-Dimensi Struktural**
+**12 Sub-Dimensi: Persona-Breaking Grid**
 
 ---
 
-## Dimensi Kognitif
+## Filosofi 12D: Bukan Dimensi Kaku, tapi Tension Network
 
-| # | Sub-Dimensi | Spektrum | Deteksi |
-|---|-------------|----------|---------|
-| 1 | **Abstraction Bandwidth (AB)** | Concrete ↔ Abstract | Jarak konseptual yang dijangkau |
-| 2 | **Causal Depth Index (CDI)** | Surface ↔ Systemic | Kedalaman analisis sebab-akibat |
-| 3 | **Cognitive Rigidity/Flexibility (CRF)** | Binary ↔ Fluid | Toleransi ambiguitas |
-| 4 | **Processing Style** | Intuitif ↔ Analitis | Dominan cara proses informasi |
+**12D Matrix bukan alat ukur psikometri tradisional.** Bukan 12 skala independen yang harus saling orthogonal. Ini adalah **12 lensa sengaja dipasang untuk saling patahkan** — ketika dimensi saling kontradiksi, disitulah persona crack terexpose.
 
-## Dimensi Emosional
+```
+Dimensi A claim: "Saya analytical, tenang"
+    ↓
+Dimensi B detect: Somatic freeze dengan onset <200ms
+    ↓
+Dimensi C detect: Pre-cognitive overwhelm
+    ↓
+CONTRADICTION = DATA → Persona crack exposed
+```
 
-| # | Sub-Dimensi | Spektrum | Deteksi |
-|---|-------------|----------|---------|
-| 5 | **Emotional Granularity (EG)** | Low ↔ High precision | Variasi emosi yang diakses |
-| 6 | **Regulation Strategy (RSI)** | Suppress ↔ Express | Cara mengelola emosi |
-| 7 | **Vulnerability Bandwidth (VB)** | Closed ↔ Authentic | Kemampuan terbuka |
-| 8 | **Stress Response** | Freeze ↔ Fight/Flight | Reaksi default saat tekanan |
-
-## Dimensi Relasional
-
-| # | Sub-Dimensi | Spektrum | Deteksi |
-|---|-------------|----------|---------|
-| 9 | **Authority Response Pattern (ARP)** | Rebellious ↔ Dominant | Respons terhadap power |
-| 10 | **Recognition Sensitivity (RS)** | Low ↔ High | Sensitivitas terhadap dismissal |
-| 11 | **Control Orientation (COI)** | External ↔ Internal | Kebutuhan mengatur lingkungan |
-| 12 | **Adaptive Strength Conversion (ASC)** | — | Bagaimana luka jadi kekuatan |
+**Kontradiksi bukan error — itu feature.** Cross-validation failure = struktur inti terlihat.
 
 ---
 
-## Skoring
+## 12 Dimensi Struktural
+
+### Domain Kognitif
+
+| # | Sub-Dimensi | Spektrum | Fungsi dalam Cross-Validation |
+|---|-------------|----------|------------------------------|
+| 1 | **Abstraction Bandwidth (AB)** | Concrete ↔ Abstract | Validasi claim kognitif vs respons aktual |
+| 2 | **Causal Depth Index (CDI)** | Surface ↔ Systemic | Deteksi analytical depth atau intellectualization |
+| 3 | **Cognitive Rigidity/Flexibility (CRF)** | Binary ↔ Fluid | Toleransi ambiguitas — rigid = defense marker |
+| 4 | **Processing Style** | Intuitif ↔ Analitis | **Tension detector** — claim vs somatic evidence |
+
+### Domain Emosional
+
+| # | Sub-Dimensi | Spektrum | Fungsi dalam Cross-Validation |
+|---|-------------|----------|------------------------------|
+| 5 | **Emotional Granularity (EG)** | Low ↔ High precision | Awareness vs expression gap detector |
+| 6 | **Regulation Strategy (RSI)** | Suppress ↔ Express | Defense sophistication marker |
+| 7 | **Vulnerability Bandwidth (VB)** | Closed ↔ Authentic | Attachment proxy — protectedness level |
+| 8 | **Stress Response** | Freeze ↔ Fight/Flight | **Pre-cognitive truth** — somatic bypass persona |
+
+### Domain Relasional
+
+| # | Sub-Dimensi | Spektrum | Fungsi dalam Cross-Validation |
+|---|-------------|----------|------------------------------|
+| 9 | **Authority Response Pattern (ARP)** | Rebellious ↔ Dominant | Power dynamics — compensation detector |
+| 10 | **Recognition Sensitivity (RS)** | Low ↔ High | Validation need — drive tersembunyi |
+| 11 | **Control Orientation (COI)** | External ↔ Internal | Predictability need — anxiety marker |
+| 12 | **Adaptive Strength Conversion (ASC)** | — | **Legitimacy test** — genuine vs glorified adaptation |
+
+---
+
+## Persona-Breaking: Dimension Pairs
+
+Pasangan dimensi yang paling powerful untuk expose persona:
+
+| Pair | Mekanisme Persona Crack |
+|------|------------------------|
+| **AB × Stress Response** | Claim "analytical" vs somatic freeze (pre-cognitive overwhelm) |
+| **Processing Style × RSI** | Claim "think then feel" vs immediate suppression (intuitive bypass) |
+| **EG × VB** | High granularity + low bandwidth = emotional trap (paham tapi nggak bisa ekspresi) |
+| **RS × ARP** | High sensitivity + dominant response = dominance sebagai rejection compensation |
+| **VB × DMC** | Low vulnerability + "controlled disclosure" = strategic authenticity |
+| **ASC × (EG+VB+RSI)** | Claim "strength from wound" vs emotional structure = glorification defense |
+
+---
+
+## Cross-Validation Failure sebagai Output
+
+Ketika 12D tidak bisa diintegrasikan:
+
+```
+Integration Status: FAILED
+├── Type A: Multiplicity (IFS parts — ego state berbeda per konteks)
+├── Type B: Compartmentalization (dissociasi horizontal — split domains)
+└── Type C: Context-Dependent Structure (persona beda = struktur beda)
+```
+
+**Failure = finding.** Lebih informatif daripada profile yang clean.
+
+---
+
+## Skoring Philosophy
 
 **Scale 1-10:** Posisi pada spektrum, bukan nilai moral.
 
@@ -43,25 +93,27 @@
 Posisi struktural
 ```
 
-**Contoh:**
-| Dimensi | Score | Interpretasi |
-|---------|-------|--------------|
-| AB | 8/10 | Highly abstract, conceptual thinker |
-| VB | 3/10 | Closed, protective, selective disclosure |
-| RS | 8/10 | High sensitivity, recognition-driven |
+**Tapi yang lebih penting dari score:**
+- Cross-dimension consistency (atau inconsistency)
+- Claim vs detected gap
+- Somatic-cognitive alignment
 
 ---
 
-## Cross-Interaction Patterns
+## Contoh Tension Analysis
 
-Bukan 12 angka terpisah — tapi **konfigurasi** yang saling memperkuat/menegangkan.
+### Case: "Analytical Professional"
 
-| Pattern | Kombinasi | Output |
-|---------|-----------|--------|
-| **Strategic Mind** | High AB + High CDI + High CRF | Thinker sistemik adaptif |
-| **Recognition Wound** | High RS + Rebellious ARP | Dominance sebagai kompensasi |
-| **Emotional Trap** | High EG + Low VB + Suppress RSI | Paham tapi tidak bisa ekspresi |
-| **Prestige Identity** | High CFV(Irrelevance) + High AB | Analisis untuk validasi |
+| Dimensi | Score | Claim | Evidence |
+|---------|-------|-------|----------|
+| AB | 8/10 | "Saya analytical" | ✅ Supported |
+| Processing Style | Analytical | "Think then decide" | ✅ Claim aligned |
+| Stress-Somatic | Freeze | Freeze onset 150ms | ⚠️ **CONTRADICTION** |
+| RSI | Suppress | "Manage emotions well" | ✅ Surface aligned |
+
+**Tension:** Somatic freeze <200ms = pre-cognitive overwhelm. Analytical adalah defense terhadap intuitive flood.
+
+**Persona Crack:** "Analytical professional" = cognitive override of somatic overwhelm.
 
 ---
 
@@ -69,5 +121,11 @@ Bukan 12 angka terpisah — tapi **konfigurasi** yang saling memperkuat/menegang
 
 - **Psychological Analysis** → Mengapa (origin, luka, drive)
 - **Matrix** → Bagaimana (cara beroperasi, pola)
+- **12D Tension** → **Dimana persona bocor** (kontradiksi expose struktur)
 
-Matrix beroperasi sebagai **koordinat di belakang layar** — pertanyaan natural di depan, sistem pengukuran di belakang.
+Matrix beroperasi sebagai **koordinat di belakang layar** — pertanyaan natural di depan, tension detection di belakang.
+
+---
+
+*MATRIX-v2.0 — Persona-Breaking Grid*
+*MirrorBreak Protocol*

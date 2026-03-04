@@ -37,12 +37,16 @@ Observe → Hypothesize → Stress Test → Affirm/Reject → Refine → Extract
 
 ## 12 Sub-Dimensi Matrix
 
-| Domain | Sub-Dimensi |
-|--------|-------------|
-| Kognitif | 1. Pola Asosiasi, 2. Kecepatan Pemrosesan, 3. Bias Validasi |
-| Emosional | 4. Kedalaman, 5. Regulasi, 6. Ekspresi |
-| Relasional | 7. Attachment Style, 8. Power Dynamics, 9. Boundary |
-| Adaptif | 10. Response to Stress, 11. Recovery Pattern, 12. Growth Trajectory |
+**Bukan dimensi kaku — ini Persona-Breaking Grid.** 12 lensa saling cross-validate, kontradiksi = data.
+
+| Domain | Sub-Dimensi | Fungsi Tension |
+|--------|-------------|----------------|
+| **Kognitif** | 1. AB (Abstraction Bandwidth)<br>2. CDI (Causal Depth)<br>3. CRF (Cognitive Rigidity)<br>4. Processing Style | Validasi claim kognitif vs respons aktual |
+| **Emosional** | 5. EG (Emotional Granularity)<br>6. RSI (Regulation Strategy)<br>7. VB (Vulnerability Bandwidth)<br>8. Stress Response | Awareness-expression gap detector<br>Pre-cognitive truth exposure |
+| **Relasional** | 9. ARP (Authority Response)<br>10. RS (Recognition Sensitivity)<br>11. COI (Control Orientation) | Power dynamics & validation need detector |
+| **Adaptif** | 12. ASC (Adaptive Strength Conversion) | Legitimacy test — genuine vs glorified |
+
+**Lihat:** `fundamental-research/12D-PHILOSOPHY.md` untuk pemahaman mendalam.
 
 ## Output Format
 
