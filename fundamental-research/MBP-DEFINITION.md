@@ -1,12 +1,8 @@
-# MirrorBreak Protocol (MBP)
+# MirrorBreak Protocol (MBP) - Definitive Definition
 
-**Definisi Singkat, Padat, Tanpa Romantisasi**
+## Essence
 
----
-
-## 🎯 Tujuan MBP
-
-Sistem profiling struktural berbasis pola empiris yang dirancang untuk:
+MBP adalah sistem profiling struktural berbasis pola empiris yang dirancang untuk:
 
 1. Membaca luka adaptif seseorang
 2. Mengidentifikasi potensi yang lahir dari luka tersebut
@@ -14,72 +10,51 @@ Sistem profiling struktural berbasis pola empiris yang dirancang untuk:
 4. Mengungkap gap antara persona dan inti
 5. Menjadi cermin yang presisi — bukan hakim, bukan motivator kosong
 
----
+## Components
 
-## 🔍 Apa yang Dibedah oleh MBP?
+| Component | Fungsi |
+|-----------|--------|
+| Core Fear | Tekanan pembentuk |
+| Core Drive | Energi penggerak |
+| Defense Mechanism | Cara bertahan |
+| Struktur Kognitif | Cara berpikir |
+| Kualitas Emosi | Cara merasakan & mengatur |
+| Strategi Kekuasaan & Relasi | Dinamika sosial |
+| Adaptasi → Kekuatan Laten | Konversi pola survival menjadi asset |
 
-Bukan tipe kepribadian.
-
-Yang dibedah adalah:
-
-| Komponen | Deskripsi |
-|----------|-----------|
-| **Core Fear** | Tekanan pembentuk |
-| **Core Drive** | Energi penggerak |
-| **Defense Mechanism** | Cara bertahan |
-| **Struktur Kognitif** | Cara berpikir |
-| **Kualitas Emosi** | Cara merasakan & mengatur |
-| **Strategi Kekuasaan & Relasi** | Dinamika interpersonal |
-| **Adaptasi → Kekuatan Laten** | Konversi luka jadi kekuatan |
-
----
-
-## 🧠 Apa yang Membuatnya Berbeda?
-
-| Sistem lain | MBP |
-|-------------|-----|
-| MBTI → membaca preferensi | Observasi → hipotesis → stress test → refine |
-| Astrologi → membaca simbol | Adaptasi struktural berbasis empiris |
-| Ciri: statis, linear | Ciri: adaptif, tidak linear, tidak label tetap |
-
-**Output:** Peta dinamis, bukan label tetap.
-
----
-
-## 🪞 Fungsi Utama
-
-1. **Profiling orang lain** dengan presisi tinggi
-2. **Self-discovery** yang tidak mudah dimanipulasi ego
-3. **Cermin** untuk individu cerdas & defensif
-4. **Talent/leadership mapping** (potensi pengembangan)
-
----
-
-## ⚙️ Fondasi Metodologi
+## Methodology
 
 ```
 Observe → Hypothesize → Stress Test → Affirm/Reject → Refine → Extract Structure
 ```
 
-Berbasis pola empiris, bukan teori tunggal.
+## Core Philosophy
+
+- Setiap sifat adalah adaptasi
+- Kontradiksi lebih informatif daripada konsistensi
+- Luka dan potensi selalu satu sistem
+- Sistem harus cukup netral agar tidak menciptakan ketergantungan
+
+## 12 Sub-Dimensi Matrix
+
+| Domain | Sub-Dimensi |
+|--------|-------------|
+| Kognitif | 1. Pola Asosiasi, 2. Kecepatan Pemrosesan, 3. Bias Validasi |
+| Emosional | 4. Kedalaman, 5. Regulasi, 6. Ekspresi |
+| Relasional | 7. Attachment Style, 8. Power Dynamics, 9. Boundary |
+| Adaptif | 10. Response to Stress, 11. Recovery Pattern, 12. Growth Trajectory |
+
+## Output Format
+
+MirrorBreak Report terdiri dari:
+- Executive Summary (1 paragraf)
+- Core Structure (fear, drive, defense)
+- Cognitive Map (cara berpikir)
+| Emotional Architecture (kualitas & regulasi)
+- Relational Dynamics (attachment & power)
+- Latent Strengths (dari adaptasi)
+- Gap Analysis (persona vs inti)
+- Structural Recommendations (bukan advice motivasional)
 
 ---
-
-## 🧩 Inti Filosofi
-
-| Prinsip | Arti |
-|---------|------|
-| Setiap sifat adalah adaptasi | Tidak ada "jelek", hanya respons terhadap tekanan |
-| Kontradiksi > Konsistensi | Di sinilah struktur terlihat |
-| Luka dan potensi satu sistem | Tidak bisa dipisahkan |
-| Netralitas sistem | Tidak menciptakan ketergantungan |
-
----
-
-## 📌 Dalam Satu Kalimat
-
-> MBP adalah sistem cermin adaptif yang memetakan struktur luka, potensi, dan cara berpikir seseorang secara presisi, fleksibel, dan bisa dipertanggungjawabkan.
-
----
-
-*Definisi resmi MirrorBreak Protocol*
+*MBP v2.0 - Structural Profiling System*

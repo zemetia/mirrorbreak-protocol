@@ -1,129 +1,130 @@
-# MirrorBreak EPDM - Psychological Analysis
-## Document 01: Ringkasan Analisis Psikologi
+# 01 - Psychological Analysis (MBP Framework)
 
-**Analyst:** Dr. Zemetia (Psychology)  
-**Date:** 2026-03-04  
-**Subject:** MirrorBreak EPDM Structural Analysis  
-**Status:** 🔬 Fundamental Research
+## Purpose
 
----
+Dokumen ini memetakan struktur psikologis berdasarkan MBP (MirrorBreak Protocol). Tidak untuk diagnosis klinis — untuk melihat pola adaptif dan potensi tersembunyi.
 
-## 🎯 Executive Summary
+## 1. Core Structure
 
-MirrorBreak EPDM menunjukkan **fondasi konseptual yang kuat** dengan paradigma adaptif yang selaras dengan psychological science modern. Model ini menghindari pathologization tradisional dan menawarkan pendekatan assessment yang lebih fleksibel dan etis.
+### 1.1 Core Fear
+- **Definisi MBP**: Tekanan pembentuk utama
+- **Identifikasi**: Apa yang paling dihindari? Konsekuensi apa yang paling ditakutkan?
+- **Bentuk**: Rejection / Abandonment / Failure / Entrapment / Invisibility / Chaos
+- **Signal**: Perilaku berulang saat tekanan tinggi
 
----
+### 1.2 Core Drive
+- **Definisi MBP**: Energi penggerak fundamental
+- **Identifikasi**: Apa yang secara konsisten dikejar meski mahal?
+- **Bentuk**: Mastery / Connection / Freedom / Security / Recognition / Autonomy
+- **Konflik**: Drive vs Fear sering saling bertentangan → sumber tension kreatif
 
-## ✅ Kekuatan Psikologis Model
+### 1.3 Defense Mechanism
+- **Definisi MBP**: Cara bertahan yang terautomasi
+- **Identifikasi**: Pola proteksi saat core fear terpicu
+- **Tipe**: Rationalization / Intellectualization / Withdrawal / Hyper-independence / Perfectionism / Charm/Performance
+- **Cost**: Apa yang dikorbankan untuk proteksi ini?
 
-### 1. Paradigma Adaptif yang Tepat
+## 2. Cognitive Structure
 
-- **Kesesuaian Teoritis:** Selaras dengan *evolutionary psychology* dan *functional analysis* behaviorism modern
-- **Keunggulan:** Menghindari pathologization yang sering terjadi dalam model tradisional
-- **Implikasi:** Menganggap perilaku sebagai fungsi adaptasi, bukan deviasi patologis
+### 2.1 Pola Asosiasi
+- Speed: Cepat/lambat dalam menghubungkan informasi
+- Pattern: Linear/simultan/associative
+- Blindspot: Area yang sistematis dihindari dalam berpikir
 
-### 2. Multi-Hypothesis Framework
+### 2.2 Kecepatan Pemrosesan
+- Input → Response time
+- Under pressure: Membaik/menurun?
+- Fatigue threshold
 
-- **Standar Profesional:** Gold standard dalam assessment psikologis profesional
-- **Analogi:** Mirip *differential diagnosis* psikiatri namun lebih fleksibel
-- **Keuntungan:** Mengurangi *confirmation bias* yang fatal dalam assessment tools
+### 2.3 Bias Validasi
+- Apa yang dicari untuk membuktikan core fear?
+- Apa yang diabaikan yang bertentangan?
+- Confirmation bias yang berulang
 
-### 3. Stress Testing sebagai Validasi
+## 3. Emotional Architecture
 
-- **Kesesuaian:** Mirip *structured clinical interview* dalam forensic psychology
-- **Prinsip:** "Mencari keretakan, bukan pembenaran"
-- **Nilai Etis:** Praktik scientific dan etis
+### 3.1 Kedalaman
+- Range: Spektrum emosi yang dapat diakses
+- Primary emotions: Marah/sedih/takut/bahagia — mana yang paling familiar?
+- Emotional vocabulary: Kaya/terbatas
 
-### 4. Focus pada Contradictions
+### 3.2 Regulasi
+- Strategy: Suppression/expression/reappraisal/avoidance
+- Trigger threshold: Seberapa cepat emosi naik
+- Recovery time: Seberapa cepat kembali ke baseline
 
-- **Dasar Teoritis:** 
-  - *Psychodynamic theory* (Freud's "parapraxes")
-  - *Cognitive dissonance theory* modern
-- **Insight:** Kontradiksi sebagai window ke struktur tak sadar
+### 3.3 Ekspresi
+- Alignment: Apa yang dirasakan vs ditampilkan
+- Kontrol: Tingkat filtering saat berinteraksi
+- Authenticity gap: Delta antara internal dan eksternal
 
-### 5. Dimensional vs Categorical Approach
+## 4. Relational Dynamics
 
-- **Kesesuaian Standar:**
-  - DSM-5 Alternative Model for Personality Disorders (AMPD)
-  - Big Five personality theory
-- **Keunggulan:** Berbasis dimensional, lebih nuanced daripada kategorikal
+### 4.1 Attachment Pattern
+- Safe / Anxious / Avoidant / Disorganized
+- Manifestasi dalam relasi dekat
+- Trigger situation
 
----
+### 4.2 Power Dynamics
+- Default position: Dominant/submissive/collaborative
+- Shift condition: Kapan berubah
+- Comfort zone dalam hierarki
 
-## ⚠️ Gap Analisis Psikologis
+### 4.3 Boundary
+- Rigid (jarang berubah) / Porous (mudah tembus) / Flexible (situasional)
+- Enforcement capability
+- Violation response
 
-### A. Metodologi
+## 5. Adaptation → Latent Strength
 
-| Issue | Description | Impact |
-|-------|-------------|--------|
-| Absensi Normative Data | Tidak ada baseline populasi untuk "depth of causality", "emotional granularity" | Sulit menentukan threshold normal vs extreme |
-| Validasi Empiris | Inter-rater reliability, test-retest reliability belum jelas | Kredibilitas scientific terhambat |
-| Sampel Bias | Mungkin hanya work untuk populasi self-aware, verbal | Generalizability terbatas |
+| Adaptasi | Situasi Awal | Kekuatan Laten |
+|----------|--------------|----------------|
+| Hyper-vigilance | Lingkungan tidak stabil | Pattern recognition |
+| Emotional suppression | Emosi tidak diterima | Emotional regulation |
+| Hyper-independence | Kecewa oleh orang lain | Self-sufficiency |
+| Perfectionism | Kritik berulang | Attention to detail |
+| People-pleasing | Cinta bersyarat | Social calibration |
 
-### B. Struktural
+## Analysis Protocol
 
-| Issue | Description | Relevansi Psikologis |
-|-------|-------------|---------------------|
-| Temporal Dimension | Kurang memperhatikan trait trajectory | Miss developmental pathway |
-| Relational Dynamics | Dyadic/triadic interaction kurang dieksplorasi | Attachment patterns belum terintegrasi |
-| Neurobiological Grounding | Tidak ada referensi sistem saraf | Kurang integrasi polyvagal theory, HPA axis |
+1. **Observe**: Kumpulkan data perilaku dalam berbagai konteks
+2. **Hypothesize**: Bentuk teori struktural sementara
+3. **Stress Test**: Cari situasi tekanan → lihat respons
+4. **Affirm/Reject**: Koreksi hipotesis berdasarkan data baru
+5. **Refine**: Perjelas pola yang terverifikasi
+6. **Extract Structure**: Dokumentasikan arsitektur yang stabil
 
-### C. Aplikasi
-
-| Issue | Description | Priority |
-|-------|-------------|----------|
-| Training & Standardization | Manual operasional belum ada | High |
-| Output Interpretation | 5 struktur inti → actionable recommendations? | High |
-
----
-
-## 🔗 Integrasi dengan Teori Eksisting
-
-### Kompatibilitas Teoritis
+## Output Template
 
 ```
-MirrorBreak EPDM
-│
-├── Attachment Theory → Adaptive Core Dimension
-├── Internal Family Systems (Schwartz) → Multi-hypothesis framework
-├── ACT (Acceptance & Commitment Therapy) → Adaptation as function
-└── Complex Systems Theory → Manusia sebagai sistem
+Subject: [Identifier]
+Date: [YYYY-MM-DD]
+Analyst: [Name]
+
+CORE FEAR: [tekanan pembentuk]
+CORE DRIVE: [energi penggerak]
+DEFENSE: [cara bertahan utama]
+
+COGNITIVE MAP:
+- Pola: [asosiasi/pemrosesan]
+- Bias: [validasi utama]
+
+EMOTIONAL ARCHITECTURE:
+- Kedalaman: [range emosi]
+- Regulasi: [strategi]
+- Gap: [autentisitas]
+
+RELATIONAL:
+- Attachment: [pattern]
+- Power: [posisi default]
+- Boundary: [tipe]
+
+LATENT STRENGTHS:
+1. [dari adaptasi X]
+2. [dari adaptasi Y]
+
+GAP ANALYSIS:
+Persona: [yang ditampilkan]
+Core: [yang sebenarnya]
+Delta: [konsekuensi gap]
 ```
-
-### Potensi Sinergi
-
-1. **Attachment Theory:** Dapat memperkaya Adaptive Core dengan attachment styles
-2. **IFS:** Multi-hypothesis kompatibel dengan model "parts" dalam IFS
-3. **ACT:** Paradigma adaptif selaras dengan psychological flexibility
-4. **Complex Systems:** Strengthen konsep "manusia sebagai sistem"
-
----
-
-## 📋 Kesimpulan Analitis
-
-### Strengths Score: 8/10
-- ✅ Fondasi konseptual solid
-- ✅ Paradigma adaptif tepat
-- ✅ Multi-hypothesis framework gold standard
-- ✅ Stress testing etis dan scientific
-
-### Gap Critical Priority:
-1. **HIGH:** Operational definitions & scoring rubrics
-2. **HIGH:** Normative data & baseline
-3. **MEDIUM:** Temporal & relational dimensions
-4. **MEDIUM:** Neurobiological integration
-5. **LOW:** Training certification (can wait)
-
----
-
-## 📝 Notes untuk Dokumen Lanjutan
-
-- Lihat `02-structural-assessment.md` untuk penilaian struktural detail
-- Lihat `03-improvement-roadmap.md` untuk rekomendasi improvement
-- Lihat `04-research-validation-plan.md` untuk rencana validasi empiris
-- Lihat `integration-report.md` untuk sintesis lengkap
-
----
-
-*Generated by Dr. Zemetia Research & Structuring Agent*  
-*MirrorBreak Protocol - Fundamental Research Division*

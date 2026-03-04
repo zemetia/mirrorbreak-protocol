@@ -1,226 +1,202 @@
-# MirrorBreak EPDM - Research Validation Plan
-## Document 04: Rencana Validasi Empiris
+# 04 - Research Validation Plan (MBP Methodology)
 
-**Analyst:** Dr. Zemetia (Research & Structuring)  
-**Date:** 2026-03-04  
-**Subject:** Empirical Validation Strategy & Protocol  
-**Status:** 🔬 Fundamental Research
+## Purpose
 
----
+Validasi keakuratan dan reliability MBP sebagai sistem profiling struktural. Fokus pada validasi empiris, bukan validasi teoritis.
 
-## 🎯 Tujuan Validasi
+## Research Questions
 
-Mendapatkan **scientific recognition** untuk MirrorBreak EPDM melalui rigorous empirical validation yang memenuhi standar psychological assessment profession.
+1. **Reliability**: Apakah MBP menghasilkan hasil konsisten antar-analis untuk subject yang sama?
+2. **Validity**: Apakah struktur yang diidentifikasi MBP berkorelasi dengan perilaku aktual?
+3. **Predictive Power**: Apakah MBP dapat memprediksi respons under stress?
+4. **Utility**: Apakah output MBP actionable untuk pengembangan?
 
----
+## Validation Framework
 
-## 📋 Overview Fase Validasi
+### Phase 1: Inter-Rater Reliability
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│              EMPRICAL VALIDATION ROADMAP                    │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│  PHASE 1: PILOT STUDY                                       │
-│  ├── Duration: 3-6 months                                   │
-│  ├── Sample: 50+ subjects                                   │
-│  └── Goal: Rubric refinement & preliminary norms            │
-│                                                             │
-│  PHASE 2: RELIABILITY STUDIES                               │
-│  ├── Duration: 6-12 months                                  │
-│  ├── Sample: 100+ subjects                                  │
-│  └── Goal: Inter-rater & test-retest reliability            │
-│                                                             │
-│  PHASE 3: VALIDITY STUDIES                                  │
-│  ├── Duration: 12-18 months                                 │
-│  ├── Sample: 200+ subjects                                  │
-│  └── Goal: Convergent, divergent, predictive validity       │
-│                                                             │
-│  PHASE 4: CROSS-CULTURAL VALIDATION                         │
-│  ├── Duration: 18-24 months                                 │
-│  ├── Sample: 300+ subjects (multi-site)                     │
-│  └── Goal: Cultural norms & adaptation                      │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
+**Objective**: Konsistensi hasil antar-analis MBP-certified.
 
----
+**Method**:
+- 10 subjects dianalisis oleh 3 analis independen
+- Analis tidak berkomunikasi selama proses
+- Data: Video interview 60 menit + written response
 
-## 🔬 PHASE 1: Pilot Study (Months 1-6)
+**Metrics**:
+- Core Fear agreement rate
+- Core Drive agreement rate  
+- Defense Mechanism agreement rate
+- 12-dimension score correlation
 
-### Objectives
+**Success Criteria**:
+- Core structure agreement ≥70%
+- Dimension score correlation ≥0.75
 
-- [ ] Refine operational definitions untuk 4 core dimensions
-- [ ] Identify dan resolve rubric ambiguities
-- [ ] Collect preliminary normative data
-- [ ] Establish initial inter-rater reliability
-- [ ] Document edge cases dan exceptions
+### Phase 2: Concurrent Validity
 
-### Methodology
+**Objective**: Korelasi MBP dengan instrument validasi psikologis established.
 
-#### Sample Recruitment
-```
-Target: n = 50-75
-Diversity Requirements:
-├── Age range: 18-65
-├── Gender: roughly equal distribution
-├── Education: varied levels
-├── Clinical status: mix of clinical & non-clinical
-└── Recruitment: Community + university subject pool
-```
+**Method**:
+- Subjects menyelesaikan MBP assessment
+- Subjects menyelesaikan instrument validasi:
+  - NEO-FFI (Big Five)
+  - Attachment Style Questionnaire
+  - Defense Style Questionnaire (DSQ-40)
+  - Difficulties in Emotional Regulation Scale (DERS)
 
-#### Procedure
-```
-Step 1: Administer MirrorBreak EPDM assessment
-Step 2: Independent rating oleh 2 raters (where possible)
-Step 3: Debriefing dan feedback collection
-Step 4: Document any issues atau ambiguities
-Step 5: Refine rubric based on findings
-```
+**Metrics**:
+- Correlation MBP dimension dengan instrument relevant
+- Pattern consistency (contoh: insecure attachment MBP ↔ ASQ insecure)
 
-### Deliverables
+**Success Criteria**:
+- Significant correlation (p<0.05) pada dimension yang relevan
+- No contradictory findings pada level struktural
 
-| Deliverable | Deadline | Responsible |
-|-------------|----------|-------------|
-| Pilot study protocol | Month 1 | Research team |
-| IRB approval | Month 1 | Research team |
-| Data collection completion | Month 4 | Research team |
-| Pilot report | Month 5 | Research team |
-| Rubric v1.0 refinement | Month 6 | Dr. Zemetia team |
+### Phase 3: Predictive Validity
 
-### Success Criteria
+**Objective**: Kemampuan MBP memprediksi perilaku under stress.
 
-- [ ] Completion of 50+ assessments
-- [ ] Identification of top 10 rubric ambiguities
-- [ ] Preliminary normative ranges untuk each dimension
-- [ ] Initial inter-rater agreement > 70%
+**Method**:
+- Subjects menyelesaikan MBP assessment
+- Subjects melalui stress test terkontrol (Trier Social Stress Test atau equivalent)
+- Observers independen (blind to MBP results) coding behavior
 
----
+**Metrics**:
+- Predicted defense mechanism vs actual defense
+- Predicted stress response (12-dimensi 4.1) vs actual response
+- Recovery pattern prediction accuracy
 
-## 🔬 PHASE 2: Reliability Studies (Months 6-12)
+**Success Criteria**:
+- Defense prediction accuracy ≥65%
+- Stress response prediction accuracy ≥60%
 
-### Study 2A: Inter-Rater Reliability
+### Phase 4: Longitudinal Validity
 
-#### Design
-```
-Method: Two independent raters assess same recordings/cases
-Sample: n = 100 (minimum 30 cases rated by both)
-Analysis: Cohen's kappa (κ) untuk categorical, ICC untuk continuous
-Target: κ > 0.80 (excellent agreement)
-```
+**Objective**: Stabilitas struktur vs adaptasi yang terukur.
 
-### Study 2B: Test-Retest Reliability
+**Method**:
+- Subjects di-track 12 bulan
+- MBP assessment di ulang tiap 3 bulan
+- Major life events documented
 
-#### Design
-```
-Method: Same subjects assessed twice, 2-4 weeks apart
-Sample: n = 100
-Analysis: Pearson correlation (r) dan ICC
-Target: r > 0.80
-```
+**Metrics**:
+- Core structure stability (expected: 80%+ consistent)
+- Adaptive change trackability
+- Improvement roadmap accuracy
 
-### Deliverables
+**Success Criteria**:
+- Core structure consistency ≥80%
+- Adaptive dimension change terkorelasi dengan life events
+- Roadmap milestones achieved sesuai prediksi ≥60%
 
-| Deliverable | Target | Timeline |
-|-------------|--------|----------|
-| Inter-rater reliability | κ > 0.80 | Month 9 |
-| Test-retest reliability | r > 0.80 | Month 12 |
-| Scoring manual v2.0 | - | Month 12 |
+## Study Design
 
----
+### Participants
+- **N**: 50-100 untuk fase 1-3
+- **N**: 30 untuk fase 4 (longitudinal)
+- **Recruitment**: Diverse demografi, voluntary participation
+- **Compensation**: Appropriate untuk time commitment
 
-## 🔬 PHASE 3: Validity Studies (Months 12-18)
-
-### Comparison Measures
-
-| MirrorBreak Dimension | Expected Correlation | Established Measure |
-|----------------------|---------------------|---------------------|
-| Emotional Granularity | r = 0.60-0.75 | Emotional Intelligence scales |
-| Depth of Causality | r = 0.50-0.70 | Insight measures |
-| Defense Integration | r = 0.60-0.80 | Defense Style Questionnaire |
-| Adaptive Core | r = 0.70-0.85 | AAI, attachment scales |
-
-### Deliverables
-
-- [ ] Convergent validity report
-- [ ] Divergent validity analysis
-- [ ] Predictive validity data
-- [ ] Validity evidence summary
-
----
-
-## 🔬 PHASE 4: Cross-Cultural Validation (Months 18-24)
-
-### Target Populations
-
-1. **Western Individualist** (US/UK/Australia) - Baseline
-2. **East Asian Collectivist** (Japan/Korea/China)
-3. **Latin American Context**
-4. **African Context**
-5. **Middle Eastern Context**
-
-### Adaptation Protocol
+### Procedure
 
 ```
-Per Culture:
-├── Translation & back-translation
-├── Cultural consultant review
-├── Local norm collection (n=60+ per culture)
-├── Item bias analysis
-└── Modified interpretation guidelines
+Time 0 (T0):
+□ Informed consent
+□ Demographic data
+□ MBP Assessment (Analyst A, B, C)
+□ Validasi instrument battery
+
+Time 1 (T1): T0 + 1 week
+□ Stress test procedure
+□ Behavioral coding
+
+Time 2-4 (T2-T4): T0 + 3, 6, 12 months
+□ MBP Re-assessment
+□ Life event interview
+□ Progress tracking
 ```
 
-### Deliverables
+### Data Analysis
 
-- [ ] Cross-cultural comparison report
-- [ ] Culture-specific norms
-- [ ] Adaptation guidelines
-- [ ] Cultural formulation addendum
+**Quantitative**:
+- Inter-rater reliability: Cohen's kappa, ICC
+- Concurrent validity: Pearson/Spearman correlation
+- Predictive validity: ROC analysis, accuracy metrics
+- Longitudinal: Stability coefficients, change analysis
 
----
+**Qualitative**:
+- Analyst interview (process reflection)
+- Subject feedback (utility assessment)
+- Case study deep-dive (n=10)
 
-## 📊 Timeline Summary
+## Ethical Considerations
 
-```
-MONTH:  1   3   6   9   12  15  18  21  24
-        │   │   │   │   │   │   │   │   │
-PHASE 1 [═══════]
-PHASE 2         [═══════════]
-PHASE 3                     [═══════════]
-PHASE 4                                     [═══════════]
+1. **Confidentiality**: Data anonymized, encrypted storage
+2. **Informed Consent**: Subjects understand scope dan withdrawal rights
+3. **Risk Management**: Protocol untuk distress selama stress test
+4. **No Harm**: MBP not used untuk seleksi/employment decisions dalam penelitian
+5. **Transparency**: Publish all findings, including negative results
 
-▲ M3: Rubric v1.0
-▲ M6: Pilot complete
-▲ M12: Reliability established
-▲ M18: Validity demonstrated
-▲ M24: Cross-cultural complete
-```
+## Timeline
 
----
+| Phase | Duration | Start | End |
+|-------|----------|-------|-----|
+| Design & Ethics | 2 months | Month 1 | Month 2 |
+| Recruitment | 1 month | Month 3 | Month 3 |
+| Data Collection | 14 months | Month 4 | Month 17 |
+| Analysis | 3 months | Month 16 | Month 18 |
+| Reporting | 2 months | Month 18 | Month 19 |
 
-## 📋 Resource Requirements
+**Total**: 19 months
+
+## Resources
 
 ### Personnel
+- Principal Investigator: 0.5 FTE
+- Research Assistants: 2 FTE
+- MBP Analysts: 3 (contracted per assessment)
+- Statistical Consultant: 0.25 FTE
 
-| Role | FTE | Duration |
-|------|-----|----------|
-| Principal Investigator | 0.5 | 24 months |
-| Research Assistants | 2.0 | 24 months |
-| Statistician | 0.25 | 24 months |
-| Cultural Consultants | - | As needed |
+### Equipment
+- Video recording setup
+- Secure data storage
+- Analysis software (SPSS/R)
 
-### Budget Estimate
+### Budget
+- Personnel: 70%
+- Equipment: 10%
+- Participant compensation: 15%
+- Miscellaneous: 5%
 
-| Item | Phase 1 | Phase 2 | Phase 3 | Phase 4 | Total |
-|------|---------|---------|---------|---------|-------|
-| Personnel | $15K | $25K | $30K | $35K | $105K |
-| Participant compensation | $5K | $10K | $15K | $20K | $50K |
-| Materials & supplies | $2K | $3K | $5K | $8K | $18K |
-| Statistical software | $1K | $1K | $2K | $2K | $6K |
-| Dissemination | - | - | $3K | $5K | $8K |
-| **TOTAL** | **$23K** | **$39K** | **$55K** | **$70K** | **$187K** |
+## Output
+
+### Academic
+- 2-3 peer-reviewed publications
+- Conference presentations
+
+### Practical
+- MBP Reliability Report
+- MBP Validity Documentation
+- Analyst Certification Protocol (refined)
+
+## Limitations & Mitigations
+
+| Limitation | Mitigation |
+|------------|------------|
+| Self-selection bias | Diverse recruitment channels |
+| Analyst training variance | Standardized certification |
+| Observer bias in stress test | Blinded coding, multiple raters |
+| Attrition (longitudinal) | Over-recruit, retention incentives |
+| Small sample size | Power analysis, effect size focus |
+
+## Success Definition
+
+MBP validated as reliable dan valid tool untuk structural profiling jika:
+1. Inter-rater reliability ≥70%
+2. Concurrent validity dengan established instruments
+3. Predictive accuracy ≥60% untuk stress response
+4. Subjectively rated useful oleh ≥70% participants
 
 ---
 
-*Generated by Dr. Zemetia Research & Structuring Agent*  
-*MirrorBreak Protocol - Fundamental Research Division*
+*Validation Plan — MBP Research Division*

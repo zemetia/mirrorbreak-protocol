@@ -1,176 +1,203 @@
-# Improvement Roadmap: MirrorBreak v2.0
+# 03 - Improvement Roadmap (MBP-Guided)
 
-**Compiled by:** Dr. Zemetia Agents  
-**Date:** March 2026  
-**Current Version:** v1.0  
-**Target Version:** v2.0
+## Principle
+
+Roadmap ini berdasarkan MBP: fokus pada struktur, bukan symptom. Perubahan terjadi ketika adaptive pattern lama tidak lagi diperlukan untuk survival.
+
+## Phase 1: Foundation (Weeks 1-4)
+
+### Objective
+Stabilisasi struktur dasar sebelum perubahan signifikan.
+
+### Focus Areas
+
+#### 1.1 Awareness Mapping
+- **Target**: Core Fear, Core Drive, Defense Mechanism
+- **Activity**: Daily log — kapan defense mechanism aktif?
+- **Metric**: Frekuensi identifikasi real-time
+- **Deliverable**: Personal MBP profile v1
+
+#### 1.2 Baseline Stabilization
+- **Target**: Emotional regulation baseline
+- **Activity**: Trigger identification + response logging
+- **Metric**: Recovery time ke baseline
+- **Deliverable**: Trigger map dengan recovery protocol
+
+#### 1.3 Support Structure
+- **Target**: Environment yang aman untuk eksplorasi
+- **Activity**: Boundary setting praktik
+- **Metric**: Successful boundary enforcement count
+- **Deliverable**: Clear boundaries documentation
+
+### Phase 1 Checklist
+- [ ] Core Fear teridentifikasi
+- [ ] Core Drive teridentifikasi  
+- [ ] Primary Defense Mechanism teridentifikasi
+- [ ] 5 trigger utama ter-mapping
+- [ ] 3 boundaries baru di-set
 
 ---
 
-## 🎯 Vision v2.0
+## Phase 2: Structural Work (Weeks 5-12)
+
+### Objective
+Modifikasi adaptive pattern yang tidak lagi fungsional.
+
+### Focus Areas
+
+#### 2.1 Cognitive Restructuring
+- **Target**: Bias validasi yang rigid
+- **Activity**: Stress test hipotesis diri
+- **Metric**: Flexibility score (kemampuan ubah perspektif)
+- **Deliverable**: Cognitive bias reduction log
+
+#### 2.2 Emotional Integration
+- **Target**: Gap antara felt dan expressed emotion
+- **Activity**: Gradual emotional disclosure
+- **Metric**: Alignment score (internal vs external)
+- **Deliverable**: Emotional vocabulary expansion
+
+#### 2.3 Relational Experimentation
+- **Target**: Attachment pattern & power dynamics
+- **Activity**: Relasi dengan safety gradient naik
+- **Metric**: Secure behavior frequency
+- **Deliverable**: Relational pattern shift evidence
+
+### Phase 2 Checklist
+- [ ] Bias validasi utama teridentifikasi
+- [ ] 3x stress test cognitive dilakukan
+- [ ] Emotional range expanded (new emotions accessed)
+- [ ] 1 secure attachment behavior practiced
+- [ ] Power dynamic experimentation documented
+
+---
+
+## Phase 3: Integration (Weeks 13-20)
+
+### Objective
+Integrasi perubahan ke identitas baru.
+
+### Focus Areas
+
+#### 3.1 Latent Strength Activation
+- **Target**: Konversi adaptasi lama ke kekuatan
+- **Activity**: Aplikasi adaptive skill di konteks baru
+- **Metric**: Strength utilization frequency
+- **Deliverable**: Personal strength portfolio
+
+#### 3.2 Persona-Core Alignment
+- **Target**: Reduksi gap persona-inti
+- **Activity**: Authenticity challenge di berbagai konteks
+- **Metric**: Authenticity score (felt vs displayed congruence)
+- **Deliverable**: Alignment report
+
+#### 3.3 Resilience Building
+- **Target**: Adaptive stress response
+- **Activity**: Graduated exposure to challenge
+- **Metric**: Recovery speed + growth indicator
+- **Deliverable**: Resilience profile
+
+### Phase 3 Checklist
+- [ ] 2 latent strengths di-activate
+- [ ] Gap persona-inti terukur (before vs after)
+- [ ] Authenticity score meningkat
+- [ ] Recovery time < baseline
+- [ ] Post-stress growth documented
+
+---
+
+## Phase 4: Mastery (Weeks 21-30)
+
+### Objective
+Otomatisasi struktur baru, maintenance mode.
+
+### Focus Areas
+
+#### 4.1 Automation
+- **Target**: New patterns menjadi default
+- **Activity**: Minimal conscious effort untuk maintenance
+- **Metric**: Automaticity score
+- **Deliverable**: Behavioral baseline shift
+
+#### 4.2 Stress Test
+- **Target**: Validasi stabilitas struktur baru
+- **Activity**: High-pressure situation navigation
+- **Metric**: Performance under pressure
+- **Deliverable**: Stress test report
+
+#### 4.3 Documentation
+- **Target**: Capture learning untuk future reference
+- **Activity**: Personal MBP case study
+- **Metric**: Completeness of documentation
+- **Deliverable**: MBP Self-Analysis Report
+
+### Phase 4 Checklist
+- [ ] New pattern automatic >80% situations
+- [ ] 3 high-pressure situations navigated successfully
+- [ ] Personal case study complete
+- [ ] Future trigger protocol established
+- [ ] Maintenance plan active
+
+---
+
+## PRIORITIZATION MATRIX
+
+| Area | Urgency | Impact | Effort | Priority |
+|------|---------|--------|--------|----------|
+| Awareness | High | High | Low | 1 |
+| Regulation | High | High | Medium | 2 |
+| Cognitive | Medium | High | High | 3 |
+| Relational | Medium | High | High | 4 |
+| Integration | Low | High | Medium | 5 |
+| Mastery | Low | Medium | Low | 6 |
+
+## PROGRESS TRACKING
 
 ```
-MIRRORBREAK EPDM v2.0
+WEEK: [   ]
 
-├── Quantitative Layer (numerical scores)
-├── Visual Mapping (heatmap/profile chart)
-├── Cultural Calibration Module
-├── Developmental Pathway Tracker
-├── Intervention Matching System
-└── Progress Monitoring Dashboard
+PHASE: [ ]1 [ ]2 [ ]3 [ ]4
+
+12-DIMENSION UPDATE:
+Cognitive:    [___/15] → [___/15]
+Emotional:    [___/15] → [___/15]
+Relational:   [___/15] → [___/15]
+Adaptive:     [___/15] → [___/15]
+
+STRUCTURAL INDICATORS:
+Core Fear awareness:    [ ] Not yet [ ] Recognized [ ] Understood [ ] Integrated
+Defense flexibility:    [ ] Rigid  [ ] Recognizing [ ] Challenging [ ] Flexible
+Persona-Core gap:       [___]% → [___]%
+
+WINS THIS WEEK:
+1. ________________
+2. ________________
+
+CHALLENGES:
+1. ________________
+
+ADJUSTMENTS FOR NEXT WEEK:
+____________________
 ```
 
----
+## CONTINGENCY PROTOCOLS
 
-## Phase 1: Foundation (Immediate - 0-3 months)
+### Regression Handling
+- **Signal**: Defense mechanism lama aktif >3x seminggu
+- **Response**: Return to Phase 1 activities untuk 1 minggu
+- **Evaluation**: Apa trigger baru? Apa kekurangan support?
 
-### Priority 1.1: Scoring System Standardization
-- [ ] Operational definitions untuk setiap dimensi
-- [ ] 5-level scoring rubric per sub-component
-- [ ] Confidence score formula finalization
-- [ ] Inter-rater reliability baseline testing
+### Plateau Handling
+- **Signal**: No progress >3 minggu
+- **Response**: Stress test — increase challenge level
+- **Evaluation**: Apa fear yang belum ter-address?
 
-### Priority 1.2: Measurement Templates
-- [ ] Stress-test battery standardization
-- [ ] Intake protocol scripting
-- [ ] Validation criteria checklist
-- [ ] Output format template
-
-### Priority 1.3: Taxonomy Development
-- [ ] Indicator taxonomy per dimensi (CD/ED/PD/AD)
-- [ ] Pattern classification system
-- [ ] Edge case documentation
-- [ ] Contradiction resolution protocol
+### Crisis Protocol
+- **Signal**: Dysregulation signifikan
+- **Response**: Pause active work, stabilize baseline
+- **Evaluation**: Butuh support eksternal?
 
 ---
 
-## Phase 2: Expansion (3-6 months)
-
-### Priority 2.1: New Dimensions
-- [ ] **Dimensi 5: Temporal Integration**
-  - Narrative coherence (McAdams' life story theory)
-  - Past-present-future orientation
-  - Trauma integration markers
-  
-- [ ] **Dimensi 6: Somatic/Biological Markers**
-  - Somatic awareness
-  - Stress response patterns
-  - Sleep/appetite/energy integration
-  
-- [ ] **Dimensi 7: Cultural/Ecological Context**
-  - Collectivist vs individualist adaptation
-  - Socioeconomic constraints
-  - Generational trauma markers
-
-### Priority 2.2: Decision Tree Framework
-- [ ] Mapping Core Fear → Defense → Intervention Pathway
-- [ ] Actionable recommendation generation
-- [ ] Risk assessment matrix
-- [ ] Progress indicator tracking
-
-### Priority 2.3: Knowledge Base Structure
-- [ ] Pattern repository setup
-- [ ] Case study anonymization protocol
-- [ ] Research notes organization
-- [ ] Version control system untuk model iterations
-
----
-
-## Phase 3: Validation (6-18 months)
-
-### Priority 3.1: Empirical Validation Roadmap
-
-| Fase | Aktivitas | Timeline | Success Criteria |
-|------|-----------|----------|------------------|
-| Pilot | Test 50+ subjects, refine rubrics | 3-6 bulan | Rubric stability >0.8 |
-| Reliability | Inter-rater & test-retest (n=100+) | 6-12 bulan | ICC >0.75 |
-| Validity | Correlation dengan NEO-PI, PAI, SCID | 12-18 bulan | r >0.6 dengan established tools |
-| Cross-cultural | Test 3+ cultural contexts | 18-24 bulan | Measurement invariance confirmed |
-
-### Priority 3.2: External Validation
-- [ ] Correlation studies dengan established instruments
-- [ ] Expert panel review
-- [ ] Peer review preparation
-- [ ] Academic collaboration exploration
-
-### Priority 3.3: Case Study Portfolio
-- [ ] Minimum 100 anonymized case studies
-- [ ] Longitudinal tracking (6+ months)
-- [ ] Pattern evolution documentation
-- [ ] Outcome correlation analysis
-
----
-
-## Phase 4: Operationalization (12-24 months)
-
-### Priority 4.1: Training & Certification
-- [ ] Training curriculum development
-- [ ] Competency assessment criteria
-- [ ] Certification pathway design
-- [ ] Continuing education requirements
-
-### Priority 4.2: Ethical Protocols
-- [ ] Informed consent template (stress testing disclosure)
-- [ ] Debriefing protocol standardization
-- [ ] Harm indicator checklist
-- [ ] Referral pathway documentation
-- [ ] Cultural competency requirements
-- [ ] Scope of practice boundaries
-
-### Priority 4.3: Tool Development
-- [ ] Digital assessment interface
-- [ ] Automated scoring algorithms
-- [ ] Visualization dashboard
-- [ ] Report generator
-- [ ] API untuk third-party integration
-
----
-
-## Phase 5: Scale (24+ months)
-
-### Priority 5.1: Longitudinal Tracking System
-- [ ] Multi-session pattern evolution tracking
-- [ ] Adaptation trajectory visualization
-- [ ] Intervention outcome correlation
-- [ ] Predictive modeling capabilities
-
-### Priority 5.2: Cross-Cultural Adaptation
-- [ ] Cultural calibration modules
-- [ ] Translation & back-translation protocols
-- [ ] Local norm establishment
-- [ ] Context-specific pattern libraries
-
-### Priority 5.3: Advanced Analytics
-- [ ] Machine learning pattern recognition
-- [ ] Predictive adaptive response modeling
-- [ ] Population-level pattern aggregation
-- [ ] Anomaly detection systems
-
----
-
-## 📊 Success Metrics
-
-| Area | v1.0 | v2.0 Target |
-|------|------|-------------|
-| Scoring System | Qualitative | Quantitative (0-100 scale) |
-| Dimensions | 4 | 7 |
-| Reliability | Unknown | ICC >0.75 |
-| Validity | Theoretical | Empirically validated |
-| Cultural Scope | Single | Multi-cultural |
-| Training | Ad-hoc | Certified program |
-| Tools | Manual | Digital platform |
-
----
-
-## 🔄 Feedback Loop
-
-```
-Implementation → Data Collection → Analysis → 
-Model Refinement → Documentation → Training Update → 
-Implementation (cycle continues)
-```
-
----
-
-*Compiled by: Dr. Zemetia Agents*  
-*Part of MirrorBreak Fundamental Research*
+*Roadmap generated via MBP Framework*
+*Timeline: Adjustable based on individual progression rate*

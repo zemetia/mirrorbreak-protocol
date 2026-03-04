@@ -1,286 +1,245 @@
-# MirrorBreak EPDM - Structural Assessment
-## Document 02: Penilaian Struktur Model
+# 02 - Structural Assessment (12 Sub-Dimensi Matrix)
 
-**Analyst:** Dr. Zemetia (Research & Structuring)  
-**Date:** 2026-03-04  
-**Subject:** Structural Integrity & Architecture Analysis  
-**Status:** 🔬 Fundamental Research
+## Overview
+
+Dokumen ini menggunakan 12 sub-dimensi MBP untuk menilai struktur psikologis secara sistematis. Setiap dimensi dinilai 1-5 berdasarkan observasi empiris, bukan self-report.
 
 ---
 
-## 🏗️ Overview Struktural
+## DOMAIN 1: KOGNITIF
 
-MirrorBreak EPDM menggunakan arsitektur **4-Dimensional Framework** dengan pendekatan assessment yang unik melalui stress testing dan multi-hypothesis generation.
+### 1.1 Pola Asosiasi
+| Score | Deskripsi |
+|-------|-----------|
+| 1 | Linear, sequential, sulit menghubungkan ide |
+| 2 | Mostly linear, asosiasi sederhana |
+| 3 | Campuran linear-simultan |
+| 4 | Associative, cross-domain connection |
+| 5 | Highly lateral, pattern synthesis cepat |
 
----
+**Signal**: Cara menjawab pertanyaan terbuka, metode problem-solving
 
-## 📐 Current Architecture
+### 1.2 Kecepatan Pemrosesan
+| Score | Deskripsi |
+|-------|-----------|
+| 1 | Lambat, perlu waktu lama memahami |
+| 2 | Sedang, pace standar |
+| 3 | Cepat untuk familiar, lambat untuk baru |
+| 4 | Cepat, dapat mengikuti kompleksitas |
+| 5 | Very fast, multiple stream processing |
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    MIRRORBREAK EPDM v1.0                    │
-├─────────────────────────────────────────────────────────────┤
-│  Input Layer: Subjective self-report + behavioral cues      │
-├─────────────────────────────────────────────────────────────┤
-│  Assessment Method:                                         │
-│  ├── Multi-hypothesis generation                            │
-│  ├── Stress testing (contradiction seeking)                 │
-│  └── Structural extraction                                  │
-├─────────────────────────────────────────────────────────────┤
-│  Four Core Dimensions:                                      │
-│  ├── 1. Depth of Causality                                  │
-│  ├── 2. Emotional Granularity                               │
-│  ├── 3. Defense Mechanism Integration                       │
-│  └── 4. Adaptive Core Coherence                             │
-├─────────────────────────────────────────────────────────────┤
-│  Output: 5 Structural Elements                              │
-│  ├── Core Fear                                              │
-│  ├── Defense Mechanism                                      │
-│  ├── Adaptive Strategy                                      │
-│  ├── Vulnerability Pattern                                  │
-│  └── Growth Vector                                          │
-└─────────────────────────────────────────────────────────────┘
-```
+**Signal**: Response time, kompleksitas yang bisa ditangani sekaligus
 
----
+### 1.3 Bias Validasi
+| Score | Deskripsi |
+|-------|-----------|
+| 1 | Sangat terbuka, mudah ubah keyakinan |
+| 2 | Cenderung fleksibel |
+| 3 | Moderat, selektif dalam validasi |
+| 4 | Cenderung defend keyakinan |
+| 5 | Rigid, konfirmasi berulang ke core fear |
 
-## ✅ Kekuatan Struktural
-
-### 1. Modular Design
-
-- **Keunggulan:** Setiap dimensi dapat dievaluasi independen
-- **Fleksibilitas:** Memungkinkan partial assessment jika diperlukan
-- **Skalabilitas:** Mudah menambahkan dimensi baru (lihat v2.0)
-
-### 2. Multi-Hypothesis Framework
-
-```
-Traditional: Single hypothesis → Confirmation bias
-MirrorBreak: Multiple hypotheses → Differential assessment
-
-Structure:
-├── Hypothesis A (Attachment-based)
-├── Hypothesis B (Trauma-based)
-├── Hypothesis C (Cognitive pattern)
-└── Selection: Best-fit through stress testing
-```
-
-### 3. Stress Testing Integration
-
-| Komponen | Fungsi | Struktural Value |
-|----------|--------|------------------|
-| Contradiction Seeking | Validasi hipotesis | Mencegah premature closure |
-| Edge Case Testing | Boundary exploration | Menemukan breaking points |
-| Pressure Application | Resistance mapping | Mengukur defense durability |
-
-### 4. Output Layer Consistency
-
-Lima struktur output memiliki hubungan logis:
-
-```
-Input Data
-    ↓
-Assessment Process
-    ↓
-┌─────────────────┬─────────────────┬─────────────────┐
-│   Core Fear     │  Defense Mech   │  Adaptive Strat │
-│   (Motivator)   │  (Protector)    │  (Coping Style) │
-└────────┬────────┴────────┬────────┴────────┬────────┘
-         │                 │                 │
-         └─────────────────┼─────────────────┘
-                           ↓
-              ┌─────────────────────┐
-              │  Vulnerability      │
-              │  Pattern            │
-              │  (Exposure points)  │
-              └──────────┬──────────┘
-                         ↓
-              ┌─────────────────────┐
-              │   Growth Vector     │
-              │   (Intervention     │
-              │    direction)       │
-              └─────────────────────┘
-```
+**Signal**: Reaksi terhadap bukti bertentangan, defensiveness
 
 ---
 
-## ⚠️ Kelemahan Struktural
+## DOMAIN 2: EMOSIONAL
 
-### Issue #1: Absensi Quantitative Layer
+### 2.1 Kedalaman (Emotional Range)
+| Score | Deskripsi |
+|-------|-----------|
+| 1 | Terbatas, 1-2 emosi dominan |
+| 2 | Sempit, beberapa emosi familiar |
+| 3 | Moderat, range standar |
+| 4 | Luas, nuansa emosi dikenali |
+| 5 | Very deep, emotional complexity tinggi |
 
-**Current State:** Qualitative only
-```
-Problem:
-├── "Depth of Causality" → descriptive, no numerical score
-├── "Emotional Granularity" → subjective interpretation
-└── "Adaptive Core Coherence" → no measurement scale
-```
+**Signal**: Vocabulary emosi, kemampuan mendeskripsikan perasaan
 
-**Impact:**
-- ❌ Tidak bisa tracking progress over time
-- ❌ Sulit membandingkan antar individu
-- ❌ Validasi empiris terhambat
+### 2.2 Regulasi
+| Score | Deskripsi |
+|-------|-----------|
+| 1 | Dysregulated, reaktif |
+| 2 | Cenderung impulsive |
+| 3 | Moderat, kadang overwhelmed |
+| 4 | Baik, strategi aktif |
+| 5 | Excellent, adaptive regulation |
 
-**Solution:** Develop scoring rubrics (lihat `03-improvement-roadmap.md`)
+**Signal**: Recovery time, coping mechanism quality
 
----
+### 2.3 Ekspresi
+| Score | Deskripsi |
+|-------|-----------|
+| 1 | Highly filtered/tidak ekspresif |
+| 2 | Cenderung inhibit |
+| 3 | Kontekstual, moderate |
+| 4 | Cenderung ekspresif |
+| 5 | Authentic, minimal filter |
 
-### Issue #2: Missing Temporal Dimension
-
-**Gap:** Model mengukur "state" tapi kurang "trait trajectory"
-
-```
-Current:     [Snapshot assessment]
-                    ↓
-              Static structure
-
-Needed:     [Past] ← [Present] → [Future]
-                  ↓         ↓
-           Developmental   Predictive
-           pathway        trajectory
-```
-
-**Missing Components:**
-- [ ] Narrative coherence tracking
-- [ ] Critical period markers
-- [ ] Plasticity windows
-- [ ] Life stage calibration
+**Signal**: Alignment verbal-nonverbal, emotional leakage
 
 ---
 
-### Issue #3: Relational Dynamics Underdeveloped
+## DOMAIN 3: RELASIONAL
 
-**Current:** Individual-focused only
-**Needed:** Multi-system perspective
+### 3.1 Attachment Style
+| Score | Deskripsi |
+|-------|-----------|
+| 1 | Anxious (fear abandonment, clingy) |
+| 2 | Anxious-Avoidant swing |
+| 3 | Disorganized/inconsistent |
+| 4 | Avoidant (fear intimacy, distant) |
+| 5 | Secure (comfortable with intimacy & independence) |
 
-```
-Individual System ←→ Dyadic Interaction ←→ Environmental Context
-        │                   │                     │
-        └───────────────────┴─────────────────────┘
-                    Missing links:
-                    ├── Bidirectional influence mapping
-                    ├── Attachment pattern integration
-                    └── Social ecosystem analysis
-```
+**Signal**: Relasi dekat, respons terhadap konflik, need for reassurance
 
----
+### 3.2 Power Dynamics
+| Score | Deskripsi |
+|-------|-----------|
+| 1 | Submissive, avoid power |
+| 2 | Cenderung defer |
+| 3 | Situasional, contextual |
+| 4 | Cenderung lead |
+| 5 | Dominant, comfortable with power |
 
-### Issue #4: No Decision Tree for Interventions
+**Signal**: Default position dalam grup, response to authority
 
-**Current Output:** 5 structural elements
-**Missing:** Clear pathway to actionable recommendations
+### 3.3 Boundary
+| Score | Deskripsi |
+|-------|-----------|
+| 1 | Porous, mudah violated |
+| 2 | Loose, sulit enforce |
+| 3 | Inconsistent |
+| 4 | Clear, mostly enforced |
+| 5 | Rigid & well-enforced |
 
-```
-Current Flow:
-Assessment → Structural Extraction → [STOP]
-                               ↓
-                        Manual interpretation
-                        (inconsistent)
-
-Needed Flow:
-Assessment → Structural Extraction → Decision Tree → Matched Intervention
-                               ↓
-                        Algorithmic matching
-                        (consistent & replicable)
-```
-
----
-
-### Issue #5: Cultural Calibration Absent
-
-**Structural Gap:** Universal assumptions without contextual adjustment
-
-| Component | Current Assumption | Cultural Variation Needed |
-|-----------|-------------------|---------------------------|
-| Emotional Granularity | Individual expression | Collectivist vs Individualist |
-| Defense Mechanism | Western framework | Eastern conceptualizations |
-| Adaptive Core | Autonomy-focused | Interdependence-focused |
+**Signal**: Ability to say no, response to violation, personal space
 
 ---
 
-## 📊 Struktural Integrity Scorecard
+## DOMAIN 4: ADAPTIF
 
-| Komponen | Score | Notes |
-|----------|-------|-------|
-| Conceptual Foundation | 9/10 | Strong theoretical grounding |
-| Modularity | 8/10 | Good separation of concerns |
-| Scalability | 7/10 | Can expand, needs planning |
-| Measurement Precision | 4/10 | Major gap - qualitative only |
-| Temporal Integration | 3/10 | Missing developmental view |
-| Relational Mapping | 4/10 | Individual focus too narrow |
-| Intervention Bridge | 2/10 | No clear decision pathway |
-| Cultural Adaptability | 2/10 | Universal assumptions |
-| **OVERALL** | **5.5/10** | **Solid base, needs significant enhancement** |
+### 4.1 Response to Stress
+| Score | Deskripsi |
+|-------|-----------|
+| 1 | Freeze/shutdown |
+| 2 | Flight/avoidance |
+| 3 | Fight/confrontation |
+| 4 | Tend-and-befriend |
+| 5 | Adaptive, context-dependent |
 
----
+**Signal**: Stress behavior, pressure response
 
-## 🎯 Rekomendasi Struktural Prioritas
+### 4.2 Recovery Pattern
+| Score | Deskripsi |
+|-------|-----------|
+| 1 | Slow, prolonged distress |
+| 2 | Gradual, needs support |
+| 3 | Moderate, self-recovering |
+| 4 | Fast, resilient |
+| 5 | Very fast, antifragile |
 
-### HIGH Priority (Critical)
+**Signal**: Time to baseline, learning from stress
 
-1. **Implement Quantitative Layer**
-   ```
-   Priority: P0
-   Effort: High
-   Impact: Critical
-   ```
+### 4.3 Growth Trajectory
+| Score | Deskripsi |
+|-------|-----------|
+| 1 | Stuck, repetitive patterns |
+| 2 | Slow incremental |
+| 3 | Moderate growth |
+| 4 | Consistent improvement |
+| 5 | Rapid, transformative |
 
-2. **Build Decision Tree System**
-   ```
-   Priority: P0
-   Effort: Medium
-   Impact: High
-   ```
-
-### MEDIUM Priority (Important)
-
-3. **Add Temporal Dimension Module**
-4. **Develop Relational Dynamics Layer**
-
-### LOWER Priority (Enhancement)
-
-5. **Cultural Calibration System**
-6. **Visual Mapping Interface**
+**Signal**: Adaptasi dari pengalaman, openness to change
 
 ---
 
-## 🔄 Arsitektur v2.0 Preview
+## SCORING SHEET
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                    MIRRORBREAK EPDM v2.0                    │
-├─────────────────────────────────────────────────────────────┤
-│  NEW: Quantitative Layer (0-100 scoring per dimension)      │
-├─────────────────────────────────────────────────────────────┤
-│  NEW: Temporal Integration Module                           │
-│  ├── Narrative coherence tracker                            │
-│  ├── Developmental pathway mapping                          │
-│  └── Critical period markers                                │
-├─────────────────────────────────────────────────────────────┤
-│  NEW: Relational Dynamics Layer                             │
-│  ├── Dyadic interaction mapping                             │
-│  ├── Attachment pattern integration                         │
-│  └── Environmental context analysis                         │
-├─────────────────────────────────────────────────────────────┤
-│  NEW: Decision Tree Engine                                  │
-│  └── Structural Profile → Matched Intervention Pathway      │
-├─────────────────────────────────────────────────────────────┤
-│  NEW: Cultural Calibration Module                           │
-│  └── Context-specific interpretation rules                  │
-└─────────────────────────────────────────────────────────────┘
+Subject: [Identifier]
+Date: [YYYY-MM-DD]
+Analyst: [Name]
+
+DOMAIN 1: KOGNITIF
+□ 1.1 Pola Asosiasi        [ ]/5
+□ 1.2 Kecepatan Proses     [ ]/5
+□ 1.3 Bias Validasi        [ ]/5
+Subtotal: ___/15
+
+DOMAIN 2: EMOSIONAL
+□ 2.1 Kedalaman            [ ]/5
+□ 2.2 Regulasi             [ ]/5
+□ 2.3 Ekspresi             [ ]/5
+Subtotal: ___/15
+
+DOMAIN 3: RELASIONAL
+□ 3.1 Attachment           [ ]/5
+□ 3.2 Power Dynamics       [ ]/5
+□ 3.3 Boundary             [ ]/5
+Subtotal: ___/15
+
+DOMAIN 4: ADAPTIF
+□ 4.1 Stress Response      [ ]/5
+□ 4.2 Recovery             [ ]/5
+□ 4.3 Growth               [ ]/5
+Subtotal: ___/15
+
+TOTAL SCORE: ___/60
 ```
 
 ---
 
-## 📋 Action Items
+## INTERPRETATION GUIDE
 
-- [ ] Develop operational definitions untuk 4 core dimensions
-- [ ] Design scoring rubrics (1-5 scale per dimension)
-- [ ] Create decision tree mapping (5 structures → interventions)
-- [ ] Draft temporal integration framework
-- [ ] Design relational dynamics assessment protocol
+### Cognitive Profile
+- **High (12-15)**: Analytical strength, potential analysis paralysis
+- **Mid (9-11)**: Balanced, adaptable
+- **Low (3-8)**: Simplification preference, possible overwhelm dengan kompleksitas
+
+### Emotional Profile
+- **High (12-15)**: Emotional intelligence, possible emotional exhaustion
+- **Mid (9-11)**: Functional balance
+- **Low (3-8)**: Emotional constriction, possible alexithymia
+
+### Relational Profile
+- **High (12-15)**: Strong interpersonal skills, possible boundary issues
+- **Mid (9-11)**: Socially functional
+- **Low (3-8)**: Relational difficulties, attachment wounds
+
+### Adaptive Profile
+- **High (12-15)**: Resilience, possible under-challenge
+- **Mid (9-11)**: Adequate coping
+- **Low (3-8)**: Vulnerability to stress, need support structures
+
+### Total Score
+- **48-60**: High structural integration
+- **36-47**: Moderate integration, selective growth areas
+- **24-35**: Fragmentasi, perlu fokus pada foundation
+- **<24**: Significant restructuring needed
 
 ---
 
-*Generated by Dr. Zemetia Research & Structuring Agent*  
-*MirrorBreak Protocol - Fundamental Research Division*
+## VISUALIZATION
+
+```
+KOGNITIF    [====      ] 12/15
+EMOSIONAL   [=====     ] 14/15
+RELASIONAL  [===       ] 8/15
+ADAPTIF     [====      ] 10/15
+            ─────────────────
+TOTAL       [====      ] 44/60
+```
+
+## GAP IDENTIFICATION
+
+| Domain | Strong | Weak | Interpretation |
+|--------|--------|------|----------------|
+| C vs E | [ ]/[ ] | [ ]/[ ] | Thinking vs feeling balance |
+| C vs R | [ ]/[ ] | [ ]/[ ] | Independence vs connection |
+| E vs A | [ ]/[ ] | [ ]/[ ] | Emotional depth vs resilience |
+| R vs A | [ ]/[ ] | [ ]/[ ] | Social needs vs autonomy |
+
+---
+
+*Assessment completed via MBP 12-Dimension Matrix*
