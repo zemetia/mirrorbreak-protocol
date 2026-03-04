@@ -120,12 +120,22 @@ Outputs:
 
 ---
 
+## Model Versions
+
+| Version | Name | Status | Description |
+|---------|------|--------|-------------|
+| v1.0 | EPDM (4 Dimensions) | ✅ Documented | Empirical Pattern Deconstruction Model — 4 domain utama |
+| v1.1 | **Matrix (12 Sub-Dimensions)** | 🆕 Latest | Cross-structural sub-dimensions dengan interaction matrix |
+
 ## Repository Structure
 
 ```
 mirrorbreak-protocol/
 ├── README.md              # This file
 ├── core-model/            # Core framework documentation
+│   ├── MODEL.md          # EPDM v1.0 — 4 Dimensions
+│   └── MATRIX-v1.md      # Matrix v1 — 12 Sub-Dimensions ⭐
+├── fundamental-research/  # Research analysis & roadmap
 ├── research/              # Research findings and analysis
 ├── implementations/       # Practical implementations
 └── docs/                  # Additional documentation
