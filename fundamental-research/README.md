@@ -35,7 +35,135 @@ This distinguishes MBP from:
 
 ---
 
-## 2. Multi-Field Hypothesis Architecture
+## 2. Question Design Methodology ⭐ NEW
+
+### 2.1 Fixed vs Adaptive Question Architecture
+
+MBP menggunakan **tiered question design** dengan rasio fixed:adaptive yang berbeda per phase:
+
+| Phase | Fixed % | Adaptive % | Design Philosophy |
+|-------|---------|------------|-------------------|
+| **0. Safety** | 100% | 0% | Universal screening, no customization. Hard contraindications must be detected consistently. |
+| **1. Core** | 70% | 30% | Structural anchors (tension generators) + response-style follow-up |
+| **2. Adaptive** | 20% | 80% | Hypothesis-driven pursuit of specific 12D coordinates |
+| **3. Mining** | 0% | 100% | Pure adaptive pursuit of adaptation patterns (not trauma events) |
+| **4. Cross-Val** | 50% | 50% | Fixed contradiction detectors + dynamic stress tests |
+
+### 2.2 Fixed Question Design: Tension Generators
+
+Fixed questions dalam MBP dirancang untuk **sengaja create dimensional tension** — bukan flat assessment seperti "Rate your self-esteem 1-10."
+
+#### Design Patterns
+
+**Pattern A: Somatic-Cognitive Split**
+```
+Question: "Kamu bilang decision-making mu sangat logical. 
+          Coba ceritain decision terbesar akhir tahun ini — 
+          apa yang tubuhmu rasakan 5 detik sebelum bilang 'yes'?"
+
+Target Tension: AB (analytical claim) × Stress Response (somatic freeze)
+Purpose: Expose pre-cognitive overwhelm yang tidak masuk ke narrative
+```
+
+**Pattern B: Temporal Contradiction**
+```
+Question: "Kalau bisa kasih advice ke diri mu 5 tahun lalu, 
+          apa yang kamu bilang? ... 
+          Terus kenapa advice yang sama nggak kamu apply sekarang?"
+
+Target Tension: ASC (self-awareness) × COI (consistency over time)
+Purpose: Reveal knowing-doing gap sebagai structural signature
+```
+
+**Pattern C: Context Switch**
+```
+Question: "Di kantor, kamu tipe yang gimana? ... 
+          Di rumah sama keluarga?"
+
+Target Tension: RSI (relationship structure) × Compartmentalization
+Purpose: Detect ego-state switching tanpa explicit dissociation inquiry
+```
+
+**Pattern D: Values Hierarchy Test**
+```
+Question: "Kalau disuruh rank: Comfort, Growth, Recognition, Stability 
+          — urutannya gimana? ... 
+          Terus decision terakhir yang melawan ranking itu kapan?"
+
+Target Tension: COI (consistency test)
+Purpose: Reveal when actions contradict stated values
+```
+
+### 2.3 Adaptive Question Flow: Hypothesis-Driven Branching
+
+Adaptive questions **tidak menggunakan template** — mereka adalah pursuit of specific hypotheses yang di-generate dari Analyzer output.
+
+#### Workflow Example
+
+```
+Subject Response: "Aku sih orangnya chill, nggak gampang marah."
+
+Step 1: ANALYZER OUTPUT
+- Linguistic marker: absolute claim ("nggak gampang") 
+- Pattern: glorified self-image
+- Affect: flat (suppression indicator)
+
+Step 2: HYPOTHESISMAKER
+- Field: Defense Mechanism
+- H1: Emotional suppression (P=0.6)
+- H2: Genuine low reactivity (P=0.25)
+- H3: Disconnection dari affect (P=0.15)
+- Cross-field: ARP likely high-rigid
+
+Step 3: QUESTIONMAKER GENERATES
+"Kapan terakhir kali kamu bener-bener marah? 
+ Bukan annoyed, tapi marah yang sampe pengen break something?"
+
+Rationale: Stress test VB claim vs Emotional Structure reality
+
+Step 4: SUBJECT RESPONSE
+"Hmmm... tahun lalu sih, cuma aku diam aja."
+
+Step 5: HYPOTHESISREFINER UPDATE
+- H1 confirmed: Suppression dengan behavioral inhibition
+- Trigger context: legitimacy wound (ASC-related)
+- Confidence: 75%
+
+Step 6: NEXT QUESTION (ADAPTIVE)
+"Kenapa kamu pilih diam aja waktu itu? 
+ Apa yang bakal terjadi kalau kamu express?"
+
+Purpose: Mining adaptation origin (Phase 3 transition)
+```
+
+### 2.4 Cross-Validation Question Techniques
+
+**Technique 1: Innocent Mirror**
+```
+"Menarik... jadi di situasi A kamu bilang X, 
+ tapi di situasi B kamu mention Y. 
+ Itu karena context-nya beda, atau memang ada approach 
+ yang berbeda untuk situasi berbeda?"
+
+Delivery: Curious, non-confrontational
+Purpose: Invite subject untuk reconcile contradiction sendiri
+Avoid: "Kamu contradicted!" (defensive trigger)
+```
+
+**Technique 2: Presupposition Challenge**
+```
+"Kamu bilang 'itu bukan masalah buatku'. 
+ Coba bayangin scenario: besok situation X terjadi lagi, 
+ tapi kali ini kamu NGGAK bisa handle dengan cara biasanya. 
+ Apa yang bakal muncul?"
+
+Purpose: Test rigidity vs flexibility (CRF)
+Expose: Hidden dependency pada defense mechanism
+```
+
+---
+
+## 3. Multi-Field Hypothesis Architecture
 
 ### 2.1 Structure
 
@@ -94,7 +222,80 @@ Iteration 3: Coherent structural profile
 
 ---
 
-## 3. The 12-Dimensional Matrix: Psychometric Analysis
+## 3. Safety-First Architecture ⭐ NEW
+
+### 3.1 Phase 0: Pre-Screening Protocol
+
+**Purpose**: Detect contraindications sebelum contradiction exposure.
+
+**Hard Contraindications** (Do Not Proceed):
+| Condition | Detection Method | Rationale |
+|-----------|------------------|-----------|
+| Active suicidality with plan/intent | Direct question + behavioral cues | Stress testing increases risk |
+| Acute psychotic episode | Reality testing indicators | Cannot engage with contradiction |
+| Severe dissociative disorder (unmanaged) | Amnesia reports, identity confusion | Destabilization risk |
+| Recent trauma (<3mo) with active symptoms | Timeline + symptom check | False memory / retraumatization risk |
+
+**Screening Questions (Fixed, Universal):**
+
+1. **General Distress**: *"Ada nggak hal yang bikin kamu recently feel overwhelmed atau stuck?"*
+   - Listen for: Hopelessness, helplessness, recent loss
+
+2. **Regulation Capacity**: *"Kalau ada memory atau topik yang muncul dan bikin kamu uncomfortable, kamu punya coping mechanism yang biasanya work?"*
+   - Listen for: No coping, self-harm history, substance use
+
+3. **Safety Check**: *"Saat ini, ada nggak pikiran untuk harm yourself atau others?"*
+   - Direct, non-euphemistic
+   - Any "yes" → halt protocol, crisis referral
+
+### 3.2 Phase 3: Adaptation Mining Safety
+
+**Core Principle**: Mine "how they survived", not "what happened to them."
+
+| Safe | Unsafe |
+|------|--------|
+| "Kapan pertama kali kamu sadar harus jadi 'orang yang kuat'?" | "Ceritain detail kejadian traumanya." |
+| "Hal apa yang paling sering kamu sacrifice untuk maintain image ini?" | "Kamu masih flashback ke kejadian itu?" |
+| "Situasi seperti apa yang bikin pattern ini nggak work lagi?" | "Who hurt you?" |
+
+**Redirect Protocol:**
+Jika subject spontaneously menuju traumatic content:
+```
+"I notice we're getting into specific events. 
+ Untuk tujuan hari ini, lebih helpful kalau kita focus 
+ pada pattern yang kamu develop sebagai respons — 
+ bagaimana kamu learn untuk survive situasi itu. 
+ Cerita detail event-nya bisa kita explore 
+ di konteks therapeutic yang proper."
+```
+
+### 3.3 Phase 6: Debriefing Protocol
+
+**Mandatory Components:**
+
+1. **Resonance Check**
+   > *"Dari apa yang kita bahas, ada yang feel off atau nggak resonate?"*
+   
+   Purpose: Correct misinterpretation, validate subject's self-knowledge
+
+2. **Grounding**
+   - Resource anchoring: *"Coba inget satu moment baru-baru ini yang feel positive..."*
+   - Somatic return: *"Notice your breath... your feet on the ground..."*
+
+3. **Exit Strategy**
+   - Provide: Emergency contacts
+   - Schedule: Follow-up check-in (24-48h)
+   - Clarify: "Ini bukan therapy, ini assessment"
+
+4. **Crisis Protocol**
+   Jika distress emerges post-session:
+   - Immediate grounding techniques
+   - Professional referral pathways
+   - No "coaching" through crisis
+
+---
+
+## 4. The 12-Dimensional Matrix: Psychometric Analysis
 
 ### 3.1 Dimensional Structure
 

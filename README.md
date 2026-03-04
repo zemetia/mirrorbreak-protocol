@@ -50,23 +50,104 @@ MirrorBreak is not about labeling personalities. It's about understanding the ad
 
 ## The 6-Phase Workflow
 
-### Phase 0: Safety Screening
-Pre-session check: psychological readiness, crisis indicators, consent protocols.
+### Phase 0: Safety Screening ⭐ CRITICAL
+**Fixed: 100% | Adaptive: 0%**
+
+Pre-session check untuk detect contraindications sebelum lanjut:
+- **Crisis Indicators**: Active suicidality, recent trauma exposure (<3mo), psychosis signs
+- **Readiness Assessment**: Capacity for stress-testing, emotional regulation baseline
+- **Consent Protocol**: Explicit agreement untuk contradiction exposure, right to stop anytime
+
+**⚠️ HARD STOP jika**: Acute suicidality, active psychosis, severe dissociative disorder tanpa supervision.
+
+---
 
 ### Phase 1: Core Questioning
-Empathy mapping, adaptation archaeology, value tension exploration.
+**Fixed: 70% | Adaptive: 30%**
+
+**Fixed Questions (Tension Generators):**
+Dirancang untuk **sengaja create dimensional tension**, bukan flat assessment.
+
+| Pattern | Contoh Question | Tension Pair |
+|---------|-----------------|--------------|
+| Somatic-Cognitive Split | "Kamu bilang decision-making mu sangat logical. Coba ceritain decision terbesar akhir tahun ini — apa yang tubuhmu rasakan 5 detik sebelum bilang 'yes'?" | AB × Stress Response |
+| Temporal Contradiction | "Kalau bisa kasih advice ke diri mu 5 tahun lalu, apa yang kamu bilang? ... Terus kenapa advice yang sama nggak kamu apply sekarang?" | ASC × COI |
+| Context Switch | "Di kantor, kamu tipe yang gimana? ... Di rumah sama keluarga?" | RSI × Compartmentalization |
+| Values Hierarchy | "Kalau disuruh rank: Comfort, Growth, Recognition, Stability — urutannya gimana? ... Terus decision terakhir yang melawan ranking itu kapan?" | COI test |
+
+**Adaptive Component:** 2-3 follow-up berdasarkan response style (rapidity, defensiveness, granularity).
+
+---
 
 ### Phase 2: Adaptive Probing
-Test hypothesis precision, probe contradiction tolerance, validate/eliminate leads.
+**Fixed: 20% | Adaptive: 80%**
 
-### Phase 3: Pattern Mining
-Mine adaptation patterns (not trauma events), identify adaptive strength conversions, extract structural signatures.
+**Hypothesis-Driven Questioning** — bukan template, tapi pursuit of specific 12D coordinates.
+
+**Contoh Workflow:**
+
+**Response:** *"Aku sih orangnya chill, nggak gampang marah."*
+
+**Analyzer Output:** High VB claim, suppression indicators detected.
+
+**HypothesisMaker:** *"Subject memiliki glorified self-image 'stoic/cool', defense mechanism likely emotional suppression. ARP probably high-rigid."*
+
+**QuestionMaker generates:**
+> *"Kapan terakhir kali kamu bener-bener marah? Bukan annoyed, tapi marah yang sampe pengen break something?"*
+
+→ Stress test: VB claim vs Emotional Structure reality
+
+**Kalau jawaban:** *"Hmmm... tahun lalu sih, cuma aku diam aja."*
+
+**Refiner Update:** *"Confirmation: Suppression confirmed. Explore trigger context — likely legitimacy wound (ASC-related)."*
+
+**Next Question:**
+> *"Kenapa kamu pilih diam aja waktu itu? Apa yang bakal terjadi kalau kamu express?"*
+
+→ Mining adaptation origin
+
+---
+
+### Phase 3: Adaptation Pattern Mining
+**Fixed: 0% | Adaptive: 100%**
+
+Pure pursuit of **adaptation patterns** (bukan trauma events):
+
+**Core Principle:** Mine "how they survived", not "what happened to them."
+
+**Adaptive Probe Types:**
+- Origin tracing: *"Kapan pertama kali kamu sadar harus jadi 'orang yang X'?"*
+- Cost exploration: *"Hal apa yang paling sering kamu sacrifice untuk maintain image ini?"*
+- Context mapping: *"Situasi seperti apa yang bikin pattern ini nggak work lagi?"*
+
+**⚠️ Safety Protocol:** Jika subject menuju traumatic content, redirect ke adaptation pattern-nya, bukan event details.
+
+---
 
 ### Phase 4: Cross-Validation
-Apply 12D Matrix tension network, detect persona cracks via cross-dimension contradictions, stress-test hypotheses.
+**Fixed: 50% | Adaptive: 50%**
+
+**Apply 12D Matrix Tension Network** untuk expose persona cracks.
+
+**Fixed: Contradiction Detectors**
+- AB × Stress Response: Analytical claim vs somatic freeze
+- EG × VB: Awareness-expression gap
+- RS × ARP: Recognition need vs dominance compensation
+- ASC × Emotional Structure: Legitimacy test untuk glorification defense
+
+**Adaptive: Stress Tests**
+
+Teknik "Innocent Mirror":
+> *"Menarik... jadi di situasi A kamu bilang X, tapi di situasi B kamu mention Y. Itu karena context-nya beda, atau memang ada approach yang berbeda untuk situasi berbeda?"*
+
+→ Bukan "kamu contradicted!" tapi "help me understand the nuance"
+
+---
 
 ### Phase 5: Structural Synthesis
-Integrate field analyses, resolve contradictions (or classify as Type A/B/C integration failure), generate final profile with confidence levels.
+Integrate field analyses, resolve contradictions (atau classify sebagai Type A/B/C integration failure), generate final profile dengan confidence levels.
+
+---
 
 ### Phase 6: Debriefing
 Subjective resonance check, responsible delivery, self-awareness tools, crisis protocols.
