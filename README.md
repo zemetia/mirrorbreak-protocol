@@ -125,20 +125,27 @@ Outputs:
 | Version | Name | Status | Description |
 |---------|------|--------|-------------|
 | v1.0 | EPDM (4 Dimensions) | ✅ Documented | Empirical Pattern Deconstruction Model — 4 domain utama |
-| v1.1 | **Matrix (12 Sub-Dimensions)** | 🆕 Latest | Cross-structural sub-dimensions dengan interaction matrix |
+| v1.1 | **Matrix (12 Sub-Dimensions)** | ✅ Documented | Cross-structural sub-dimensions dengan interaction matrix |
+| v1.1 | **Integration** | 🆕 Latest | 6-Phase workflow + Matrix backend + Safety protocols ⭐ |
 
 ## Repository Structure
 
 ```
 mirrorbreak-protocol/
-├── README.md              # This file
-├── core-model/            # Core framework documentation
-│   ├── MODEL.md          # EPDM v1.0 — 4 Dimensions
-│   └── MATRIX-v1.md      # Matrix v1 — 12 Sub-Dimensions ⭐
-├── fundamental-research/  # Research analysis & roadmap
-├── research/              # Research findings and analysis
-├── implementations/       # Practical implementations
-└── docs/                  # Additional documentation
+├── README.md                   # This file
+├── core-model/                 # Core framework documentation
+│   ├── MODEL.md               # EPDM v1.0 — 4 Dimensions
+│   ├── MATRIX-v1.md           # Matrix v1 — 12 Sub-Dimensions
+│   └── INTEGRATION-v1.1.md    # Integrated 6-Phase System ⭐
+├── fundamental-research/       # Research analysis & roadmap
+│   ├── 01-psychological-analysis.md
+│   ├── 02-structural-assessment.md
+│   ├── 03-improvement-roadmap.md
+│   ├── 04-research-validation-plan.md
+│   └── integration-report.md
+├── research/                   # Research findings
+├── implementations/            # Practical implementations
+└── docs/                       # Additional documentation
 ```
 
 ---
