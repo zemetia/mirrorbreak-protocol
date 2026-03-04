@@ -43,15 +43,39 @@ Phase 0: Safety → Phase 1: Core → Phase 2: Probing → Phase 3: Mining → P
 
 ## Phase 2: Adaptive Probing
 
-**Tujuan:** Fill gaps & test hypotheses
+**Tujuan:** Fill gaps & test hypotheses across multiple fields
+
+### Multi-Field Hypothesis System
+
+Hipotesis tidak tunggal — tapi **per-field** dengan refinement iteratif:
+
+```
+FIELD 1: Relasi Keluarga
+├── H1: Masalah dengan ibu (weight: 0.4)
+├── H2: Ayah tidak hadir → ibu tertekan (weight: 0.5)
+└── H3: Sibling rivalry dominant (weight: 0.1)
+
+FIELD 2: Struktur Kognitif
+├── H1: Binary thinker (weight: 0.3)
+├── H2: Contextual dengan rigid core (weight: 0.6)
+└── H3: Fluid tapi under stress → rigid (weight: 0.1)
+
+FIELD N: [Domain lain]
+└── [Hipotesis bersaing]
+```
+
+**Refinement Loop:**
+- Hipotesis terkuat di setiap field diperhalus iteratif
+- Confidence update per field: `P(H|Evidence) = P(E|H) × P(H) / P(E)`
+- Cross-field integration untuk coherent profile
 
 **Trigger:**
-- If confidence < 0.7 → Probe deeper
-- If contradiction detected → Devil's advocate
+- If confidence < 0.7 pada field tertentu → Probe field tersebut
+- If contradiction antar field → Cross-validation
 - If unclear pattern → Forced choice
 
 **Teknik:**
-- **Devil's Advocate:** Cari bukti kontra untuk setiap hipotesis
+- **Devil's Advocate:** Cari bukti kontra untuk hipotesis terkuat per field
 - **Forced Choice:** Trade-off scenarios ("diabaikan teman vs dikritik publik")
 - **Surprise Probe:** "Apa yang paling sering disalahpahami orang tentang kamu?"
 

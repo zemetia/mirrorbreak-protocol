@@ -7,17 +7,26 @@
 ## Metodologi
 
 ```
-Observe → Hypothesize → Stress Test → Affirm/Reject → Refine → Extract Structure
+Observe → Hypothesize (Multi-Field) → Stress Test → Affirm/Reject → Refine → Extract Structure
 ```
 
 | Tahap | Fungsi |
 |-------|--------|
 | **Observe** | Kumpulkan data: pola respons, narrative, behavioral cues |
-| **Hypothesize** | Bangun hipotesis struktural (min. 3 yang bersaing) |
-| **Stress Test** | Uji dengan skenario kontradiktif, cari keretakan |
-| **Affirm/Reject** | Skor berdasarkan evidence, contradiction, emotional shift |
-| **Refine** | Perhalus hipotesis yang survive |
-| **Extract** | Ekstrak struktur inti |
+| **Hypothesize** | Bangun **multiple fields**, tiap field punya 3+ hipotesis bersaing |
+| **Stress Test** | Uji per-field dengan skenario kontradiktif |
+| **Affirm/Reject** | Bayesian update: `P(H|E) = P(E|H) × P(H) / P(E)` per field |
+| **Refine** | Hipotesis terkuat per field diperhalus iteratif → semakin personal |
+| **Extract** | Integrasi cross-field → struktur inti |
+
+### Multi-Field Architecture
+
+| Field | Contoh Hipotesis Bersaing |
+|-------|---------------------------|
+| **Relasi Keluarga** | H1: Masalah ibu / H2: Ayah tidak hadir → ibu tertekan / H3: Sibling rivalry |
+| **Struktur Kognitif** | H1: Binary / H2: Contextual dengan rigid core / H3: Fluid-under-stress |
+| **Attachment Pattern** | H1: Avoidant / H2: Anxious / H3: Disorganized |
+| **Power Dynamic** | H1: Submissive / H2: Dominant / H3: Strategic compliance |
 
 ---
 
