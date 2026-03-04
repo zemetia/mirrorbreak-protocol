@@ -1,288 +1,226 @@
-# Research Validation Plan
+# MirrorBreak EPDM - Research Validation Plan
+## Document 04: Rencana Validasi Empiris
 
-**Compiled by:** Dr. Zemetia Agents  
-**Date:** March 2026  
-**Model:** MirrorBreak EPDM v1.0
-
----
-
-## Executive Summary
-
-This document outlines a rigorous empirical validation plan untuk MirrorBreak EPDM. Tujuannya: establish reliability, validity, dan cultural appropriateness sebagai framework assessment yang legitimate.
+**Analyst:** Dr. Zemetia (Research & Structuring)  
+**Date:** 2026-03-04  
+**Subject:** Empirical Validation Strategy & Protocol  
+**Status:** 🔬 Fundamental Research
 
 ---
 
-## 1. Research Questions
+## 🎯 Tujuan Validasi
 
-### Primary Questions
-1. Apakah MirrorBreak EPDM menghasilkan hasil yang konsisten antar-assessor (inter-rater reliability)?
-2. Apakah hasil konsisten ketika diuji ulang pada waktu berbeda (test-retest reliability)?
-3. Apakah dimensi-dimensi benar-benar mengukur construct yang diklaim (construct validity)?
-4. Apakah hasil berkorelasi dengan established instruments yang mengukur construct serupa (convergent validity)?
-5. Apakah model applicable across different cultural contexts (cross-cultural validity)?
-
-### Secondary Questions
-6. Apakah ada gender/age/cultural differences dalam pattern responses?
-7. Apakah pattern stabil atau berubah over time (longitudinal stability)?
-8. Apakah hasil memprediksi outcomes tertentu (predictive validity)?
+Mendapatkan **scientific recognition** untuk MirrorBreak EPDM melalui rigorous empirical validation yang memenuhi standar psychological assessment profession.
 
 ---
 
-## 2. Study Design Overview
-
-### Multi-Phase Sequential Design
+## 📋 Overview Fase Validasi
 
 ```
-PHASE 1: PILOT STUDY (n=50)
-├── Purpose: Refine rubrics & procedures
-├── Duration: 3-6 months
-└── Output: Stable measurement protocol
-
-PHASE 2: RELIABILITY STUDY (n=100)
-├── Purpose: Establish inter-rater & test-retest reliability
-├── Duration: 6-12 months
-└── Output: Reliability coefficients
-
-PHASE 3: VALIDITY STUDY (n=200)
-├── Purpose: Convergent & discriminant validity
-├── Duration: 12-18 months
-└── Output: Validity evidence
-
-PHASE 4: CROSS-CULTURAL STUDY (n=300)
-├── Purpose: Cultural generalizability
-├── Duration: 18-24 months
-└── Output: Cultural calibration data
+┌─────────────────────────────────────────────────────────────┐
+│              EMPRICAL VALIDATION ROADMAP                    │
+├─────────────────────────────────────────────────────────────┤
+│                                                             │
+│  PHASE 1: PILOT STUDY                                       │
+│  ├── Duration: 3-6 months                                   │
+│  ├── Sample: 50+ subjects                                   │
+│  └── Goal: Rubric refinement & preliminary norms            │
+│                                                             │
+│  PHASE 2: RELIABILITY STUDIES                               │
+│  ├── Duration: 6-12 months                                  │
+│  ├── Sample: 100+ subjects                                  │
+│  └── Goal: Inter-rater & test-retest reliability            │
+│                                                             │
+│  PHASE 3: VALIDITY STUDIES                                  │
+│  ├── Duration: 12-18 months                                 │
+│  ├── Sample: 200+ subjects                                  │
+│  └── Goal: Convergent, divergent, predictive validity       │
+│                                                             │
+│  PHASE 4: CROSS-CULTURAL VALIDATION                         │
+│  ├── Duration: 18-24 months                                 │
+│  ├── Sample: 300+ subjects (multi-site)                     │
+│  └── Goal: Cultural norms & adaptation                      │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 3. Phase 1: Pilot Study
+## 🔬 PHASE 1: Pilot Study (Months 1-6)
 
 ### Objectives
-- Test feasibility of assessment protocol
-- Refine scoring rubrics
-- Identify procedural issues
-- Establish preliminary inter-rater agreement
 
-### Participants
-- **n = 50**
-- Diverse demographics (age, gender, education)
-- Inclusion: Fluent in assessment language, willing to participate in multi-session
-- Exclusion: Acute psychiatric crisis, cognitive impairment preventing comprehension
+- [ ] Refine operational definitions untuk 4 core dimensions
+- [ ] Identify dan resolve rubric ambiguities
+- [ ] Collect preliminary normative data
+- [ ] Establish initial inter-rater reliability
+- [ ] Document edge cases dan exceptions
 
-### Procedure
-1. **Session 1:** Full MirrorBreak assessment (60-90 min)
-2. **Independent scoring:** 3 trained assessors score each record
-3. **Consensus meeting:** Resolve discrepancies, refine rubrics
-4. **Session 2 (2 weeks):** Repeat assessment for test-retest
+### Methodology
 
-### Measures
-- Feasibility checklist (participant & assessor)
-- Inter-rater agreement (ICC or Cohen's kappa)
-- Test-retest correlation
-- Qualitative feedback
+#### Sample Recruitment
+```
+Target: n = 50-75
+Diversity Requirements:
+├── Age range: 18-65
+├── Gender: roughly equal distribution
+├── Education: varied levels
+├── Clinical status: mix of clinical & non-clinical
+└── Recruitment: Community + university subject pool
+```
+
+#### Procedure
+```
+Step 1: Administer MirrorBreak EPDM assessment
+Step 2: Independent rating oleh 2 raters (where possible)
+Step 3: Debriefing dan feedback collection
+Step 4: Document any issues atau ambiguities
+Step 5: Refine rubric based on findings
+```
+
+### Deliverables
+
+| Deliverable | Deadline | Responsible |
+|-------------|----------|-------------|
+| Pilot study protocol | Month 1 | Research team |
+| IRB approval | Month 1 | Research team |
+| Data collection completion | Month 4 | Research team |
+| Pilot report | Month 5 | Research team |
+| Rubric v1.0 refinement | Month 6 | Dr. Zemetia team |
 
 ### Success Criteria
-- Inter-rater agreement >0.70
-- Test-retest correlation >0.75
-- <20% procedural issues requiring modification
+
+- [ ] Completion of 50+ assessments
+- [ ] Identification of top 10 rubric ambiguities
+- [ ] Preliminary normative ranges untuk each dimension
+- [ ] Initial inter-rater agreement > 70%
 
 ---
 
-## 4. Phase 2: Reliability Study
+## 🔬 PHASE 2: Reliability Studies (Months 6-12)
 
-### Objectives
-- Establish stable reliability coefficients
-- Determine minimum training requirements
-- Develop quality assurance protocols
+### Study 2A: Inter-Rater Reliability
 
-### Participants
-- **n = 100**
-- Stratified sampling untuk representativeness
-- Multiple sites jika memungkinkan
+#### Design
+```
+Method: Two independent raters assess same recordings/cases
+Sample: n = 100 (minimum 30 cases rated by both)
+Analysis: Cohen's kappa (κ) untuk categorical, ICC untuk continuous
+Target: κ > 0.80 (excellent agreement)
+```
 
-### Procedure
-1. **Training:** All assessors complete standardized training
-2. **Calibration:** Practice cases dengan feedback
-3. **Live assessment:** Each participant assessed oleh 2 independent assessors
-4. **Retest:** Subset (n=30) retest after 4 weeks
+### Study 2B: Test-Retest Reliability
 
-### Statistical Analysis
-- **Inter-rater reliability:** ICC (Intraclass Correlation Coefficient)
-  - Target: ICC >0.75 (excellent)
-  - Acceptable: ICC >0.60 (good)
-  
-- **Test-retest reliability:** Pearson correlation
-  - Target: r >0.80
-  - Acceptable: r >0.70
+#### Design
+```
+Method: Same subjects assessed twice, 2-4 weeks apart
+Sample: n = 100
+Analysis: Pearson correlation (r) dan ICC
+Target: r > 0.80
+```
 
-- **Internal consistency:** Cronbach's alpha per dimension
-  - Target: α >0.80
+### Deliverables
 
-### Output
-- Reliability report per dimension
-- Training requirement documentation
-- Quality assurance manual
+| Deliverable | Target | Timeline |
+|-------------|--------|----------|
+| Inter-rater reliability | κ > 0.80 | Month 9 |
+| Test-retest reliability | r > 0.80 | Month 12 |
+| Scoring manual v2.0 | - | Month 12 |
 
 ---
 
-## 5. Phase 3: Validity Study
+## 🔬 PHASE 3: Validity Studies (Months 12-18)
 
-### Objectives
-- Establish construct validity
-- Demonstrate convergent validity dengan established instruments
-- Document discriminant validity
+### Comparison Measures
 
-### Participants
-- **n = 200**
-- Subgroups:
-  - Clinical sample (n=50): Various presentations
-  - Non-clinical sample (n=150): General population
+| MirrorBreak Dimension | Expected Correlation | Established Measure |
+|----------------------|---------------------|---------------------|
+| Emotional Granularity | r = 0.60-0.75 | Emotional Intelligence scales |
+| Depth of Causality | r = 0.50-0.70 | Insight measures |
+| Defense Integration | r = 0.60-0.80 | Defense Style Questionnaire |
+| Adaptive Core | r = 0.70-0.85 | AAI, attachment scales |
 
-### Comparison Instruments
+### Deliverables
 
-| MirrorBreak Dimension | Established Instrument |
-|----------------------|------------------------|
-| Cognitive Structure | WAIS-IV (Matrix Reasoning), Need for Cognition Scale |
-| Emotional Architecture | DERS (Difficulties in Emotion Regulation), ECR-R |
-| Power & Authority | DOMINANCE scale (IPIP), SDO (Social Dominance Orientation) |
-| Adaptive Core | PAI (Personality Assessment Inventory), MCMI |
-
-### Procedure
-1. MirrorBreak assessment
-2. Battery of comparison instruments (randomized order)
-3. Clinical interview untuk criterion validity (subset)
-
-### Statistical Analysis
-
-**Convergent Validity:**
-- Correlation dengan theoretically related constructs
-- Target: r = 0.50-0.70 (moderate-strong)
-
-**Discriminant Validity:**
-- Correlation dengan theoretically unrelated constructs
-- Target: r <0.30 (weak)
-
-**Construct Validity:**
-- Factor analysis untuk internal structure
-- Confirmatory factor analysis (CFA) untuk model fit
-
-### Output
-- Validity matrix
-- Factor analysis results
-- Comparison dengan theoretical predictions
+- [ ] Convergent validity report
+- [ ] Divergent validity analysis
+- [ ] Predictive validity data
+- [ ] Validity evidence summary
 
 ---
 
-## 6. Phase 4: Cross-Cultural Study
+## 🔬 PHASE 4: Cross-Cultural Validation (Months 18-24)
 
-### Objectives
-- Test measurement invariance across cultures
-- Identify culture-specific patterns
-- Develop cultural calibration guidelines
+### Target Populations
 
-### Participants
-- **n = 300** (100 per culture)
-- Cultures: Indonesian, Western (US/Europe), East Asian
-- Matched on demographics where possible
+1. **Western Individualist** (US/UK/Australia) - Baseline
+2. **East Asian Collectivist** (Japan/Korea/China)
+3. **Latin American Context**
+4. **African Context**
+5. **Middle Eastern Context**
 
-### Procedure
-1. Back-translation protocol untuk materials
-2. Local expert review
-3. Pilot testing per culture (n=10 each)
-4. Full assessment dengan local norms
+### Adaptation Protocol
 
-### Statistical Analysis
-- **Measurement invariance:** Multi-group CFA
-  - Configural invariance (same factor structure)
-  - Metric invariance (same factor loadings)
-  - Scalar invariance (same intercepts)
+```
+Per Culture:
+├── Translation & back-translation
+├── Cultural consultant review
+├── Local norm collection (n=60+ per culture)
+├── Item bias analysis
+└── Modified interpretation guidelines
+```
 
-- **Cultural differences:** ANOVA atau MANOVA
-- **Pattern analysis:** Exploratory analysis untuk culture-specific adaptations
+### Deliverables
 
-### Output
-- Cultural calibration guidelines
-- Local norm tables
-- Culture-specific pattern documentation
+- [ ] Cross-cultural comparison report
+- [ ] Culture-specific norms
+- [ ] Adaptation guidelines
+- [ ] Cultural formulation addendum
 
 ---
 
-## 7. Ethical Considerations
+## 📊 Timeline Summary
 
-### Informed Consent
-- Jelaskan stress testing nature dari assessment
-- Right to withdraw anytime
-- Data confidentiality measures
-- Potential risks & benefits
+```
+MONTH:  1   3   6   9   12  15  18  21  24
+        │   │   │   │   │   │   │   │   │
+PHASE 1 [═══════]
+PHASE 2         [═══════════]
+PHASE 3                     [═══════════]
+PHASE 4                                     [═══════════]
 
-### Risk Mitigation
-- Debriefing protocol setelah setiap session
-- Referral pathway untuk distress
-- Monitor untuk adverse reactions
-- Stop criteria untuk participant welfare
-
-### Data Protection
-- Anonymization procedures
-- Secure storage protocols
-- Limited access untuk research team
-- Retention & disposal policies
+▲ M3: Rubric v1.0
+▲ M6: Pilot complete
+▲ M12: Reliability established
+▲ M18: Validity demonstrated
+▲ M24: Cross-cultural complete
+```
 
 ---
 
-## 8. Timeline Summary
-
-| Phase | Duration | Start | End | Milestone |
-|-------|----------|-------|-----|-----------|
-| 1. Pilot | 3-6 months | Month 1 | Month 6 | Stable protocol |
-| 2. Reliability | 6-12 months | Month 6 | Month 12 | ICC established |
-| 3. Validity | 12-18 months | Month 12 | Month 18 | Validity evidence |
-| 4. Cross-cultural | 18-24 months | Month 18 | Month 24 | Cultural guidelines |
-| **Total** | **24 months** | | | **Validated model** |
-
----
-
-## 9. Resources Required
+## 📋 Resource Requirements
 
 ### Personnel
-- Principal Investigator (Yoel)
-- Research assistants (2-3)
-- Statistical consultant
-- Cultural consultants (per target culture)
 
-### Materials
-- Assessment protocols (printed/digital)
-- Comparison instruments (licenses)
-- Data collection tools
-- Secure storage infrastructure
+| Role | FTE | Duration |
+|------|-----|----------|
+| Principal Investigator | 0.5 | 24 months |
+| Research Assistants | 2.0 | 24 months |
+| Statistician | 0.25 | 24 months |
+| Cultural Consultants | - | As needed |
 
-### Budget Considerations
-- Participant compensation
-- Instrument licensing fees
-- Statistical software
-- Publication costs
-- Conference presentations
+### Budget Estimate
 
----
-
-## 10. Dissemination Plan
-
-### Academic
-- Peer-reviewed journal publications
-- Conference presentations
-- Dissertation/thesis (jika applicable)
-
-### Professional
-- Practitioner workshops
-- Training material development
-- Professional organization engagement
-
-### Public
-- Lay summary reports
-- Website/documentation
-- Case study publications (anonymized)
+| Item | Phase 1 | Phase 2 | Phase 3 | Phase 4 | Total |
+|------|---------|---------|---------|---------|-------|
+| Personnel | $15K | $25K | $30K | $35K | $105K |
+| Participant compensation | $5K | $10K | $15K | $20K | $50K |
+| Materials & supplies | $2K | $3K | $5K | $8K | $18K |
+| Statistical software | $1K | $1K | $2K | $2K | $6K |
+| Dissemination | - | - | $3K | $5K | $8K |
+| **TOTAL** | **$23K** | **$39K** | **$55K** | **$70K** | **$187K** |
 
 ---
 
-*Compiled by: Dr. Zemetia Agents*  
-*Part of MirrorBreak Fundamental Research*
+*Generated by Dr. Zemetia Research & Structuring Agent*  
+*MirrorBreak Protocol - Fundamental Research Division*
