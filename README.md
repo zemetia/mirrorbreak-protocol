@@ -143,9 +143,11 @@ mirrorbreak-protocol/
 │   ├── 03-improvement-roadmap.md
 │   ├── 04-research-validation-plan.md
 │   └── integration-report.md
+├── docs/                       # Personal use documentation ⭐
+│   ├── PERSONAL-USE.md        # Guide untuk penggunaan pribadi
+│   └── ROADMAP-VALIDATION.md  # 18-month personal validation track
 ├── research/                   # Research findings
-├── implementations/            # Practical implementations
-└── docs/                       # Additional documentation
+└── implementations/            # Practical implementations
 ```
 
 ---
