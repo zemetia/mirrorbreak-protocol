@@ -60,5 +60,19 @@ MirrorBreak Report terdiri dari:
 - Gap Analysis (persona vs inti)
 - Structural Recommendations (bukan advice motivasional)
 
+## ⚠️ EPISTEMOLOGICAL CLARIFICATION
+
+**MBP BUKAN psikometri kuantitatif. MBP adalah analisis kualitatif struktural dengan uncertainty quantification.**
+
+| BUKAN INI | TAPI INI |
+|-----------|----------|
+| Tes psikometri (MBTI, Big Five) | Wawancara mendalam + pattern recognition |
+| Quantitative measurement | Qualitative interpretation |
+| Valid/invalid | Confidence-based uncertainty |
+| Stable trait measurement | State-dependent structure exposure |
+| Score profile | Pattern description + tension map |
+
+**Lihat:** `fundamental-research/EPISTEMOLOGY.md` untuk pemahaman mendalam.
+
 ---
-*MBP v2.0 - Structural Profiling System*
+*MBP v2.1 - Qualitative Structural Analysis Framework*

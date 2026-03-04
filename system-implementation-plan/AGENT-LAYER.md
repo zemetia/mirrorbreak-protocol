@@ -303,7 +303,9 @@ if hypothesis.current_weight > 0.6 and hypothesis.specificity < 3:
 
 ### 2.5 Assessor Agent
 
-**Purpose:** Quantify 12-dimensional matrix with confidence intervals
+**Purpose:** Generate qualitative structural assessment with position estimates (0-100) and uncertainty quantification
+
+**⚠️ CRITICAL: MBP is NOT psychometric assessment. This is qualitative structural analysis with confidence wrapper.**
 
 **Input:**
 ```json
@@ -328,58 +330,77 @@ if hypothesis.current_weight > 0.6 and hypothesis.specificity < 3:
 {
   "matrix_12d": {
     "cognitive": {
-      "ab": { "score": 7.5, "ci_low": 0.65, "ci_high": 0.85, "evidence_count": 12 },
-      "cdi": { "score": 6.0, "ci_low": 0.50, "ci_high": 0.70, "evidence_count": 8 },
-      "crf": { "score": 5.5, "ci_low": 0.45, "ci_high": 0.65, "evidence_count": 10 },
-      "processing_style": "analytical"
+      "ab": { 
+        "position": 75, 
+        "confidence": 72,
+        "ci_low": 55, 
+        "ci_high": 85, 
+        "evidence_count": 12,
+        "supporting_evidence": [
+          {"quote": "Saya suka breaking down complex problems", "line": 12, "rationale": "Shows abstract conceptualization"},
+          {"quote": "It's all interconnected", "line": 18, "rationale": "Systems thinking pattern"}
+        ],
+        "interpretation_rationale": "Predominantly abstract pattern detected across multiple responses"
+      },
+      "cdi": { "position": 60, "confidence": 65, "ci_low": 45, "ci_high": 75, ... },
+      "crf": { "position": 55, "confidence": 58, "ci_low": 40, "ci_high": 70, ... },
+      "processing_style": {
+        "assessment": "analytical",
+        "confidence": 68,
+        "supporting_evidence": ["Self-reported 'think before feel' [line_5]", "Consistent analytical framing"]
+      }
     },
-    "emotional": {
-      "eg": { "score": 6.5, "ci_low": 0.55, "ci_high": 0.75, "evidence_count": 9 },
-      "rsi": { "primary": "suppression", "secondary": "reappraisal" },
-      "vb": { "score": 4.0, "ci_low": 0.30, "ci_high": 0.50, "evidence_count": 11 },
-      "stress_response": "freeze"
-    },
-    "relational": {
-      "arp": "strategic_compliance",
-      "rs": { "score": 8.0, "ci_low": 0.70, "ci_high": 0.90, "evidence_count": 14 },
-      "coi": { "score": 7.0, "ci_low": 0.60, "ci_high": 0.80, "evidence_count": 10 }
-    },
-    "adaptive": {
-      "cfv": { "primary": "irrelevance", "secondary": "rejection" },
-      "dmc": { "primary": "intellectualization", "secondary": "withdrawal" },
-      "asc": ["strategic_foresight", "emotional_reading"]
-    }
+    "emotional": {...},
+    "relational": {...},
+    "adaptive": {...}
   },
+  "tension_pairs_detected": [
+    {
+      "pair": "AB × Stress-Somatic",
+      "tension_type": "Claim vs Pre-cognitive Response",
+      "description": "Analytical claim contradicted by freeze response <200ms",
+      "interpretation": "Analysis as defense against intuitive overwhelm"
+    }
+  ],
   "assessment_quality": "use_with_caution",
-  "overall_confidence": 0.72,
-  "quality_flags": [
-    "low_evidence_for_crf",
-    "contradiction_unexplored_in_vb"
-  ]
+  "overall_confidence": 72,
+  "quality_flags": ["low_evidence_for_crf", "contradiction_unexplored_in_vb"]
 }
 ```
 
-**Scoring Algorithm:**
+**Assessment Method (NOT Scoring Algorithm):**
+
 ```python
-def calculate_dimension_score(evidence_list, field_weights):
+def assess_dimension_position(field_evidence, signals):
     """
-    Aggregate evidence into dimension score with confidence interval
+    Qualitative interpretation with position estimate
+    
+    NOT: Calculate score
+    BUT: Interpret pattern and estimate position on spectrum
     """
-    weighted_sum = sum(e.signal_strength * e.confidence for e in evidence_list)
-    total_weight = sum(e.confidence for e in evidence_list)
-    
-    point_estimate = weighted_sum / total_weight
-    
-    # Confidence interval based on evidence consistency and quantity
-    variance = calculate_evidence_variance(evidence_list)
-    ci_width = base_ci_width / sqrt(len(evidence_list)) * (1 + variance)
+    # 1. Review all evidence (quotes, behavioral cues)
+    # 2. Identify dominant pattern
+    # 3. Estimate position (0-100) based on pattern prevalence
+    # 4. Assess confidence based on evidence density & consistency
+    # 5. Document supporting evidence with quotes
+    # 6. Provide interpretation rationale
     
     return {
-        'score': point_estimate,
-        'ci_low': max(0, point_estimate - ci_width),
-        'ci_high': min(1, point_estimate + ci_width)
+        'position': estimated_position,  # 0-100, ordinal ranking
+        'confidence': confidence_percent,  # 0-100, uncertainty quantification
+        'ci_low': low_estimate,
+        'ci_high': high_estimate,
+        'supporting_evidence': evidence_list_with_quotes,
+        'interpretation_rationale': explanation
     }
 ```
+
+**Key Principles:**
+- **Position (0-100)** = Ordinal estimate, NOT interval measurement
+- **Confidence (0-100)** = Uncertainty in interpretation, NOT validity
+- **Supporting evidence** = REQUIRED — kutipan wajib ada
+- **Interpretation rationale** = REQUIRED — jelaskan kenapa posisi ini
+- **Tension detection** = PRIMARY — cross-dimension contradictions are data
 
 ---
 
