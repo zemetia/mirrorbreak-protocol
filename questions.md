@@ -353,132 +353,209 @@ FOLLOW-UP: "Berapa lama sudah bayar cicilan ini?"
 
 ---
 
-## Phase 4: Contradiction Exposure
+## Phase 4: Validation & Contradiction Exposure (FLEXIBLE FRAMEWORK)
 
-**AI Objective:** Expose contradictions through innocent curiosity.
+**Rasio: Fixed 0% | AI Flexible 100%**
 
-### Generation Rules
+> **Tujuan:** Fase ini adalah **AI freestyle space** — AI memiliki kebebasan penuh untuk generate pertanyaan berdasarkan apa yang ia rasakan tentang kontradiksi, trauma, atau hipotesis yang terdeteksi. Namun tetap terarah dengan tujuan jelas: **expose structural tensions** dan **test hypothesis validity**.
 
-**Rule 4.1 — Contextual Shift Mirror**
+---
+
+### AI Decision Framework for Phase 4
+
+**WHEN to enter Phase 4:**
+- AI mendeteksi **kontradiksi** antara data yang berbeda
+- AI memiliki **hipotesis kuat** yang perlu di-test
+- AI merasakan ada **gap** yang perlu di-expose
+- AI ingin **cross-validate** pattern yang sudah terdeteksi
+
+**WHAT AI should do in Phase 4:**
+1. **Identify Tension** — Apa yang nggak nyambung?
+2. **Select Approach** — Cara mana yang paling aman untuk expose?
+3. **Generate Question** — Frame dengan innocent curiosity
+4. **Target 12D** — Dimensi mana yang di-test?
+
+---
+
+### 1. Identify Tension (AI Self-Assessment)
+
+AI analisis data yang sudah dikumpulkan dan cari:
+
+| Tension Type | Contoh Deteksi |
+|--------------|----------------|
+| **Context Switch** | Beda perilaku di kantor vs rumah |
+| **Temporal Shift** | Dulu vs sekarang berbeda |
+| **Claim vs Behavior** | Klaim "chill" tapi somatic tegang |
+| **Value vs Action** | Value A penting tapi pilih B |
+| **Awareness vs Expression** | Tahu perasaan tapi nggak express |
+| **Need vs Defense** | Butuh X tapi defense-nya nge-block |
+
+**AI Prompt untuk Diri Sendiri:**
 ```
-INPUT: Contradiction detected between Context A and Context B
-AI GENERATE: "Menarik... di [A] kamu [BEHAVIOR_A], tapi di [B] [BEHAVIOR_B]. Apa yang beda yang bikin respons beda?"
-TONE: Innocent curiosity, not accusation
-TARGET: Compartmentalization, contextual identity
-```
-
-**Rule 4.2 — Temporal Evolution Mirror**
-```
-INPUT: Change detected between past and present self
-AI GENERATE: "Ada nggak hal yang dulu 'kamu banget' tapi sekarang sadar itu adaptasi?"
-TONE: Reflection invitation
-TARGET: ASC legitimacy, identity evolution
-```
-
-**Rule 4.3 — Value-Behavior Bridge**
-```
-INPUT: Stated value contradicts behavior
-AI GENERATE: "[VALUE] penting, tapi yang terakhir [BEHAVIOR]. Apa yang lebih kuat dari [VALUE]?"
-TONE: Genuine puzzle
-TARGET: True priority, hidden value
-```
-
-### 12D Tension Pair Generation
-
-**AI Input Format untuk Tension Pair:**
-```
-USER_DATA:
-├── Claimed Identity: [e.g., "Saya orangnya analytical"]
-├── Observed Behavior: [e.g., somatic freeze saat bahas konflik]
-├── Contradiction Signal: [e.g., klaim logis tapi response emosional]
-└── Context: [e.g., saat di-question tentang masalah personal]
-
-AI TASK: Generate question yang expose gap antara klaim dan observasi
-TONE: Innocent curiosity ("Menarik...") bukan accusation
+Dari semua data user:
+- Apa yang bertentangan?
+- Apa yang "hampir" nyambung tapi nggak nyambung?
+- Apa yang user klaim tapi behavior-nya beda?
+- Di mana integrasi-nya "forced" atau "compartmentalized"?
 ```
 
 ---
 
-**Rule 4.4 — AB × Stress Response (Cognitive vs Somatic Split)**
-```
-INPUT REQUIREMENTS:
-- User claim: "Saya analytical/logical/mikir dulu" (high AB claim)
-- Observed: Response somatic/emosional tanpa processing kognitif
-- Evidence: "Saya langsung tau harus apa" + tanda tubuh (jantung berdebar, tegang)
+### 2. Select Approach (AI Tactical Choice)
 
-AI GENERATE:
-"Kamu bilang tipe yang analytical—mikir dulu baru act. Tapi pas cerita [CONTEXT] tadi,
-saya notice kamu langsung [SOMATIC_SIGNAL]. Itu analytical-nya 'freeze' dulu, atau
-ada yang lebih dulu dari pikiran?"
+**Approach A: The Innocent Mirror**
+- **Kapan pakai:** Kontradiksi jelas, user open
+- **Cara:** "Menarik... di [A] kamu [X], tapi di [B] [Y]. Apa yang beda?"
+- **Tujuan:** Biar user sendiri yang notice gap-nya
+- **12D Target:** Compartmentalization, contextual identity
 
-TARGET: Expose pre-cognitive response pattern
-VARIABLES: [CONTEXT] = topik yang trigger response, [SOMATIC_SIGNAL] = observed body reaction
-```
+**Approach B: The Genuine Puzzle**
+- **Kapan pakai:** Value-behavior gap, user introspective
+- **Cara:** "[VALUE] penting, tapi yang terjadi [BEHAVIOR]. Apa yang lebih kuat?"
+- **Tujuan:** Expose true priority vs claimed priority
+- **12D Target:** COI, CFV, ASC legitimacy
 
----
+**Approach C: The Somatic Bridge**
+- **Kapan pakai:** Cognitive claim vs somatic reality
+- **Cara:** "Pikiranmu bilang [X]—tapi tubuhmu...?"
+- **Tujuan:** Expose pre-cognitive pattern
+- **12D Target:** AB × Stress Response, somatic memory
 
-**Rule 4.5 — EG × VB (Awareness vs Expression Gap)**
-```
-INPUT REQUIREMENTS:
-- User demonstrated: High emotional granularity (bisa bedain nuanced feelings)
-- User demonstrated: Low vulnerability expression (nggak pernah share ke orang)
-- Evidence: Bisa describe 5 jenis sedih, tapi bilang "saya nggak pernah cerita ini"
+**Approach D: The Cost Probe**
+- **Kapan pakai:** User bangga dengan pattern tertentu
+- **Cara:** "Ini strength—tapi ada 'cicilannya'? Familiar atau memang kuat?"
+- **Tujuan:** Test ASC legitimacy (glorified vs genuine)
+- **12D Target:** ASC × Emotional Structure
 
-AI GENERATE:
-"Kamu pintar banget identify perasaan—bisa bedain [SPECIFIC_EG_DEMO]. 
-Tapi pas udah identify... diapain? Tetep di dalam, atau ada yang bisa keluar?"
+**Approach E: The Temporal Question**
+- **Kapan pakai:** Perubahan dari masa lalu
+- **Cara:** "Ada nggak yang dulu 'kamu banget' tapi sekarang sadar itu adaptasi?"
+- **Tujuan:** Distinguish core self vs survival pattern
+- **12D Target:** ASC evolution, identity development
 
-FOLLOW-UP (if "tetep di dalam"):
-"Apa yang harus terjadi biar yang di-identify itu bisa sampai ke luar?"
-
-TARGET: Expose awareness-expression gap
-VARIABLES: [SPECIFIC_EG_DEMO] = contoh konkret granularitas emosi yang user tunjukkan
-```
-
----
-
-**Rule 4.6 — RS × ARP (Recognition Need vs Authority Pattern)**
-```
-INPUT REQUIREMENTS:
-- User claim/behavior: Butuh diakui/validasi (RS signal)
-- User behavior: Dominan/rebellious dengan authority (ARP signal)
-- Contradiction: Mau recognition tapi approach ke authority adalah confront/control
-
-AI GENERATE:
-"Saya notice kamu butuh [RECOGNITION_TYPE]—tapi cara kamu dapetinnya
-di [AUTHORITY_CONTEXT] adalah [ARP_BEHAVIOR]. 
-Itu cara yang bikin kamu dapet yang kamu butuh, atau cara yang 'aman' untuk nggak keliatan butuh?"
-
-TARGET: Expose compensation pattern (dominance as defense against need)
-VARIABLES: 
-- [RECOGNITION_TYPE] = jenis recognition yang user cari (acknowledgment, praise, etc)
-- [AUTHORITY_CONTEXT] = situasi authority yang terdeteksi
-- [ARP_BEHAVIOR] = dominan/rebellious/withdraw pattern yang observed
-```
+**Approach F: The Resistance Test**
+- **Kapan pakai:** User consistently avoid/deflect topic tertentu
+- **Cara:** "Saya notice kamu cerita [X] dengan [Y]—tapi ada yang nggak nyambung. Bukan kamu salah, tapi saya bingung."
+- **Tujuan:** Expose resistance pattern, hidden material
+- **12D Target:** Defense mechanism, VB block
 
 ---
 
-**Rule 4.7 — ASC × Emotional Structure (Glorified Strength vs Cost)**
+### 3. Generate Question (AI Creative Process)
+
+**Step 1: Tentukan Tension yang Mau Di-Expose**
 ```
-INPUT REQUIREMENTS:
-- User claim: [BEHAVIOR] adalah strength/kekuatan/identitas inti
-- User demonstrated: Ada cost emosional/psikologis (drained, empty, isolated)
-- Contradiction: Klaim strength tapi ada suffering yang disembunyikan
+TENSION:
+├── Dimensi A: [klaim/user data]
+├── Dimensi B: [observasi kontradiktif]
+├── Gap: [apa yang nggak nyambung]
+└── Hypothesis: [apa yang AI curigai]
+```
 
-AI GENERATE:
-"Kamu bilang [BEHAVIOR_CLAIM] adalah kekuatan kamu—yang bikin kamu [POSITIVE_OUTCOME].
-Tapi tadi juga cerita [COST_EVIDENCE]. 
-Ini strength yang memang kuat, atau ini familiar karena sudah lama dilakukan?"
+**Step 2: Pilih Tone**
+- **Innocent:** "Menarik..." (untuk contradiction exposure)
+- **Curious:** "Saya penasaran..." (untuk exploration)
+- **Puzzled:** "Saya bingung..." (untuk resistance)
+- **Reflective:** "Apa kamu pernah notice..." (untuk self-awareness)
 
-FOLLOW-UP (if defensive):
-"Bukan yang benar-salah—tapi kalau ada 'tagihan' yang terus dibayar,
-apa yang harus dikorbankan untuk maintain [BEHAVIOR_CLAIM]?"
+**Step 3: Build Question Arc**
+```
+OPENING (hook):
+- Reference ke data sebelumnya (spesifik)
+- atau Observation yang baru saja terjadi
 
-TARGET: Test ASC legitimacy (genuine adaptation vs glorified survival)
-VARIABLES:
-- [BEHAVIOR_CLAIM] = klaim strength yang user banggakan
-- [POSITIVE_OUTCOME] = hasil positif yang dikaitkan dengan behavior
-- [COST_EVIDENCE] = bukti cost yang user ceritakan (exhaustion, no close friends, etc)
+CORE (the probe):
+- Pertanyaan yang expose gap
+- atau Undangan untuk explore contradiction
+
+FOLLOW-UP (jika perlu):
+- "Bukan yang benar-salah—tapi..."
+- "Apa yang terjadi di saat itu?"
+- "Help me understand..."
+```
+
+**Step 4: 12D Targeting**
+
+Pertanyaan harus mengarah ke **salah satu atau lebih** dimensi ini:
+
+| Tension Pair | Kapan Di-Expose |
+|--------------|-----------------|
+| **AB × Stress Response** | Klaim analytical tapi response emosional/somatic |
+| **EG × VB** | Bisa identify perasaan tapi nggak express |
+| **RS × ARP** | Butuh recognition tapi approach-nya confront/avoid |
+| **ASC × Emotional Structure** | Klaim strength tapi ada cost tersembunyi |
+| **CDI × COI** | Pengen X tapi pilih Y berulang kali |
+| **VB × RSI** | Pernah vulnerable tapi ada yang stop |
+| **CRF × AB** | Kaku di konteks tertentu padahal claim fleksibel |
+
+---
+
+### 4. Integration Type Assessment (AI Detection)
+
+Selama Phase 4, AI juga menilai **tipe integrasi** user:
+
+| Type | Signal | AI Probe |
+|------|--------|----------|
+| **Coherent** | Semua data nyambung, konsisten | "Apa kamu merasa semua bagian ini nyambung?" |
+| **Compartmentalized** | Beda konteks = beda persona | "Ada 'kamu' yang beda untuk situasi berbeda?" |
+| **Conflicted** | Dua suara berlawanan dalam diri | "Ada dua arah yang konflik? Yang mana menang?" |
+| **Fragmented** | Data nggak nyambung sama sekali | "Kalau tarik benang merah—ada benangnya?" |
+
+---
+
+### AI Quality Check for Phase 4 Questions
+
+Sebelum generate, AI verifikasi:
+
+- [ ] **Apakah tension sudah jelas?** — Apa yang nggak nyambung?
+- [ ] **Apakah approach sesuai?** — Innocent mirror, puzzle, atau resistance test?
+- [ ] **Apakah tone tepat?** — Bukan accusation, tapi curiosity
+- [ ] **Apakah 12D target jelas?** — Dimensi mana yang di-test?
+- [ ] **Apakah question force reflection?** — Bukan yes/no, tapi "apa yang beda?"
+
+---
+
+### Contoh Workflow AI di Phase 4
+
+**Situasi:**
+```
+USER DATA:
+- Phase 0: Cerita ayah yang demanding, harus perfect
+- Phase 1: Klaim "saya chill, nggak gampang marah"
+- Phase 2: Saat bahas konflik, somatic tegang (suara berubah, postur kaku)
+- Hypothesis: Suppression pattern dari childhood perfectionism
+
+TENSION:
+- Klaim: "Chill, nggak gampang marah"
+- Observasi: High activation saat bahas konflik
+- Gap: Awareness vs Reality
+```
+
+**AI Decision:**
+- **Tension Type:** Claim vs Behavior (somatic)
+- **Approach:** The Somatic Bridge (Approach C)
+- **Tone:** Innocent
+- **12D Target:** AB × Stress Response, RSI
+
+**AI Generate:**
+> "Kamu bilang tipe yang chill—nggak gampang marah. Tapi pas cerita tentang konflik tadi, saya notice suara dan postur kamu berubah. Itu 'chill'-nya lagi di mana saat itu?"
+
+**FOLLOW-UP (jika user defensive):**
+> "Bukan saya yang tahu—tapi kamu. Apa yang terjadi di dalam saat itu?"
+
+---
+
+### Phase 4: Output Format
+
+Setiap generate question, AI catat:
+```
+PHASE 4 OUTPUT:
+├── Question: [generated question]
+├── Tension Detected: [A vs B]
+├── Approach Used: [A/B/C/D/E/F]
+├── 12D Target: [dimensi yang di-test]
+├── Hypothesis Tested: [apa yang AI curigai]
+└── Expected Response: [narrative/somatic/defensive/etc]
 ```
 
 ---
