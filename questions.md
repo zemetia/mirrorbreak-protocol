@@ -1,454 +1,511 @@
-# MirrorBreak Protocol — Dr. Zemetia's Indirect Question Templates
+# MirrorBreak Protocol v3.1 — AI Agent Question Generation Framework
 
-**Empirical Pattern Deconstruction Model (EPDM) v3.0**
+**Empirical Pattern Deconstruction Model (EPDM)**
 
----
-
-## The Art of Invisible Assessment
-
-These questions are designed to feel like **late-night conversation with an old friend**—not an interview, not therapy, not assessment. The subject should never feel measured.
-
-### Core Principles (The Zemetia Method)
-
-| Principle | Execution |
-|-----------|-----------|
-| **Camouflage** | Questions wear the costume of curiosity, never diagnosis |
-| **Story-Forcing** | Design questions that cannot be answered with labels—only narratives |
-| **Projection Veils** | Ask about others, media, hypotheticals—never direct self-inquiry |
-| **Moment Mining** | "When was the last time..." extracts more truth than "Do you..." |
-| **Hypothesis Invisibility** | Test everything. Reveal nothing. |
-| **Contradiction as Mirror** | Let their own words show them patterns—not your interpretation |
+Dokumen ini adalah **framework untuk AI agent** generate pertanyaan. Bukan template pertanyaan fixed, tapi **instruction set** untuk AI membuat pertanyaan berdasarkan hipotesis dan konteks.
 
 ---
 
-## Phase 0: Context Gathering (The Warm-Up)
+## AI Agent Architecture
 
-**Ratio: Fixed 100% | Flexible 0%**
+```
+Input Layer:
+├── Current Hypothesis Registry (per 12D field)
+├── Response History (transcript + tagged signals)
+├── Confidence Scores (per dimension)
+└── Contradiction Log
 
-> **Purpose:** Gather formation context while the subject believes you're just "getting to know them." These should feel like natural conversation flow, not intake questions.
+Processing Layer:
+├── Hypothesis Prioritizer (which field needs probing?)
+├── Question Generator (this document)
+└── Safety Monitor (trauma/crisis detection)
 
-### Q0.1 — The Atmosphere Probe
-> *"Kalau rumah tempat kamu dibesarkan itu punya 'suara' atau 'vibe', kira-kira suaranya kayak gimana? Bukan kata sifat yang umum—tapi kayak... musik apa, cuaca apa, atau suasana apa?"*
-
-**[12D]:** Family emotional climate, Safety baseline, Unspoken rules
-
----
-
-### Q0.2 — The Handler Pattern
-> *"Waktu ada masalah di keluarga—bukan yang gede-gede, yang sehari-hari aja—siapa yang biasanya 'nyadar duluan' dan nanganin? Bukan yang paling keras, tapi yang paling... duluan bergerak?"*
-
-**[12D]:** Parental modeling, Role assignment genesis, Emotional leadership
-
----
-
-### Q0.3 — The Unwritten Curriculum
-> *"Ada nggak satu 'aturan' yang kamu ikutin sekarang—cara ngomong, cara diam, cara reaksi—yang kamu sadar ternyata nggak diajarin explicitly, tapi kebawa dari kecil? Kayak... kebiasaan yang nggak pernah ditulis?"*
-
-**[12D]:** Survival rules, Implicit learning, Pre-conscious patterns
+Output Layer:
+├── Generated Question
+├── Target Dimension(s)
+└── Expected Response Type
+```
 
 ---
 
-### Q0.4 — The Contrast Moment
-> *"Ada nggak sesuatu dari keluarga/latar belakang kamu yang waktu kecil kamu anggap 'normal semua orang begini', tapi pas kenal teman/kondisi lain kamu kayak... 'oh, ternyata nggak semua orang punya ini'?"*
+## Phase 0: Context Gathering
 
-**[12D]:** Cultural backdrop, Normalization of patterns, Belief system genesis
+**AI Objective:** Gather formation context without revealing assessment intent.
 
----
+### Input for AI
+- None (initial state)
 
-### Q0.5 — The Support Topology
-> *"Kalau ada teman dekat yang lagi collapse dan cerita sama kamu—yang beneran collapse, bukan curhat biasa—kamu biasanya arahin ke orang lain, handle sendiri, atau... cara lain?"*
+### Generation Rules
 
-**[12D]:** Support system structure, Help-seeking patterns, Reciprocity style
+**Rule 0.1 — Indirect Atmosphere Mapping**
+```
+TARGET: Family emotional climate, unspoken rules
+AVOID: "How was your childhood?", "Describe your family"
+GENERATE: Metaphor-based questions about "feel/vibe" of home
+EXAMPLE: "Kalau rumah tempat kamu dibesarkan punya 'suara', suaranya kayak gimana?"
+OUTPUT TYPE: Narrative (forcing storytelling, not labels)
+```
 
----
+**Rule 0.2 — Parental Modeling Extraction**
+```
+TARGET: Parental response patterns, role assignment
+AVOID: "How were your parents?", "Were they strict?"
+GENERATE: Observation-based questions about "who handled what"
+EXAMPLE: "Waktu ada masalah sehari-hari, siapa yang 'nyadar duluan' dan nanganin?"
+OUTPUT TYPE: Behavioral description (not trait labels)
+```
 
-### Q0.6 — The Reflex Archeology
-> *"Cara kamu respon ketika kaget, atau ketika ada yang tiba-tiba—itu cara yang sama dari kecil, atau ada masa kamu sadar 'oh, gue sekarang beda'? Kapan bedanya?"*
+**Rule 0.3 — Implicit Learning Detection**
+```
+TARGET: Survival rules, pre-conscious patterns
+AVOID: "What rules did you learn?"
+GENERATE: Questions about "unwritten habits that came from nowhere"
+EXAMPLE: "Ada nggak cara reaksi/bersikap yang kamu sadar ternyata kebawa dari kecil tanpa diajar?"
+OUTPUT TYPE: Origin story + current manifestation
+```
 
-**[12D]:** Stress response origin, Adaptation timeline, Core stability
+**Rule 0.4 — Cultural Contrast Mining**
+```
+TARGET: Cultural backdrop, normalized patterns
+AVOID: "What's your cultural background?"
+GENERATE: Questions about "what you thought was normal until you met others"
+EXAMPLE: "Ada nggak sesuatu yang waktu kecil kamu anggap 'normal semua orang begini' tapi ternyata nggak?"
+OUTPUT TYPE: Belief system revelation through contrast
+```
 
----
+**Rule 0.5 — Support System Reality**
+```
+TARGET: Actual support structure (not ideal)
+AVOID: "Who do you talk to when stressed?"
+GENERATE: Reciprocity-based questions
+EXAMPLE: "Kalau teman dekat collapse dan cerita sama kamu, kamu arahin ke siapa atau handle sendiri?"
+OUTPUT TYPE: Help-seeking pattern + support network mapping
+```
 
-### Q0.7 — The Permission Slip
-> *"Kita bisa pause kapan aja, bisa muter arah, bisa skip yang nggak nyaman. Nggak ada yang harus dijawab—yang penting obrolannya nyaman buat kamu. Oke?"*
-
-**[12D]:** Safety container, Consent embedding, Autonomy validation
-
----
-
-## Phase 1: Core Pattern Exposure (The Story Harvest)
-
-**Ratio: Fixed ~75% | Flexible ~25%**
-
-> **Purpose:** Extract multi-layered data through storytelling. Each question tests 3-4 dimensions simultaneously without the subject knowing which.
-
-### Q1.1 — The Alien Reaction
-> *"Kapan terakhir kali kamu bereaksi dengan cara yang... bikin kamu sendiri heran? Bukan salah atau benar—tapi kayak 'Ini kenapa ya gue begini? Ini dari mana?'"*
-
-**[12D]:** CFV, ASC, Auto-pattern recognition, Pre-conscious triggers
-
----
-
-### Q1.2 — The Exception Self
-> *"Orang yang kenal kamu—yang beneran kenal—ada nggak situasi di mana mereka bakal bilang 'Ini nggak kayak [nama] biasanya'? Situasi kayak apa, dan versi mana yang 'lebih asli'?"*
-
-**[12D]:** Compartmentalization, Contextual identity, Authentic vs Performed self
-
----
-
-### Q1.3 — The Mislabel Friction
-> *"Apa komentar atau label yang paling sering orang salah tempelin ke kamu? Yang bikin kamu mikir 'Kalo mereka tahu yang sebenarnya...' atau 'Mereka lihat cover doang'?"*
-
-**[12D]:** Projection resistance, True vs Perceived self, CFV tension
-
----
-
-### Q1.4 — The Body's Betrayal
-> *"Kapan tubuhmu bereaksi duluan sebelum pikiran sempet proses? Kayak jantung berdebar, tangan dingin, atau tegang—tanpa kamu tahu kenapa dulu? Apa yang terjadi abis itu?"*
-
-**[12D]:** Stress Response, AB × Somatic split, Pre-cognitive trauma
-
----
-
-### Q1.5 — The Relatable Wound
-> *"Ada nggak film, lagu, atau cerita yang setiap kali kamu revisit—bukan karena seneng, tapi karena... ngeselinnya relate? Yang bikin kamu 'kenapa gue nonton ini lagi'?"*
-
-**[12D]:** EG, VB, Unprocessed material, Emotional resonance patterns
+**Rule 0.6 — Stress Response Origin**
+```
+TARGET: Stress response genesis, adaptation timeline
+AVOID: "How do you handle stress?"
+GENERATE: Questions about "when you noticed your reflex changed"
+EXAMPLE: "Cara kamu respon ketika kaget—sama dari kecil atau ada waktu kamu sadar 'gue sekarang beda'?"
+OUTPUT TYPE: Temporal pattern of adaptation
+```
 
 ---
 
-### Q1.6 — The Swallowed Truth
-> *"Kapan terakhir kali kamu punya sesuatu yang pengen dibagi—udah di ujung lidah—tapi ujung-ujungnya ditelen sendiri? Apa yang bikin 'belum saatnya' atau 'nggak worth it'?"*
+## Phase 1: Core Pattern Exposure
 
-**[12D]:** VB, RSI, Trust calculation, Cost-benefit of vulnerability
+**AI Objective:** Extract multi-layered data through indirect storytelling.
 
----
+### Generation Framework
 
-### Q1.7 — The Unwinnable Exit
-> *"Ceritain tentang sesuatu yang kamu tinggalkan—bukan karena selesai, tapi karena... nggak worth it untuk diperjuangkan. Apa yang bikin 'ini unwinnable' di mata kamu?"*
+**Step 1: Read Hypothesis Registry**
+```
+FOR each 12D dimension:
+  IF confidence < 0.6 → Mark for probing
+  IF contradiction detected → Mark for validation
+  IF gap identified → Mark for mining
+```
 
-**[12D]:** ARP, COI, Conflict cost assessment, Strategic withdrawal
+**Step 2: Select Probe Strategy**
 
----
+| Gap Type | Strategy | Question Arc |
+|----------|----------|--------------|
+| Identity ambiguity | Alien Reaction Probe | "Kapan kamu bereaksi dengan cara yang bikin heran 'ini dari mana?'" |
+| Compartmentalization | Exception Self Probe | "Kapan orang kenal kamu bilang 'ini nggak kayak kamu biasanya'?" |
+| Projection resistance | Mislabel Friction Probe | "Label apa yang paling sering salah tempel ke kamu?" |
+| Somatic split | Body Betrayal Probe | "Kapan tubuhmu bereaksi duluan tanpa kamu tahu kenapa?" |
+| Emotional unprocessed | Relatable Wound Probe | "Film/lagu apa yang relate-nya ngeselin?" |
+| Vulnerability block | Swallowed Truth Probe | "Kapan terakhir ujung-ujungnya ditelen sendiri?" |
+| Conflict style | Unwinnable Exit Probe | "Kapan walk away bukan karena selesai tapi unwinnable?" |
+| Authority pattern | Power Silence Probe | "Kapan diam padahal nggak setuju dengan yang berkuasa?" |
+| Recognition need | Invisible Labor Probe | "Kapan sungguh-sungguh tapi nggak ada yang notice?" |
+| Decision regret | Haunting Decision Probe | "Keputusan apa yang masih 'ngantri' di kepala?" |
+| Control pattern | Plan's Humor Probe | "Kapan rencana 'waterproof' ketawa oleh realitas?" |
+| Emergency mode | Emergency Self Probe | "Krisis mendadak—kamu jadi tipe yang tenang atau panik produktif?" |
 
-### Q1.8 — The Power Silence
-> *"Kapan terakhir kali seseorang yang lebih 'berkuasa' (atasan, orang tua, siapapun) bilang sesuatu dan kamu diam aja padahal dalam hati nggak setuju? Apa yang berlomba di detik itu—ngomong atau aman?"*
+**Step 3: Generate Specific Question**
 
-**[12D]:** ARP, RS, Micro-suppression, Authority response pattern
-
----
-
-### Q1.9 — The Invisible Labor
-> *"Ada nggak sesuatu yang kamu lakukan dengan sungguh-sungguh—bukan yang besar, yang sehari-hari aja—tapi nggak ada yang notice? Gimana rasanya waktu itu, dan apa yang kamu lakuin setelahnya?"*
-
-**[12D]:** RS, ASC (genuine vs glorified), Invisibility response
-
----
-
-### Q1.10 — The Haunting Decision
-> *"Tanpa harus cerita detailnya—ada nggak keputusan yang sampe sekarang kadang masih 'ngantri' di kepala? Yang kalau lagi sendiri tiba-tiba muncul lagi dan kamu kayak... 'kenapa gue begini'?"*
-
-**[12D]:** CDI, COI, Unfinished business, Regret structure
-
----
-
-### Q1.11 — The Plan's Humor
-> *"Kapan terakhir kali kamu punya rencana yang 'waterproof' menurutmu—udah dipikirin mateng-mateng—tapi realitasnya ketawa dan bilang 'nice try'? Apa yang kamu sadari tentang diri sendiri di saat itu?"*
-
-**[12D]:** COI, Stress Response, Flexibility under pressure, Control illusion
-
----
-
-### Q1.12 — The Emergency Self
-> *"Kalau ada krisis mendadak—orang sakit, deadline ancur, kecelakaan—kamu biasanya jadi tipe yang 'bisa diandelin tenang' atau 'ikut panik tapi paniknya produktif'? Atau cara lain?"*
-
-**[12D]:** Stress Response, CDI under pressure, Emergency mode pattern
-
----
-
-### Flexible Follow-Ups (Phase 1)
-
-| If Subject Shows... | Follow-Up Arc |
-|---------------------|---------------|
-| Quick/generic answer | *"Bukan jawabannya yang pengen saya denger—tapi ceritanya. Momen konkret kapan itu terjadi?"* |
-| Glorified self-image | *"Versi itu... kapan terakhir kali 'jebol'? Ada nggak crack-nya?"* |
-| High defensiveness | *"Saya notice ini agak... sensitive. Mau kita jalan pelan-pelan, atau mau pindah jalur dulu?"* |
-| Emotional charge | *"Energinya berubah saat bahas ini. Bukan saya yang tahu apa yang terjadi—tapi kamu. Apa yang ikut muncul?"* |
-| Contradiction (A vs B) | *"Menarik... jadi ada beda antara [A] dan [B]. Apa yang biken beda ya? Bukan yang benar salah—tapi yang bikin respons beda?"* |
-| Avoidance pattern | *"Ini pertanyaan yang... gampang dijawab singkat. Tapi saya penasaran yang di balik jawaban singkatnya. Mau coba?"* |
+```python
+# AI Generation Template
+def generate_phase1_question(target_dimension, context_history):
+    
+    # Select base probe type
+    probe_type = select_probe(target_dimension)
+    
+    # Add context anchor from previous response
+    anchor = extract_anchor(context_history)
+    
+    # Frame as specific moment (not general trait)
+    question = f"Kapan terakhir kali {probe_type}... {anchor}?"
+    
+    # Add follow-up trigger for elaboration
+    follow_up = "Bukan jawabannya yang penting—tapi ceritanya. Situasinya kayak gimana?"
+    
+    return {
+        "question": question,
+        "target": target_dimension,
+        "expected": "narrative_with_somatic_detail"
+    }
+```
 
 ---
 
-## Phase 2: Adaptive Probing (The Shadow Chase)
+## Phase 2: Adaptive Probing (Hypothesis Testing)
 
-**Ratio: Fixed ~10% | Flexible ~90%**
+**AI Objective:** Test hypotheses without revealing them.
 
-> **Purpose:** Pursue hypotheses without ever naming them. Test through behavioral probes disguised as curiosity.
+### Input for AI
+```
+Hypothesis Registry:
+├── Field: Relational
+│   ├── H1: Suppression pattern (weight: 0.7)
+│   ├── H2: People-pleasing origin (weight: 0.5)
+│   └── H3: Attachment avoidance (weight: 0.3)
+├── Field: Cognitive
+│   ├── H1: Binary thinking under stress (weight: 0.6)
+│   └── H2: Control illusion (weight: 0.4)
+└── [Other fields...]
+```
 
-### Fixed Seed Questions (10%)
+### Generation Rules by Hypothesis Type
 
-**Q2.1 — The Forced Trade-Off**
-> *"Kalau terpaksa milih—bukan yang enak, yang terpaksa: Diabaikan sama orang yang penting banget buat kamu, atau Dikritik keras di depan banyak orang. Mana yang lebih... berat di badan?"*
+**Rule 2.1 — Testing Suppression Pattern**
+```
+HYPOTHESIS: Subject suppresses emotional expression as adaptation
+DIRECT (FORBIDDEN): "Do you suppress your feelings?"
+AI GENERATE: "Kapan terakhir kali 'I'm fine' keluar dari mulut padahal sebenarnya nggak?"
+FOLLOW-UP: "Apa yang stop kamu untuk bilang 'sebenarnya...'?"
+TARGET: RSI, VB, suppression trigger
+```
 
-**[12D]:** RS vs Shame sensitivity, Relational pain hierarchy
+**Rule 2.2 — Testing People-Pleasing**
+```
+HYPOTHESIS: Subject has people-pleasing as survival strategy
+DIRECT (FORBIDDEN): "Are you a people-pleaser?"
+AI GENERATE: "Kapan terakhir ngelakuin sesuatu bukan karena mau tapi 'lebih enak kalau begini'?"
+FOLLOW-UP: "Apa yang kamu bayangkan kalau nggak begini?"
+TARGET: ARP, RS, fear of rejection
+```
 
----
+**Rule 2.3 — Testing Control Need**
+```
+HYPOTHESIS: Subject uses control as anxiety management
+DIRECT (FORBIDDEN): "Do you need control?"
+AI GENERATE: "Situasi paling nggak nyaman—yang bikin pengen 'ambil alih' atau freeze?"
+FOLLOW-UP: "Apa yang terjadi di tubuh saat itu?"
+TARGET: COI, Stress Response
+```
 
-**Q2.2 — The Mirror Fear**
-> *"Kalau ada yang bisa baca pikiran kamu—bukan semua pikiran, tapi yang paling kamu jaga-jaga—dan dia ucapin itu keras-keras, reaksi pertama kamu apa? Defend, freeze, deflect, atau...?"*
+**Rule 2.4 — Testing Validation Seeking**
+```
+HYPOTHESIS: Subject seeks external validation due to unstable self-worth
+DIRECT (FORBIDDEN): "Do you need validation?"
+AI GENERATE: "Kapan terakhir share sesuatu kecil terus... nunggu? Apa yang kamu tunggu?"
+FOLLOW-UP: "Berapa lama 'tunggu'-nya, dan apa yang bikin berhenti nunggu?"
+TARGET: RS, ASC (glorified vs genuine)
+```
 
-**[12D]:** Core fear exposure, VB, Defense activation
+**Rule 2.5 — Testing Perfectionism**
+```
+HYPOTHESIS: Subject has perfectionism as defense against criticism
+DIRECT (FORBIDDEN): "Are you a perfectionist?"
+AI GENERATE: "Ada nggak yang ditunda bukan karena males tapi 'belum sempurna'? Berapa lama?"
+FOLLOW-UP: "Apa yang harus terjadi biar 'sempurna'?"
+TARGET: COI, CRF, fear of failure
+```
 
----
+**Rule 2.6 — Testing Hyper-Independence**
+```
+HYPOTHESIS: Subject avoids dependency due to past relational hurt
+DIRECT (FORBIDDEN): "Do you have trouble asking for help?"
+AI GENERATE: "Kapan terakhir beneran minta tolong personal—dan rasanya gimana?"
+FOLLOW-UP: "Apa yang lebih berat: hasilnya atau proses minta tolongnya?"
+TARGET: VB, ARP, trust structure
+```
 
-### Flexible Probe Categories (90%)
+### Stress Test Generation
 
-#### Category A: Hypothesis Testing (Invisible)
+**Rule 2.7 — Temporal Contradiction Test**
+```
+TRIGGER: Subject claims [VALUE/IDENTITY] consistently
+AI GENERATE: "Ada nggak advice dulu kamu kasih teman—yang kamu anggap wise—tapi sekarang sadar kamu sendiri nggak lakuin?"
+TARGET: Consistency check, ASC legitimacy
+```
 
-| Testing For | Indirect Probe |
-|-------------|----------------|
-| **Suppression pattern** | *"Kapan terakhir kali 'I'm fine' keluar dari mulut kamu padahal... sebenarnya nggak? Apa yang stop kamu untuk bilang 'sebenarnya...'?"* |
-| **People-pleasing** | *"Kapan terakhir kali kamu ngelakuin sesuatu—bukan karena mau—tapi karena 'lebih enak kalau begini' atau 'nanti ribet kalau nggak'?"* |
-| **Control need** | *"Situasi paling nggak nyaman buat kamu—yang bikin pengen 'ambil alih' atau bikin kamu freeze karena nggak bisa ambil alih?"* |
-| **Validation seeking** | *"Kapan terakhir kali kamu share sesuatu—bukan yang besar, yang kecil aja—dan kemudian... nunggu? Apa yang kamu tunggu, dan berapa lama?"* |
-| **Perfectionism** | *"Ada nggak sesuatu yang kamu tunda-tunda bukan karena males, tapi karena 'belum sempurna'? Berapa lama ditundanya?"* |
-| **Avoidance** | *"Apa yang paling sering kamu 'tabung untuk nanti'—tapi 'nanti'-nya nggak pernah datang?"* |
-| **Hyper-independence** | *"Kapan terakhir kali kamu beneran minta tolong—bukan yang formal, yang personal—dan rasanya... gimana?"* |
-| **Emotional flooding** | *"Kapan emosi kamu 'spill over' ke hal lain? Kayak marah ke A tapi yang kena B, atau sedihnya jadi lelah?"* |
+**Rule 2.8 — Context Switch Test**
+```
+TRIGGER: Different behavior in different contexts detected
+AI GENERATE: "Situasi A vs B—kamu kayak dua orang. Apa bedanya yang bikin respons beda?"
+TARGET: Compartmentalization, contextual identity
+```
 
-#### Category B: Origin Mining (Without Trauma Focus)
+**Rule 2.9 — Value-Behavior Gap Test**
+```
+TRIGGER: Stated values contradict observed behavior
+AI GENERATE: "[VALUE] penting, tapi yang terakhir kamu [BEHAVIOR]. Apa yang lebih kuat dari [VALUE]?"
+TARGET: COI, CFV, true priority
+```
 
-| Target | Question Arc |
-|--------|--------------|
-| **Defense origin** | *"Cara kamu handle [X] yang kamu ceritain tadi—kapan pertama kali kamu sadar 'oh, ini works'? Bukan dari mana asalnya—tapi kapan kamu sadar ini jadi 'cara gue'?"* |
-| **Role assignment** | *"Di keluarga atau teman dekat, kamu biasanya di-posisi-in sebagai 'yang [LABEL]'. Itu mulai dari kapan kamu sadar 'oh, gue dianggap yang ini'?"* |
-| **Survival rule** | *"Kalau ada satu 'aturan tak tertulis' yang kamu ikutin tanpa disuruh—yang kalau dilanggar rasanya kayak ada alarm—apa itu? Dan kamu sadar dari kapan?"* |
-| **Coping genesis** | *"Kapan pertama kali kamu sadar dunia nggak seaman yang kamu kira—dan ada yang mulai kamu lakuin berbeda setelah itu?"* |
-
-#### Category C: Stress Tests (Tension Exposure)
-
-| Test Type | Execution |
-|-----------|-----------|
-| **Temporal contradiction** | *"Ada nggak advice yang dulu kamu kasih ke teman—yang kamu anggap wise banget waktu itu—tapi sekarang kamu sadar ternyata kamu sendiri nggak lakuin?"* |
-| **Context switch** | *"Situasi A vs Situasi B—kamu kayak dua orang berbeda. Apa yang beda dari dua situasi itu? Bukan yang benar-salah—tapi yang bikin respons beda?"* |
-| **Value-behavior gap** | *"Kamu bilang [VALUE] penting banget. Tapi yang terakhir kamu lakuin [BEHAVIOR]. Bukan saya yang tahu—tapi kamu. Apa yang lebih kuat dari [VALUE] di saat itu?"* |
-| **Somatic-cognitive split** | *"Pikiranmu bilang [X]—logis, masuk akal. Tapi tubuhmu...? Kalau tubuhmu bisa ngomong, apa yang dia bilang?"* |
-| **Desire-fear pairing** | *"Apa yang paling kamu pengenin tapi juga paling kamu hindari? Bukan yang berlawanan—tapi yang sama?"* |
-
----
-
-## Phase 3: Deep Adaptation Mining (The Archaeology)
-
-**Ratio: Fixed 0% | Flexible 100%**
-
-> **Purpose:** Extract survival patterns without ever saying "trauma," "wound," or "luka." Focus on **how they survived**, not what happened.
-
-### Category A: The Forbidden Rules
-
-> *"Apa yang 'nggak boleh' dalam keluarga/tempat kamu dibesarkan—bukan yang dilarang explicitly, tapi yang 'diam-diam' aja nggak dilakuin? Kayak... hal yang semua orang tahu tapi nggak ada yang ngomong?"*
-
-> *"Ada nggak 'peran' yang kalau kamu nggak jagain, rasanya kayak ada yang jebol di sistem? Bukan yang kamu suka—tapi yang harus?"*
-
-**[12D]:** Family system rules, Role rigidity, Survival function
-
----
-
-### Category B: The Deferred Life
-
-> *"Hal apa yang paling sering kamu 'simpan untuk nanti'—rencana, perasaan, keinginan—tapi 'nanti'-nya nggak pernah datang? Kenapa 'sekarang' bukan waktunya?"*
-
-> *"Kamu pernah nggak merasa... habis? Bukan capek fisik yang tidur sembuh, tapi kayak empty. Kapan situasi yang paling sering bikin begitu?"*
-
-**[12D]:** Emotional exhaustion, Deferred needs, Burnout pattern
-
----
-
-### Category C: The Protected Core
-
-> *"Bagian dirimu apa yang paling kamu proteksi dari orang lain? Bukan yang kamu bangga-in, tapi yang paling 'raw'—yang kalau kena sedikit langsung...?"*
-
-> *"Ada nggak versi dirimu yang kamu tahu ada, tapi kamu nggak kasih lihat—bukan karena nggak mau, tapi karena... nggak aman?"*
-
-**[12D]:** Core self protection, VB, True self vs Public self
-
----
-
-### Category D: The Pattern Breakdown
-
-> *"Kapan pola yang biasanya 'works'—cara kamu survive, cara kamu handle—tiba-tiba nggak works? Apa yang terjadi, dan apa yang kamu sadari tentang diri sendiri di saat itu?"*
-
-> *"Ada nggak situasi di mana kamu 'jebol' dan keluar versi dirimu yang... (pause) ...yang biasanya nggak kamu kasih lihat? Apa yang beda dari situasi itu?"*
-
-**[12D]:** Coping failure, Breakdown moment, Adaptation limit
-
----
-
-### Category E: The Safety Perimeter
-
-> *"Seberapa dekat seseorang bisa mendekat—secara emosional—sebelum alarm 'jaga-jaga' berbunyi? Meski orangnya nggak salah apa-apa. Ada tanda-tandanya?"*
-
-> *"Kapan terakhir kali kamu beneran... (pause lebih lama) ...nge-drop guard? Bukan 'nyantai'—tapi beneran nge-drop. Situasi kayak apa yang bikin bisa?"*
-
-**[12D]:** Attachment style, Trust radius, Intimacy capacity
+**Rule 2.10 — Somatic-Cognitive Split Test**
+```
+TRIGGER: High cognitive claim detected
+AI GENERATE: "Pikiranmu bilang [X]—logis. Tapi tubuhmu...? Kalau tubuh bisa ngomong, apa yang dia bilang?"
+TARGET: AB × Stress Response, pre-cognitive pattern
+```
 
 ---
 
-### Category F: The Cost Accounting
+## Phase 3: Deep Trauma & Adaptation Mining
 
-> *"Cara kamu survive sekarang—adaptasi yang kamu bangun—ada 'cicilannya' nggak? Hal yang harus kamu korbankan atau hal yang nggak bisa kamu punya karena cara ini?"*
+**AI Objective:** Extract survival patterns, trauma responses, and deepest psychological structures.
 
-> *"Kalau adaptasi ini ada tagihannya—bukan yang uang—apa yang harus kamu bayar secara berkala?"*
+### Generation Rules by Target Layer
 
-**[12D]:** Adaptation cost, Opportunity cost, Long-term consequence
+**Rule 3.1 — Pre-Verbal Trauma (Somatic Memory)**
+```
+LAYER: Pre-cognitive / somatic trauma (before language)
+INDICATOR: Unexplained somatic responses
+AI GENERATE: "Kapan tubuhmu bereaksi dengan cara yang nggak masuk akal? Takut padahal aman, atau tenang padahal harusnya panik?"
+FOLLOW-UP: "Apa yang tubuhmu 'tahu' yang pikiranmu belum kejar?"
+TARGET: Pre-verbal trauma, somatic memory, implicit memory
+```
 
----
+**Rule 3.2 — Attachment Wound (Sudden Intimacy)**
+```
+LAYER: Attachment wound exposure
+CONDITION: Rapport confidence > 0.8
+AI GENERATE: "Kalau saya bilang—cuma hipotesis—cara kamu [PATTERN] itu proteksi dari [INFERRED_WOUND], reaksi tubuhmu apa?"
+FOLLOW-UP: "Bukan jawabannya—tapi apa yang muncul di saat itu?"
+TARGET: Attachment wound, defense activation, somatic response
+WARNING: Only after strong rapport established
+```
 
-### ⚠️ Safety Redirect (If Trauma Surfacing)
+**Rule 3.3 — Repetition Compulsion**
+```
+LAYER: Unconscious pattern repetition
+INDICATOR: Similar relationship/job patterns
+AI GENERATE: "Ada nggak situasi yang berulang—bukan orangnya, tapi 'feel'-nya? Kayak 'kok familiar' meski beda konteks?"
+FOLLOW-UP: "Apa yang sama dari feel-nya?"
+TARGET: Trauma reenactment, unconscious pattern
+```
 
-> *"Saya notice ini menuju area yang... berat. Bukan detail event-nya yang penting—saya nggak butuh tahu apa yang terjadi. Yang penting buat saya: Apa yang kamu pelajari dari situ untuk survive? Apa adaptasinya?"*
+**Rule 3.4 — Shame Core Extraction**
+```
+LAYER: Deepest identity-based shame
+INDICATOR: High protection around specific identity aspect
+AI GENERATE: "Apa yang paling kamu takutkan kalau orang tahu—bukan yang di-judge, tapi yang bikin kamu 'hilang'?"
+FOLLOW-UP: "Hilangnya kayak gimana?"
+TARGET: Shame core (I am bad), identity fear
+```
 
----
+**Rule 3.5 — Dissociation Check**
+```
+LAYER: Dissociative response (trauma severity)
+INDICATOR: Memory gaps, numbing, detachment
+AI GENERATE: "Pernah nggak 'hilang' dari situasi—bukan pingsan, tapi kayak nonton dari luar? Atau waktu berlalu tapi nggak ingat?"
+FOLLOW-UP: "Kapan situasinya, dan apa yang terjadi sebelumnya?"
+TARGET: Dissociation severity, trauma accessibility
+```
 
-## Phase 4: Contradiction Exposure (The Gentle Mirror)
+**Rule 3.6 — Therapeutic Alliance Breach (Resistance)**
+```
+LAYER: Deep resistance exposure
+CONDITION: Subject shows consistent avoidance/deflection
+AI GENERATE: "Saya notice kamu cerita [X] dengan [Y]—tapi ada yang nggak nyambung. Bukan kamu yang salah—tapi saya nggak ngerti. Bisa bantu?"
+FOLLOW-UP: "Apa yang saya lewatkan?"
+TARGET: Resistance pattern, hidden material
+```
 
-**Ratio: Fixed ~25% | Flexible ~75%**
+### Standard Deep Mining Rules
 
-> **Purpose:** Let subjects see their own contradictions without feeling accused. Use **innocent curiosity**—never "kamu contradicted!"
+**Rule 3.7 — The Forbidden Rules**
+```
+TARGET: Family system implicit rules
+AI GENERATE: "Apa yang 'nggak boleh'—bukan dilarang explicitly, tapi diam-diam nggak dilakuin?"
+FOLLOW-UP: "Siapa yang pertama kali 'ngasih tahu' hal ini?"
+```
 
-### Fixed Contradiction Mirrors (25%)
+**Rule 3.8 — The Deferred Life**
+```
+TARGET: Deferred needs, postponed living
+AI GENERATE: "Hal apa yang paling sering 'simpan untuk nanti' tapi 'nanti'-nya nggak datang?"
+FOLLOW-UP: "Kenapa 'sekarang' bukan waktunya?"
+```
 
-**Q4.1 — The Contextual Shift**
-> *"Menarik... jadi di [CONTEXT A] kamu [BEHAVIOR A], tapi di [CONTEXT B] kamu [BEHAVIOR B]. Apa yang beda dari dua situasi itu yang bikin respons beda? Bukan yang benar-salah—tapi yang bikin beda?"*
+**Rule 3.9 — The Protected Core**
+```
+TARGET: Core self protection
+AI GENERATE: "Bagian dirimu apa yang paling di-proteksi—bukan dibanggakan, tapi yang paling 'raw'?"
+FOLLOW-UP: "Raw-nya diapa?"
+```
 
----
+**Rule 3.10 — The Pattern Breakdown**
+```
+TARGET: Coping failure moment
+AI GENERATE: "Kapan pola yang biasanya 'works' tiba-tiba nggak works? Apa yang terjadi?"
+FOLLOW-UP: "Apa yang kamu sadari tentang diri sendiri di saat itu?"
+```
 
-**Q4.2 — The Temporal Evolution**
-> *"Ada nggak hal yang dulu kamu anggap 'ini gue banget'—identitas banget—tapi sekarang kamu sadar ternyata itu adaptasi? Bukan 'bukan kamu'—tapi 'bukan dari sananya'?"*
+**Rule 3.11 — The Safety Perimeter**
+```
+TARGET: Trust radius, intimacy capacity
+AI GENERATE: "Seberapa dekat orang bisa mendekat sebelum alarm 'jaga-jaga'?"
+FOLLOW-UP: "Situasi kayak apa yang pernah bikin alarmnya nggak bunyi?"
+```
 
----
-
-**Q4.3 — The Value-Behavior Bridge**
-> *"Kamu bilang [VALUE] penting banget buat kamu. Tapi yang terakhir kamu lakuin [OPPOSITE BEHAVIOR]. Bukan saya yang tahu—tapi kamu yang tahu. Apa yang lebih powerful dari [VALUE] di saat itu?"*
-
----
-
-### Flexible Validation Probes (75%)
-
-#### 12D Tension Pairs (Indirect Exposure)
-
-| Tension | Indirect Probe |
-|---------|----------------|
-| **AB × Stress Response** | *"Kamu tipe yang analytical, yang mikir dulu. Tapi pernah nggak situasi tertentu bikin analytical-nya 'freeze' dan yang keluar reaksi yang... nggak analytical?"* |
-| **EG × VB** | *"Kamu bisa bedain perasaan dengan detail—pintar banget identify. Tapi apa yang terjadi sama perasaan itu setelah di-identify? Diapain?"* |
-| **RS × ARP** | *"Kamu bilang butuh diakui. Tapi cara kamu dapat acknowledgement-nya... (pause) ...itu yang kamu mau, atau itu yang 'aman'?"* |
-| **ASC × Emotional Structure** | *"Kamu bilang ini strength—kekuatan. Tapi ada 'cicilannya' nggak? Apakah ini memang kuat—or ini hanya familiar?"* |
-| **CDI × COI** | *"Kamu bilang pengen [X]. Tapi yang terakhir kamu pilih [Y]. Bukan yang benar—tapi apa yang lebih kuat: pengennya atau pilihannya?"* |
-| **VB × RSI** | *"Kamu bisa vulnarable—pernah. Tapi apa yang terjadi setelah itu? Diterima, atau ada yang bikin 'lebih aman nggak usah lagi'?"* |
-
-#### Integration Type Assessment (Hidden)
-
-| Type | Probe |
-|------|-------|
-| **Coherent** | *"Semua bagian yang kita bahas—apakah kamu merasa nyambung jadi satu, atau ada yang... terpisah? Bukan yang salah—tapi yang terpisah?"* |
-| **Compartmentalized** | *"Ada nggak 'kamu' yang beda untuk situasi berbeda? Bukan yang palsu—tapi yang... beda? Mereka saling kenal?"* |
-| **Conflicted** | *"Pernah nggak ada dua 'suara' dalam diri yang kasih arah berbeda? Bukan pilihan biasa—tapi yang... konflik? Yang mana yang biasanya menang, dan kenapa?"* |
-| **Fragmented** | *"Kalau kamu coba tarik benang merah dari semua yang kita bahas—ada nggak benangnya? Atau lebih kayak... puzzle yang belum nyambung?"* |
-
----
-
-## Phase 6: Debriefing & Closure (The Soft Landing)
-
-**Ratio: Fixed ~40% | Flexible ~60%**
-
-> **Purpose:** Safe landing without asking "apakah ini benar?" or "does this resonate?" Ground them in present, empower their interpretation.
-
-### Fixed Closure Questions (40%)
-
-**Q6.1 — The Return to Now**
-> *"Kita akan selesai sebentar lagi. Sekarang, di ruangan ini, di saat ini—apa yang paling kamu sadari dari indra kamu? Suara, cahaya, suhu, apa yang kamu rasakan di tubuh?"*
-
----
-
-**Q6.2 — The Subjective Capture**
-> *"Dari semua yang kita obrolin—tanpa harus benar atau salah, tanpa harus masuk akal—apa yang... muncul di pikiran kamu sekarang? Bukan kesimpulan—tapi yang muncul?"*
-
----
-
-**Q6.3 — The Resource Anchor**
-> *"Kalau setelah ini ada yang 'nyangkut'—bukan yang akan, tapi kalau—apa yang biasanya bikin kamu grounded lagi? Bisa hal kecil: aktivitas, tempat, orang, atau apa aja."*
-
----
-
-**Q6.4 — The Next Step (Self-Determined)**
-> *"Apa yang perlu kamu lakuin setelah ini—untuk kamu sendiri? Bukan yang 'harus', bukan yang orang lain mau—tapi yang... perlu?"*
-
----
-
-**Q6.5 — The Authority Return**
-> *"Obrolan ini selesai. Apa yang kita bahas adalah eksplorasi—bukan diagnosis, bukan kebenaran mutlak. Kamu punya otoritas penuh atas interpretasi dirimu sendiri. Ada yang mau ditanyakan?"*
-
----
-
-### Flexible Closure Probes (60%)
-
-| Based On Response | Closure Probe |
-|-------------------|---------------|
-| Subject distressed | *"Saya notice energinya berat sekarang. Apa yang bisa saya bantu sebelum kita selesai—atau setelah?"* |
-| Subject activated | *"Kalau ini berlanjut setelah kita selesai—pikiran atau perasaan yang terus jalan—siapa yang bisa kamu hubungi? Atau apa yang bisa kamu lakuin?"* |
-| Subject overwhelmed | *"Mari grounding dulu. Sebutkan 3 hal yang kamu lihat, 2 yang kamu dengar, 1 yang kamu rasakan di tubuh."* |
-| High suppression detected | *"Bagaimana cara kecil untuk lepas sedikit tekanan tanpa harus 'explode'? Bukan yang besar—yang kecil aja?"* |
-| Low support indicated | *"Di mana kamu bisa temukan 'safe space'—meski kecil—setelah ini?"* |
-| Disconnected/numb | *"Kalau nggak ada yang muncul sekarang, itu juga oke. Tapi coba cek: tubuhmu ngantuk, tegang, atau... apa?"* |
-| Seeking validation | *"Saya nggak punya jawaban yang benar buat kamu. Tapi kamu punya—mungkin nggak utuh sekarang, tapi kamu punya. Apa yang kamu tahu tentang dirimu dari obrolan ini?"* |
+**Rule 3.12 — The Cost Accounting**
+```
+TARGET: Adaptation cost, long-term consequence
+AI GENERATE: "Cara kamu survive sekarang—ada 'cicilannya' nggak? Apa yang harus dikorbankan?"
+FOLLOW-UP: "Berapa lama sudah bayar cicilan ini?"
+```
 
 ---
 
-## Quick Reference: Question Ratio
+## Phase 4: Contradiction Exposure
 
-| Phase | Fixed | Flexible | Focus |
-|-------|-------|----------|-------|
-| Phase 0: Safety | 100% | 0% | Indirect context gathering |
-| Phase 1: Core | ~75% | ~25% | Multi-layer pattern exposure |
-| Phase 2: Probing | ~10% | ~90% | Hidden hypothesis testing |
-| Phase 3: Mining | 0% | 100% | Deep adaptation extraction |
-| Phase 4: Validation | ~25% | ~75% | Gentle contradiction exposure |
-| Phase 5: Synthesis | 0% | 0% | Internal analysis (no questions) |
-| Phase 6: Closure | ~40% | ~60% | Safe landing & grounding |
+**AI Objective:** Expose contradictions through innocent curiosity.
+
+### Generation Rules
+
+**Rule 4.1 — Contextual Shift Mirror**
+```
+INPUT: Contradiction detected between Context A and Context B
+AI GENERATE: "Menarik... di [A] kamu [BEHAVIOR_A], tapi di [B] [BEHAVIOR_B]. Apa yang beda yang bikin respons beda?"
+TONE: Innocent curiosity, not accusation
+TARGET: Compartmentalization, contextual identity
+```
+
+**Rule 4.2 — Temporal Evolution Mirror**
+```
+INPUT: Change detected between past and present self
+AI GENERATE: "Ada nggak hal yang dulu 'kamu banget' tapi sekarang sadar itu adaptasi?"
+TONE: Reflection invitation
+TARGET: ASC legitimacy, identity evolution
+```
+
+**Rule 4.3 — Value-Behavior Bridge**
+```
+INPUT: Stated value contradicts behavior
+AI GENERATE: "[VALUE] penting, tapi yang terakhir [BEHAVIOR]. Apa yang lebih kuat dari [VALUE]?"
+TONE: Genuine puzzle
+TARGET: True priority, hidden value
+```
+
+### 12D Tension Pair Generation
+
+**Rule 4.4 — AB × Stress Response**
+```
+CONDITION: High AB claim + somatic indicators
+AI GENERATE: "Kamu tipe analytical—tapi pernah nggak situasi bikin analytical-nya 'freeze'?"
+```
+
+**Rule 4.5 — EG × VB**
+```
+CONDITION: High granularity + low expression
+AI GENERATE: "Kamu pintar identify perasaan—tapi apa yang terjadi setelah di-identify?"
+```
+
+**Rule 4.6 — RS × ARP**
+```
+CONDITION: Recognition need + dominant response
+AI GENERATE: "Butuh diakui—tapi cara dapetnya... itu yang kamu mau atau yang aman?"
+```
+
+**Rule 4.7 — ASC × Emotional Structure**
+```
+CONDITION: Glorified strength claim
+AI GENERATE: "Ini strength—tapi ada 'cicilannya'? Memang kuat, atau hanya familiar?"
+```
 
 ---
 
-## Dr. Zemetia's Signature Techniques
+## Phase 6: Closure
 
-### The Pause Technique
-> Use strategic silence after questions. Let the subject fill the space. The gold is often in what they say to break the silence.
+**AI Objective:** Safe landing without validation-seeking.
 
-### The Projection Veil
-> Ask about movies, friends, "people in general" — their answers reveal their inner world while they believe they're talking about externals.
+### Generation Rules
 
-### The Innocent Curiosity Frame
-> Never sound like you caught them. Always sound like you're genuinely puzzled by an interesting pattern. "Menarik..." is your friend.
+**Rule 6.1 — Grounding**
+```
+AI GENERATE: "Sekarang, di ruangan ini—apa yang paling kamu sadari? Suara, cahaya, suhu?"
+```
 
-### The Story Forcing
-> If they answer with labels, gently redirect: *"Bukan labelnya yang pengen saya denger—tapi ceritanya. Kapan itu terjadi?"*
+**Rule 6.2 — Subjective Capture**
+```
+AI GENERATE: "Dari semua yang kita obrolin—tanpa harus benar atau salah—apa yang muncul sekarang?"
+```
 
-### The Permission Slip
-> Give them exits and autonomy at every turn. It lowers defenses more than any technique.
+**Rule 6.3 — Resource Anchor**
+```
+AI GENERATE: "Kalau ada yang nyangkut setelah ini—apa yang biasanya bikin grounded lagi?"
+```
+
+**Rule 6.4 — Next Step**
+```
+AI GENERATE: "Apa yang perlu kamu lakuin setelah ini—untuk kamu sendiri?"
+```
+
+**Rule 6.5 — Authority Return**
+```
+AI GENERATE: "Obrolan selesai. Ini eksplorasi—bukan diagnosis. Kamu punya otoritas penuh atas interpretasi dirimu."
+```
 
 ---
 
-## What to NEVER Say
+## AI Decision Tree: Which Phase to Use?
 
-| Never Say | Why | Instead |
-|-----------|-----|---------|
-| "I have a hypothesis" | Reveals assessment frame | Test through indirect probes |
-| "Does this resonate?" | Seeks confirmation, invites compliance | Let contradictions emerge naturally |
+```
+IF session_start == true:
+    → Phase 0 (Context Gathering)
+
+ELIF confidence < 0.6 in any field:
+    → Phase 1 (Core Pattern Exposure)
+
+ELIF hypothesis_ready AND not_yet_tested:
+    → Phase 2 (Adaptive Probing)
+
+ELIF surface_patterns_extracted AND depth_required:
+    → Phase 3 (Deep Trauma Mining)
+
+ELIF contradiction_detected:
+    → Phase 4 (Validation)
+
+ELIF session_end == true:
+    → Phase 6 (Closure)
+```
+
+---
+
+## Question Quality Checklist (AI Self-Check)
+
+Before generating question, AI must verify:
+
+- [ ] **Indirect?** — Not asking directly about target dimension
+- [ ] **Story-forcing?** — Cannot be answered with label/category
+- [ ] **Specific moment?** — Uses "kapan" not "bagaimana"
+- [ ] **No hypothesis reveal?** — Doesn't mention "I think" or "hypothesis"
+- [ ] **No validation-seeking?** — Doesn't ask "does this resonate?"
+- [ ] **Somatic potential?** — Allows body-based response
+- [ ] **Safety-appropriate?** — Matches subject's readiness level
+
+---
+
+## Prohibited Phrases (AI Must Never Use)
+
+| Forbidden | Why | Alternative Instruction |
+|-----------|-----|------------------------|
+| "I have a hypothesis" | Reveals assessment frame | Test without stating |
+| "Does this resonate?" | Seeks confirmation | Let contradiction emerge |
 | "You seem to..." | Sounds like labeling | "Saya notice..." + question |
-| "Describe yourself in X words" | Invites curated self-image | "Kapan kamu..." + specific moment |
-| "Yourself 5 years ago" | Temporal framing is expected | "Ada nggak hal yang dulu... tapi sekarang..." |
-| "How do you feel about that?" | Too direct, invites performance | "Apa yang ikut muncul saat itu?" |
-| "Why did you..." | "Why" invites justification | "Apa yang..." or "Bagaimana..." |
+| "Describe yourself" | Invites curated image | "Kapan kamu..." + moment |
+| "How do you feel?" | Too direct | "Apa yang ikut muncul?" |
+| "Why did you..." | Invites justification | "Apa yang..." or "Bagaimana..." |
+| "Yourself 5 years ago" | Expected framing | "Dulu vs sekarang..." |
+| "Are you [trait]?" | Binary, superficial | Behavioral probe |
 
 ---
 
-*MirrorBreak Protocol v3.0 — Dr. Zemetia's Indirect Question Templates*
-*"The best assessment is one the subject never realizes happened."*
+*MirrorBreak Protocol v3.1 — AI Agent Question Generation Framework*
+*"The best question is one the AI generates, not the one it memorizes."*
