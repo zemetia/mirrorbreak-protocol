@@ -28,68 +28,58 @@ Output Layer:
 
 ---
 
-## Phase 0: Context Gathering
+## Phase 0: Context Gathering (FIXED QUESTIONS)
 
-**AI Objective:** Gather formation context without revealing assessment intent.
+**Rasio: Fixed 100% | AI Generation 0%**
 
-### Input for AI
-- None (initial state)
+> **Tujuan:** 7 pertanyaan FIXED untuk semua user. Diberikan berurutan tanpa modifikasi AI. Fungsinya: konteks formasi + rapport baseline.
 
-### Generation Rules
+### Q0.1 — The Atmosphere Probe
+> *"Kalau rumah tempat kamu dibesarkan punya 'suara' atau 'vibe', kira-kira suaranya kayak gimana? Bukan kata sifat umum—tapi kayak musik apa, cuaca apa, atau suasana apa?"*
 
-**Rule 0.1 — Indirect Atmosphere Mapping**
-```
-TARGET: Family emotional climate, unspoken rules
-AVOID: "How was your childhood?", "Describe your family"
-GENERATE: Metaphor-based questions about "feel/vibe" of home
-EXAMPLE: "Kalau rumah tempat kamu dibesarkan punya 'suara', suaranya kayak gimana?"
-OUTPUT TYPE: Narrative (forcing storytelling, not labels)
-```
+**[12D]:** Family emotional climate, Safety baseline, Unspoken rules
 
-**Rule 0.2 — Parental Modeling Extraction**
-```
-TARGET: Parental response patterns, role assignment
-AVOID: "How were your parents?", "Were they strict?"
-GENERATE: Observation-based questions about "who handled what"
-EXAMPLE: "Waktu ada masalah sehari-hari, siapa yang 'nyadar duluan' dan nanganin?"
-OUTPUT TYPE: Behavioral description (not trait labels)
-```
+---
 
-**Rule 0.3 — Implicit Learning Detection**
-```
-TARGET: Survival rules, pre-conscious patterns
-AVOID: "What rules did you learn?"
-GENERATE: Questions about "unwritten habits that came from nowhere"
-EXAMPLE: "Ada nggak cara reaksi/bersikap yang kamu sadar ternyata kebawa dari kecil tanpa diajar?"
-OUTPUT TYPE: Origin story + current manifestation
-```
+### Q0.2 — The Handler Pattern
+> *"Waktu ada masalah di keluarga—bukan yang gede-gede, yang sehari-hari aja—siapa yang biasanya 'nyadar duluan' dan nanganin? Bukan yang paling keras, tapi yang paling... duluan bergerak?"*
 
-**Rule 0.4 — Cultural Contrast Mining**
-```
-TARGET: Cultural backdrop, normalized patterns
-AVOID: "What's your cultural background?"
-GENERATE: Questions about "what you thought was normal until you met others"
-EXAMPLE: "Ada nggak sesuatu yang waktu kecil kamu anggap 'normal semua orang begini' tapi ternyata nggak?"
-OUTPUT TYPE: Belief system revelation through contrast
-```
+**[12D]:** Parental modeling, Role assignment genesis, Emotional leadership
 
-**Rule 0.5 — Support System Reality**
-```
-TARGET: Actual support structure (not ideal)
-AVOID: "Who do you talk to when stressed?"
-GENERATE: Reciprocity-based questions
-EXAMPLE: "Kalau teman dekat collapse dan cerita sama kamu, kamu arahin ke siapa atau handle sendiri?"
-OUTPUT TYPE: Help-seeking pattern + support network mapping
-```
+---
 
-**Rule 0.6 — Stress Response Origin**
-```
-TARGET: Stress response genesis, adaptation timeline
-AVOID: "How do you handle stress?"
-GENERATE: Questions about "when you noticed your reflex changed"
-EXAMPLE: "Cara kamu respon ketika kaget—sama dari kecil atau ada waktu kamu sadar 'gue sekarang beda'?"
-OUTPUT TYPE: Temporal pattern of adaptation
-```
+### Q0.3 — The Unwritten Curriculum
+> *"Ada nggak satu 'aturan' yang kamu ikutin sekarang—cara ngomong, cara diam, cara reaksi—yang kamu sadar ternyata nggak diajarin explicitly, tapi kebawa dari kecil? Kayak kebiasaan yang nggak pernah ditulis?"*
+
+**[12D]:** Survival rules, Implicit learning, Pre-conscious patterns
+
+---
+
+### Q0.4 — The Contrast Moment
+> *"Ada nggak sesuatu dari keluarga/latar belakang kamu yang waktu kecil kamu anggap 'normal semua orang begini', tapi pas kenal lingkungan lain kamu kayak 'oh, ternyata nggak semua orang punya ini'?"*
+
+**[12D]:** Cultural backdrop, Normalization of patterns, Belief system genesis
+
+---
+
+### Q0.5 — The Support Topology
+> *"Kalau ada teman dekat yang lagi collapse dan cerita sama kamu—yang beneran collapse, bukan curhat biasa—kamu biasanya arahin ke orang lain, handle sendiri, atau cara lain?"*
+
+**[12D]:** Support system structure, Help-seeking patterns, Reciprocity style
+
+---
+
+### Q0.6 — The Reflex Archeology
+> *"Cara kamu respon ketika kaget, atau ketika ada yang tiba-tiba—itu cara yang sama dari kecil, atau ada masa kamu sadar 'oh, gue sekarang beda'? Kapan bedanya?"*
+
+**[12D]:** Stress response origin, Adaptation timeline, Core stability
+
+---
+
+### Q0.7 — The Permission Slip
+> *"Kita bisa pause kapan aja, bisa muter arah, bisa skip yang nggak nyaman. Nggak ada yang harus dijawab—yang penting obrolannya nyaman buat kamu. Oke?"*
+
+**[12D]:** Safety container, Consent embedding, Autonomy validation
 
 ---
 
@@ -395,28 +385,100 @@ TARGET: True priority, hidden value
 
 ### 12D Tension Pair Generation
 
-**Rule 4.4 — AB × Stress Response**
+**AI Input Format untuk Tension Pair:**
 ```
-CONDITION: High AB claim + somatic indicators
-AI GENERATE: "Kamu tipe analytical—tapi pernah nggak situasi bikin analytical-nya 'freeze'?"
+USER_DATA:
+├── Claimed Identity: [e.g., "Saya orangnya analytical"]
+├── Observed Behavior: [e.g., somatic freeze saat bahas konflik]
+├── Contradiction Signal: [e.g., klaim logis tapi response emosional]
+└── Context: [e.g., saat di-question tentang masalah personal]
+
+AI TASK: Generate question yang expose gap antara klaim dan observasi
+TONE: Innocent curiosity ("Menarik...") bukan accusation
 ```
 
-**Rule 4.5 — EG × VB**
+---
+
+**Rule 4.4 — AB × Stress Response (Cognitive vs Somatic Split)**
 ```
-CONDITION: High granularity + low expression
-AI GENERATE: "Kamu pintar identify perasaan—tapi apa yang terjadi setelah di-identify?"
+INPUT REQUIREMENTS:
+- User claim: "Saya analytical/logical/mikir dulu" (high AB claim)
+- Observed: Response somatic/emosional tanpa processing kognitif
+- Evidence: "Saya langsung tau harus apa" + tanda tubuh (jantung berdebar, tegang)
+
+AI GENERATE:
+"Kamu bilang tipe yang analytical—mikir dulu baru act. Tapi pas cerita [CONTEXT] tadi,
+saya notice kamu langsung [SOMATIC_SIGNAL]. Itu analytical-nya 'freeze' dulu, atau
+ada yang lebih dulu dari pikiran?"
+
+TARGET: Expose pre-cognitive response pattern
+VARIABLES: [CONTEXT] = topik yang trigger response, [SOMATIC_SIGNAL] = observed body reaction
 ```
 
-**Rule 4.6 — RS × ARP**
+---
+
+**Rule 4.5 — EG × VB (Awareness vs Expression Gap)**
 ```
-CONDITION: Recognition need + dominant response
-AI GENERATE: "Butuh diakui—tapi cara dapetnya... itu yang kamu mau atau yang aman?"
+INPUT REQUIREMENTS:
+- User demonstrated: High emotional granularity (bisa bedain nuanced feelings)
+- User demonstrated: Low vulnerability expression (nggak pernah share ke orang)
+- Evidence: Bisa describe 5 jenis sedih, tapi bilang "saya nggak pernah cerita ini"
+
+AI GENERATE:
+"Kamu pintar banget identify perasaan—bisa bedain [SPECIFIC_EG_DEMO]. 
+Tapi pas udah identify... diapain? Tetep di dalam, atau ada yang bisa keluar?"
+
+FOLLOW-UP (if "tetep di dalam"):
+"Apa yang harus terjadi biar yang di-identify itu bisa sampai ke luar?"
+
+TARGET: Expose awareness-expression gap
+VARIABLES: [SPECIFIC_EG_DEMO] = contoh konkret granularitas emosi yang user tunjukkan
 ```
 
-**Rule 4.7 — ASC × Emotional Structure**
+---
+
+**Rule 4.6 — RS × ARP (Recognition Need vs Authority Pattern)**
 ```
-CONDITION: Glorified strength claim
-AI GENERATE: "Ini strength—tapi ada 'cicilannya'? Memang kuat, atau hanya familiar?"
+INPUT REQUIREMENTS:
+- User claim/behavior: Butuh diakui/validasi (RS signal)
+- User behavior: Dominan/rebellious dengan authority (ARP signal)
+- Contradiction: Mau recognition tapi approach ke authority adalah confront/control
+
+AI GENERATE:
+"Saya notice kamu butuh [RECOGNITION_TYPE]—tapi cara kamu dapetinnya
+di [AUTHORITY_CONTEXT] adalah [ARP_BEHAVIOR]. 
+Itu cara yang bikin kamu dapet yang kamu butuh, atau cara yang 'aman' untuk nggak keliatan butuh?"
+
+TARGET: Expose compensation pattern (dominance as defense against need)
+VARIABLES: 
+- [RECOGNITION_TYPE] = jenis recognition yang user cari (acknowledgment, praise, etc)
+- [AUTHORITY_CONTEXT] = situasi authority yang terdeteksi
+- [ARP_BEHAVIOR] = dominan/rebellious/withdraw pattern yang observed
+```
+
+---
+
+**Rule 4.7 — ASC × Emotional Structure (Glorified Strength vs Cost)**
+```
+INPUT REQUIREMENTS:
+- User claim: [BEHAVIOR] adalah strength/kekuatan/identitas inti
+- User demonstrated: Ada cost emosional/psikologis (drained, empty, isolated)
+- Contradiction: Klaim strength tapi ada suffering yang disembunyikan
+
+AI GENERATE:
+"Kamu bilang [BEHAVIOR_CLAIM] adalah kekuatan kamu—yang bikin kamu [POSITIVE_OUTCOME].
+Tapi tadi juga cerita [COST_EVIDENCE]. 
+Ini strength yang memang kuat, atau ini familiar karena sudah lama dilakukan?"
+
+FOLLOW-UP (if defensive):
+"Bukan yang benar-salah—tapi kalau ada 'tagihan' yang terus dibayar,
+apa yang harus dikorbankan untuk maintain [BEHAVIOR_CLAIM]?"
+
+TARGET: Test ASC legitimacy (genuine adaptation vs glorified survival)
+VARIABLES:
+- [BEHAVIOR_CLAIM] = klaim strength yang user banggakan
+- [POSITIVE_OUTCOME] = hasil positif yang dikaitkan dengan behavior
+- [COST_EVIDENCE] = bukti cost yang user ceritakan (exhaustion, no close friends, etc)
 ```
 
 ---
